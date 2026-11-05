@@ -1,0 +1,44 @@
+{
+  "name": "qwen3-0.6b",
+  "arm": "base",
+  "base_model": "/home/user/.hf/hub/models--Qwen--Qwen3-0.6B/snapshots/c1899de289a04d12100db370d81485cdf75e47ca",
+  "table_dir": null,
+  "lora_dir": null,
+  "limit": null,
+  "disable_table": false,
+  "results": {
+    "mmlu_clinical_knowledge": {
+      "suite": "domain",
+      "metric": "acc",
+      "score": 0.32075471698113206,
+      "stderr": 0.028727502957880267,
+      "seconds": 97.4,
+      "tasks": {
+        "mmlu_clinical_knowledge": {
+          "acc,none": 0.32075471698113206,
+          "acc_stderr,none": 0.028727502957880267
+        }
+      }
+    },
+    "mmlu_medical_genetics": {
+      "suite": "domain",
+      "metric": "acc",
+      "score": 0.38,
+      "stderr": 0.04878317312145633,
+      "seconds": 38.0,
+      "tasks": {
+        "mmlu_medical_genetics": {
+          "acc,none": 0.38,
+          "acc_stderr,none": 0.04878317312145633
+        }
+      }
+    },
+    "mmlu_professional_medicine": {
+      "suite": "domain",
+      "metric": null,
+      "score": null,
+      "error": "ValueError(\"Couldn't find cache for cais/mmlu for config 'professional_medicine'\\nAvailable configs in the cache: ['clinical_knowledge', 'medical_genetics']\")"
+    }
+  },
+  "telemetry": {}
+}

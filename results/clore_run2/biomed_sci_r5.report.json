@@ -1,0 +1,1256 @@
+{
+  "args": {
+    "tokenizer": "Qwen/Qwen3-0.6B-Base",
+    "orders": [
+      2,
+      3
+    ],
+    "domain_files": "dataset/biomed/data/commercial-00000-of-00026.parquet",
+    "domain_dataset": null,
+    "domain_config": null,
+    "domain_split": "train",
+    "domain_text_column": "text",
+    "domain_filter": "language==en,domain==biomedical,educational_score>4.0",
+    "domain_max_docs": 400000,
+    "general_files": "dataset/biomed/data/commercial-00000-of-00026.parquet",
+    "general_dataset": null,
+    "general_config": null,
+    "general_split": "train",
+    "general_text_column": "text",
+    "general_filter": "language==en,domain==other",
+    "general_max_docs": 400000,
+    "min_count": 5,
+    "min_z": 3.0,
+    "min_ratio": 5.0,
+    "max_per_order": [
+      200000,
+      200000
+    ],
+    "alpha0": 1000.0,
+    "no_lexical_filter": false,
+    "bloom_fp_rate": 0.01,
+    "report_top": 100,
+    "counts_dir": null,
+    "out": "phrase_lists/biomed_sci_r5"
+  },
+  "compressed_vocab": 107457,
+  "orders": {
+    "2": {
+      "selected": 52161,
+      "candidates": 1165428,
+      "domain_occurrence_coverage": 0.16333952662202772,
+      "general_occurrence_coverage": 0.010015959394544176,
+      "top": [
+        {
+          "phrase": " \u03bcM",
+          "z": 87.74,
+          "domain": 31589,
+          "general": 1127
+        },
+        {
+          "phrase": "0 \u03bc",
+          "z": 82.97,
+          "domain": 37261,
+          "general": 566
+        },
+        {
+          "phrase": "%ci",
+          "z": 79.16,
+          "domain": 24179,
+          "general": 1516
+        },
+        {
+          "phrase": " expression of",
+          "z": 77.84,
+          "domain": 30360,
+          "general": 560
+        },
+        {
+          "phrase": " was performed",
+          "z": 74.36,
+          "domain": 21575,
+          "general": 1057
+        },
+        {
+          "phrase": "0min",
+          "z": 73.67,
+          "domain": 20982,
+          "general": 1167
+        },
+        {
+          "phrase": ", USA",
+          "z": 66.25,
+          "domain": 17172,
+          "general": 1317
+        },
+        {
+          "phrase": " patients with",
+          "z": 65.94,
+          "domain": 42490,
+          "general": 198
+        },
+        {
+          "phrase": " the expression",
+          "z": 65.18,
+          "domain": 20080,
+          "general": 435
+        },
+        {
+          "phrase": " cells,",
+          "z": 64.84,
+          "domain": 26304,
+          "general": 288
+        },
+        {
+          "phrase": " cells.",
+          "z": 62.97,
+          "domain": 26185,
+          "general": 256
+        },
+        {
+          "phrase": "4H",
+          "z": 62.72,
+          "domain": 16011,
+          "general": 594
+        },
+        {
+          "phrase": "2H",
+          "z": 62.65,
+          "domain": 15259,
+          "general": 779
+        },
+        {
+          "phrase": " was observed",
+          "z": 61.93,
+          "domain": 15549,
+          "general": 1438
+        },
+        {
+          "phrase": "1H",
+          "z": 61.91,
+          "domain": 16090,
+          "general": 520
+        },
+        {
+          "phrase": " samples were",
+          "z": 60.69,
+          "domain": 14426,
+          "general": 1116
+        },
+        {
+          "phrase": "2O",
+          "z": 59.26,
+          "domain": 14431,
+          "general": 1402
+        },
+        {
+          "phrase": " patients.",
+          "z": 57.4,
+          "domain": 13690,
+          "general": 462
+        },
+        {
+          "phrase": "P-",
+          "z": 56.65,
+          "domain": 12514,
+          "general": 934
+        },
+        {
+          "phrase": " tableS",
+          "z": 56.59,
+          "domain": 12675,
+          "general": 1050
+        },
+        {
+          "phrase": " of patients",
+          "z": 56.42,
+          "domain": 14794,
+          "general": 337
+        },
+        {
+          "phrase": " concentration of",
+          "z": 56.41,
+          "domain": 12354,
+          "general": 642
+        },
+        {
+          "phrase": " \u03bcG",
+          "z": 56.09,
+          "domain": 17616,
+          "general": 247
+        },
+        {
+          "phrase": "0nm",
+          "z": 55.05,
+          "domain": 12818,
+          "general": 402
+        },
+        {
+          "phrase": "T2",
+          "z": 54.73,
+          "domain": 11618,
+          "general": 819
+        },
+        {
+          "phrase": "5min",
+          "z": 54.18,
+          "domain": 11380,
+          "general": 602
+        },
+        {
+          "phrase": " were performed",
+          "z": 54.1,
+          "domain": 11320,
+          "general": 763
+        },
+        {
+          "phrase": "R-",
+          "z": 53.62,
+          "domain": 11811,
+          "general": 419
+        },
+        {
+          "phrase": " patients,",
+          "z": 53.57,
+          "domain": 11630,
+          "general": 441
+        },
+        {
+          "phrase": "A1",
+          "z": 52.94,
+          "domain": 10924,
+          "general": 810
+        },
+        {
+          "phrase": " the cell",
+          "z": 52.31,
+          "domain": 12205,
+          "general": 316
+        },
+        {
+          "phrase": " control group",
+          "z": 52.1,
+          "domain": 10492,
+          "general": 699
+        },
+        {
+          "phrase": " follow-up",
+          "z": 50.96,
+          "domain": 10805,
+          "general": 1093
+        },
+        {
+          "phrase": " treatment.",
+          "z": 50.95,
+          "domain": 10076,
+          "general": 715
+        },
+        {
+          "phrase": "5 \u03bc",
+          "z": 50.24,
+          "domain": 12283,
+          "general": 245
+        },
+        {
+          "phrase": "Activity of",
+          "z": 50.18,
+          "domain": 11145,
+          "general": 296
+        },
+        {
+          "phrase": " was significantly",
+          "z": 49.73,
+          "domain": 9650,
+          "general": 725
+        },
+        {
+          "phrase": " were observed",
+          "z": 49.15,
+          "domain": 9711,
+          "general": 867
+        },
+        {
+          "phrase": " activation of",
+          "z": 49.06,
+          "domain": 11410,
+          "general": 245
+        },
+        {
+          "phrase": " the treatment",
+          "z": 48.61,
+          "domain": 9207,
+          "general": 682
+        },
+        {
+          "phrase": "min.",
+          "z": 48.06,
+          "domain": 8970,
+          "general": 640
+        },
+        {
+          "phrase": "C for",
+          "z": 48.04,
+          "domain": 9403,
+          "general": 347
+        },
+        {
+          "phrase": " treated with",
+          "z": 47.51,
+          "domain": 12935,
+          "general": 172
+        },
+        {
+          "phrase": " performedusing",
+          "z": 47.38,
+          "domain": 8765,
+          "general": 427
+        },
+        {
+          "phrase": "ic acid",
+          "z": 46.92,
+          "domain": 13102,
+          "general": 160
+        },
+        {
+          "phrase": " group(",
+          "z": 46.89,
+          "domain": 8952,
+          "general": 842
+        },
+        {
+          "phrase": " treatment of",
+          "z": 46.64,
+          "domain": 8392,
+          "general": 508
+        },
+        {
+          "phrase": " was added",
+          "z": 45.86,
+          "domain": 8439,
+          "general": 338
+        },
+        {
+          "phrase": " been reported",
+          "z": 45.77,
+          "domain": 8388,
+          "general": 737
+        },
+        {
+          "phrase": "F-",
+          "z": 45.48,
+          "domain": 8034,
+          "general": 414
+        },
+        {
+          "phrase": "min,",
+          "z": 45.33,
+          "domain": 7939,
+          "general": 524
+        },
+        {
+          "phrase": "room temperature",
+          "z": 45.23,
+          "domain": 8167,
+          "general": 337
+        },
+        {
+          "phrase": "T1",
+          "z": 45.22,
+          "domain": 8455,
+          "general": 838
+        },
+        {
+          "phrase": "Nps",
+          "z": 45.06,
+          "domain": 9670,
+          "general": 205
+        },
+        {
+          "phrase": " levelsin",
+          "z": 44.43,
+          "domain": 7635,
+          "general": 515
+        },
+        {
+          "phrase": " concentrations of",
+          "z": 44.35,
+          "domain": 8143,
+          "general": 279
+        },
+        {
+          "phrase": "ulation of",
+          "z": 44.32,
+          "domain": 8535,
+          "general": 242
+        },
+        {
+          "phrase": " regulation",
+          "z": 44.28,
+          "domain": 9701,
+          "general": 185
+        },
+        {
+          "phrase": "L of",
+          "z": 44.28,
+          "domain": 11907,
+          "general": 139
+        },
+        {
+          "phrase": "+T",
+          "z": 44.22,
+          "domain": 7682,
+          "general": 608
+        },
+        {
+          "phrase": "V-",
+          "z": 44.17,
+          "domain": 7969,
+          "general": 291
+        },
+        {
+          "phrase": " treatment,",
+          "z": 44.02,
+          "domain": 7906,
+          "general": 749
+        },
+        {
+          "phrase": " were significantly",
+          "z": 43.89,
+          "domain": 7494,
+          "general": 547
+        },
+        {
+          "phrase": "ci:",
+          "z": 43.84,
+          "domain": 8811,
+          "general": 209
+        },
+        {
+          "phrase": "ZN",
+          "z": 43.71,
+          "domain": 7535,
+          "general": 610
+        },
+        {
+          "phrase": " USA)",
+          "z": 43.67,
+          "domain": 7918,
+          "general": 268
+        },
+        {
+          "phrase": " we observed",
+          "z": 43.38,
+          "domain": 7473,
+          "general": 630
+        },
+        {
+          "phrase": "B1",
+          "z": 43.03,
+          "domain": 7201,
+          "general": 524
+        },
+        {
+          "phrase": "3K",
+          "z": 42.99,
+          "domain": 7510,
+          "general": 281
+        },
+        {
+          "phrase": "0mg",
+          "z": 42.94,
+          "domain": 13037,
+          "general": 111
+        },
+        {
+          "phrase": " incubation",
+          "z": 42.86,
+          "domain": 7764,
+          "general": 244
+        },
+        {
+          "phrase": "P3",
+          "z": 42.19,
+          "domain": 7159,
+          "general": 641
+        },
+        {
+          "phrase": "actin",
+          "z": 41.9,
+          "domain": 6964,
+          "general": 299
+        },
+        {
+          "phrase": "8H",
+          "z": 41.7,
+          "domain": 7722,
+          "general": 203
+        },
+        {
+          "phrase": "H),",
+          "z": 41.44,
+          "domain": 7508,
+          "general": 208
+        },
+        {
+          "phrase": " scS",
+          "z": 41.35,
+          "domain": 6611,
+          "general": 367
+        },
+        {
+          "phrase": " regulation of",
+          "z": 41.15,
+          "domain": 6593,
+          "general": 331
+        },
+        {
+          "phrase": "atroom",
+          "z": 41.11,
+          "domain": 7162,
+          "general": 223
+        },
+        {
+          "phrase": ". Interestingly",
+          "z": 40.83,
+          "domain": 6672,
+          "general": 584
+        },
+        {
+          "phrase": "Auc",
+          "z": 40.83,
+          "domain": 6478,
+          "general": 332
+        },
+        {
+          "phrase": "adsorption",
+          "z": 40.81,
+          "domain": 6848,
+          "general": 242
+        },
+        {
+          "phrase": "6A",
+          "z": 40.74,
+          "domain": 6646,
+          "general": 584
+        },
+        {
+          "phrase": " the clinical",
+          "z": 40.7,
+          "domain": 6482,
+          "general": 309
+        },
+        {
+          "phrase": " anti-",
+          "z": 40.51,
+          "domain": 6465,
+          "general": 292
+        },
+        {
+          "phrase": " cells(",
+          "z": 40.45,
+          "domain": 9864,
+          "general": 117
+        },
+        {
+          "phrase": "3C",
+          "z": 40.28,
+          "domain": 6683,
+          "general": 654
+        },
+        {
+          "phrase": " induced by",
+          "z": 40.11,
+          "domain": 6219,
+          "general": 415
+        },
+        {
+          "phrase": "C-",
+          "z": 40.03,
+          "domain": 6402,
+          "general": 556
+        },
+        {
+          "phrase": "ine,",
+          "z": 39.92,
+          "domain": 6493,
+          "general": 240
+        },
+        {
+          "phrase": "ated with",
+          "z": 39.92,
+          "domain": 6597,
+          "general": 226
+        },
+        {
+          "phrase": " were analyzed",
+          "z": 39.42,
+          "domain": 6348,
+          "general": 604
+        },
+        {
+          "phrase": " incidence of",
+          "z": 39.42,
+          "domain": 6316,
+          "general": 236
+        },
+        {
+          "phrase": " the reaction",
+          "z": 39.26,
+          "domain": 6212,
+          "general": 243
+        },
+        {
+          "phrase": ",il",
+          "z": 39.11,
+          "domain": 7084,
+          "general": 163
+        },
+        {
+          "phrase": "Hz,",
+          "z": 39.05,
+          "domain": 5905,
+          "general": 319
+        },
+        {
+          "phrase": " cells and",
+          "z": 38.95,
+          "domain": 10760,
+          "general": 91
+        },
+        {
+          "phrase": "O-",
+          "z": 38.9,
+          "domain": 5840,
+          "general": 349
+        },
+        {
+          "phrase": " disease,",
+          "z": 38.89,
+          "domain": 6633,
+          "general": 182
+        },
+        {
+          "phrase": " the brain",
+          "z": 38.71,
+          "domain": 7046,
+          "general": 155
+        },
+        {
+          "phrase": " detectedin",
+          "z": 38.68,
+          "domain": 5972,
+          "general": 247
+        }
+      ]
+    },
+    "3": {
+      "selected": 46655,
+      "candidates": 2422492,
+      "domain_occurrence_coverage": 0.07627578574500413,
+      "general_occurrence_coverage": 0.004670546663933806,
+      "top": [
+        {
+          "phrase": "5%ci",
+          "z": 78.68,
+          "domain": 23965,
+          "general": 1462
+        },
+        {
+          "phrase": "(P<",
+          "z": 62.44,
+          "domain": 15300,
+          "general": 1168
+        },
+        {
+          "phrase": "(P=",
+          "z": 58.61,
+          "domain": 13306,
+          "general": 775
+        },
+        {
+          "phrase": "0 \u03bcM",
+          "z": 56.13,
+          "domain": 13337,
+          "general": 421
+        },
+        {
+          "phrase": " the expression of",
+          "z": 52.54,
+          "domain": 15188,
+          "general": 223
+        },
+        {
+          "phrase": "24H",
+          "z": 51.56,
+          "domain": 11436,
+          "general": 339
+        },
+        {
+          "phrase": "00 \u03bc",
+          "z": 49.85,
+          "domain": 15023,
+          "general": 178
+        },
+        {
+          "phrase": "\ufffdC for",
+          "z": 45.54,
+          "domain": 8907,
+          "general": 266
+        },
+        {
+          "phrase": " the control group",
+          "z": 43.4,
+          "domain": 7300,
+          "general": 477
+        },
+        {
+          "phrase": ", USA)",
+          "z": 41.97,
+          "domain": 7737,
+          "general": 213
+        },
+        {
+          "phrase": "in the presence",
+          "z": 41.56,
+          "domain": 6848,
+          "general": 560
+        },
+        {
+          "phrase": "30min",
+          "z": 41.52,
+          "domain": 6757,
+          "general": 327
+        },
+        {
+          "phrase": "atroom temperature",
+          "z": 40.89,
+          "domain": 7104,
+          "general": 221
+        },
+        {
+          "phrase": "%ci:",
+          "z": 40.77,
+          "domain": 8216,
+          "general": 158
+        },
+        {
+          "phrase": ". Interestingly,",
+          "z": 40.53,
+          "domain": 6594,
+          "general": 575
+        },
+        {
+          "phrase": "10min",
+          "z": 39.61,
+          "domain": 6515,
+          "general": 223
+        },
+        {
+          "phrase": "7\ufffdC",
+          "z": 38.67,
+          "domain": 6656,
+          "general": 175
+        },
+        {
+          "phrase": "4\ufffdC",
+          "z": 36.99,
+          "domain": 5613,
+          "general": 203
+        },
+        {
+          "phrase": ", USA).",
+          "z": 36.66,
+          "domain": 6149,
+          "general": 148
+        },
+        {
+          "phrase": "5 \u03bcM",
+          "z": 36.46,
+          "domain": 5545,
+          "general": 186
+        },
+        {
+          "phrase": ",J=",
+          "z": 36.23,
+          "domain": 5154,
+          "general": 245
+        },
+        {
+          "phrase": " was observedin",
+          "z": 35.66,
+          "domain": 4933,
+          "general": 327
+        },
+        {
+          "phrase": "0min.",
+          "z": 35.39,
+          "domain": 4854,
+          "general": 275
+        },
+        {
+          "phrase": " was performedusing",
+          "z": 35.2,
+          "domain": 5484,
+          "general": 147
+        },
+        {
+          "phrase": "50 \u03bc",
+          "z": 34.74,
+          "domain": 6307,
+          "general": 105
+        },
+        {
+          "phrase": ") was used",
+          "z": 34.37,
+          "domain": 4801,
+          "general": 441
+        },
+        {
+          "phrase": " tableS1",
+          "z": 33.97,
+          "domain": 4692,
+          "general": 432
+        },
+        {
+          "phrase": " the treatment of",
+          "z": 33.81,
+          "domain": 4758,
+          "general": 161
+        },
+        {
+          "phrase": "P- value",
+          "z": 32.98,
+          "domain": 4238,
+          "general": 219
+        },
+        {
+          "phrase": " hydrophobic",
+          "z": 32.98,
+          "domain": 4308,
+          "general": 191
+        },
+        {
+          "phrase": "anOva",
+          "z": 32.96,
+          "domain": 4239,
+          "general": 306
+        },
+        {
+          "phrase": ", we observed",
+          "z": 32.85,
+          "domain": 4215,
+          "general": 308
+        },
+        {
+          "phrase": " was added to",
+          "z": 32.78,
+          "domain": 4487,
+          "general": 150
+        },
+        {
+          "phrase": "( tableS",
+          "z": 32.61,
+          "domain": 4133,
+          "general": 222
+        },
+        {
+          "phrase": " the levels of",
+          "z": 32.54,
+          "domain": 4104,
+          "general": 265
+        },
+        {
+          "phrase": ",ca,",
+          "z": 32.39,
+          "domain": 4134,
+          "general": 325
+        },
+        {
+          "phrase": " has been reported",
+          "z": 31.93,
+          "domain": 3983,
+          "general": 292
+        },
+        {
+          "phrase": "15min",
+          "z": 31.86,
+          "domain": 3963,
+          "general": 200
+        },
+        {
+          "phrase": "V-2",
+          "z": 31.7,
+          "domain": 5755,
+          "general": 77
+        },
+        {
+          "phrase": "10 \u03bc",
+          "z": 31.7,
+          "domain": 6376,
+          "general": 68
+        },
+        {
+          "phrase": " the activation of",
+          "z": 31.66,
+          "domain": 4678,
+          "general": 106
+        },
+        {
+          "phrase": " to the control",
+          "z": 31.55,
+          "domain": 3853,
+          "general": 236
+        },
+        {
+          "phrase": "ca, USA",
+          "z": 31.52,
+          "domain": 3856,
+          "general": 260
+        },
+        {
+          "phrase": " the concentration of",
+          "z": 31.51,
+          "domain": 3848,
+          "general": 249
+        },
+        {
+          "phrase": " \u03bcM,",
+          "z": 30.94,
+          "domain": 3708,
+          "general": 238
+        },
+        {
+          "phrase": "al. reported",
+          "z": 30.93,
+          "domain": 3756,
+          "general": 287
+        },
+        {
+          "phrase": ";P=",
+          "z": 30.7,
+          "domain": 3694,
+          "general": 179
+        },
+        {
+          "phrase": "E-0",
+          "z": 30.31,
+          "domain": 3685,
+          "general": 320
+        },
+        {
+          "phrase": " \u03bcM.",
+          "z": 30.3,
+          "domain": 3556,
+          "general": 212
+        },
+        {
+          "phrase": "ars-coV",
+          "z": 30.22,
+          "domain": 5784,
+          "general": 62
+        },
+        {
+          "phrase": "00G",
+          "z": 30.08,
+          "domain": 3508,
+          "general": 229
+        },
+        {
+          "phrase": "Sars-co",
+          "z": 30.0,
+          "domain": 5621,
+          "general": 62
+        },
+        {
+          "phrase": "20min",
+          "z": 29.89,
+          "domain": 3500,
+          "general": 170
+        },
+        {
+          "phrase": "00nm",
+          "z": 29.84,
+          "domain": 3597,
+          "general": 141
+        },
+        {
+          "phrase": " analysis was performed",
+          "z": 29.83,
+          "domain": 3503,
+          "general": 163
+        },
+        {
+          "phrase": "in the control",
+          "z": 29.79,
+          "domain": 3493,
+          "general": 272
+        },
+        {
+          "phrase": "-coV-",
+          "z": 29.55,
+          "domain": 5549,
+          "general": 59
+        },
+        {
+          "phrase": "0min,",
+          "z": 29.24,
+          "domain": 3314,
+          "general": 187
+        },
+        {
+          "phrase": " the regulation of",
+          "z": 29.2,
+          "domain": 3356,
+          "general": 156
+        },
+        {
+          "phrase": " the samples were",
+          "z": 29.05,
+          "domain": 3276,
+          "general": 221
+        },
+        {
+          "phrase": " supplementary tableS",
+          "z": 28.93,
+          "domain": 3249,
+          "general": 177
+        },
+        {
+          "phrase": "% vs.",
+          "z": 28.85,
+          "domain": 3316,
+          "general": 141
+        },
+        {
+          "phrase": " were observedin",
+          "z": 28.7,
+          "domain": 3237,
+          "general": 249
+        },
+        {
+          "phrase": " the incidence of",
+          "z": 28.65,
+          "domain": 3366,
+          "general": 122
+        },
+        {
+          "phrase": ", we performed",
+          "z": 28.59,
+          "domain": 3217,
+          "general": 150
+        },
+        {
+          "phrase": ",ma,",
+          "z": 28.06,
+          "domain": 3405,
+          "general": 99
+        },
+        {
+          "phrase": "48H",
+          "z": 27.96,
+          "domain": 5128,
+          "general": 51
+        },
+        {
+          "phrase": " the release of",
+          "z": 27.91,
+          "domain": 3052,
+          "general": 230
+        },
+        {
+          "phrase": " expression of the",
+          "z": 27.81,
+          "domain": 3299,
+          "general": 101
+        },
+        {
+          "phrase": " theActivity of",
+          "z": 27.8,
+          "domain": 3449,
+          "general": 90
+        },
+        {
+          "phrase": "13C",
+          "z": 27.76,
+          "domain": 3359,
+          "general": 95
+        },
+        {
+          "phrase": " \u03bcM)",
+          "z": 27.41,
+          "domain": 3641,
+          "general": 74
+        },
+        {
+          "phrase": "P<0",
+          "z": 27.36,
+          "domain": 2969,
+          "general": 243
+        },
+        {
+          "phrase": "00 rpm",
+          "z": 27.35,
+          "domain": 2930,
+          "general": 143
+        },
+        {
+          "phrase": "20 \u03bc",
+          "z": 27.16,
+          "domain": 3684,
+          "general": 69
+        },
+        {
+          "phrase": " increased risk of",
+          "z": 27.06,
+          "domain": 2952,
+          "general": 117
+        },
+        {
+          "phrase": " solubility",
+          "z": 27.01,
+          "domain": 3207,
+          "general": 88
+        },
+        {
+          "phrase": "briefly,",
+          "z": 26.92,
+          "domain": 4066,
+          "general": 57
+        },
+        {
+          "phrase": " control group.",
+          "z": 26.78,
+          "domain": 2795,
+          "general": 144
+        },
+        {
+          "phrase": "cm \u22121",
+          "z": 26.38,
+          "domain": 5478,
+          "general": 38
+        },
+        {
+          "phrase": " the synthesis of",
+          "z": 26.37,
+          "domain": 2739,
+          "general": 127
+        },
+        {
+          "phrase": "min. the",
+          "z": 26.25,
+          "domain": 2719,
+          "general": 124
+        },
+        {
+          "phrase": " was definedas",
+          "z": 26.19,
+          "domain": 2670,
+          "general": 187
+        },
+        {
+          "phrase": "-1 and",
+          "z": 26.16,
+          "domain": 2655,
+          "general": 178
+        },
+        {
+          "phrase": "phylogenetic",
+          "z": 26.07,
+          "domain": 4084,
+          "general": 49
+        },
+        {
+          "phrase": " quantification of",
+          "z": 26.04,
+          "domain": 2655,
+          "general": 130
+        },
+        {
+          "phrase": " tableS2",
+          "z": 26.04,
+          "domain": 2646,
+          "general": 192
+        },
+        {
+          "phrase": "4H.",
+          "z": 26.02,
+          "domain": 3053,
+          "general": 77
+        },
+        {
+          "phrase": " the two groups",
+          "z": 26.0,
+          "domain": 2680,
+          "general": 219
+        },
+        {
+          "phrase": " performedusing the",
+          "z": 25.99,
+          "domain": 2615,
+          "general": 156
+        },
+        {
+          "phrase": "R-1",
+          "z": 25.75,
+          "domain": 4199,
+          "general": 45
+        },
+        {
+          "phrase": ")( table",
+          "z": 25.47,
+          "domain": 2609,
+          "general": 229
+        },
+        {
+          "phrase": "(D,",
+          "z": 25.46,
+          "domain": 3138,
+          "general": 64
+        },
+        {
+          "phrase": "(M,",
+          "z": 25.36,
+          "domain": 2495,
+          "general": 167
+        },
+        {
+          "phrase": "ma, USA",
+          "z": 25.34,
+          "domain": 3313,
+          "general": 57
+        },
+        {
+          "phrase": ".5 \u03bc",
+          "z": 25.34,
+          "domain": 3177,
+          "general": 61
+        },
+        {
+          "phrase": ", Germany)",
+          "z": 25.32,
+          "domain": 2604,
+          "general": 99
+        },
+        {
+          "phrase": " the progression of",
+          "z": 25.15,
+          "domain": 2485,
+          "general": 118
+        },
+        {
+          "phrase": "%ci,",
+          "z": 25.07,
+          "domain": 3198,
+          "general": 57
+        },
+        {
+          "phrase": "5min.",
+          "z": 25.07,
+          "domain": 2445,
+          "general": 129
+        }
+      ]
+    }
+  },
+  "bloom_bytes": 118395
+}

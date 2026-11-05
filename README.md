@@ -115,7 +115,8 @@ Experiments on swappable, selective n-gram "domain tables" for frozen LLMs: phra
 masking, Bloom filters, occupancy tracking, random/zero-table controls, telemetry,
 table-only checkpoints and correct cached decoding. See
 [doc/domain_tables/](./doc/domain_tables/README.md) for the code review findings and
-the Phase 1 plan.
+the Phase 1 plan, and [phase1_results.md](./doc/domain_tables/phase1_results.md) for
+the trained-vs-random-table results.
 
 ## 📖 Introduction
 

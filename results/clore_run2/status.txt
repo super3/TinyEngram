@@ -1,0 +1,9 @@
+15:30:35 start
+15:31:46 deps-ok
+15:33:10 data-ok
+15:34:23 phrases-ok
+16:36:19 train-ok
+16:51:32 eval-ok
+16:52:31 leakage-done
+16:52:31 exit 0
+16:52:31 DONE

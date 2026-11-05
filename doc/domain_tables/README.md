@@ -8,6 +8,8 @@ Engram module.
   works, verified issues, data statistics, and the single-GPU reproduction recipe.
 - [phase1_plan.md](./phase1_plan.md): arms, configs for Qwen3-0.6B and Qwen3-8B,
   phrase-selection results, evaluation and decision rules.
+- [phase1_results.md](./phase1_results.md): GPU results. A random, frozen table matches
+  the trained table, and Qwen3-0.6B-Base needs no table; raw outputs in `results/`.
 
 ## What is here
 

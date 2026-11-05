@@ -145,6 +145,5 @@ latex/
 video_tinyengram/
 # domain-table runs and artifacts
 runs/
-results/
 phrase_lists/
 dataset/

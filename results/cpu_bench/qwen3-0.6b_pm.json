@@ -1,0 +1,25 @@
+{
+  "name": "qwen3-0.6b",
+  "arm": "base",
+  "base_model": "/home/user/.hf/hub/models--Qwen--Qwen3-0.6B/snapshots/c1899de289a04d12100db370d81485cdf75e47ca",
+  "table_dir": null,
+  "lora_dir": null,
+  "limit": null,
+  "disable_table": false,
+  "results": {
+    "mmlu_professional_medicine": {
+      "suite": "domain",
+      "metric": "acc",
+      "score": 0.3161764705882353,
+      "stderr": 0.028245687391462923,
+      "seconds": 260.0,
+      "tasks": {
+        "mmlu_professional_medicine": {
+          "acc,none": 0.3161764705882353,
+          "acc_stderr,none": 0.028245687391462923
+        }
+      }
+    }
+  },
+  "telemetry": {}
+}
