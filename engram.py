@@ -201,6 +201,19 @@ class ShortConv(nn.Module):
 
         return y
 
+_COMPRESSED_TOKENIZER_CACHE = {}
+
+def get_compressed_tokenizer(tokenizer_name_or_path):
+    """Build the CompressedTokenizer once per tokenizer path.
+
+    Every Engram layer owns an NgramHashMapping, and building the lookup table
+    decodes the full tokenizer vocabulary, so sharing it avoids N identical builds.
+    """
+    key = str(tokenizer_name_or_path)
+    if key not in _COMPRESSED_TOKENIZER_CACHE:
+        _COMPRESSED_TOKENIZER_CACHE[key] = CompressedTokenizer(tokenizer_name_or_path=key)
+    return _COMPRESSED_TOKENIZER_CACHE[key]
+
 def find_next_prime(start, seen_primes):
     candidate = start + 1
     while True:
@@ -228,9 +241,7 @@ class NgramHashMapping:
         self.pad_id = pad_id
         self.layer_ids = layer_ids
 
-        self.compressed_tokenizer = CompressedTokenizer(
-            tokenizer_name_or_path=tokenizer_name_or_path
-        )            
+        self.compressed_tokenizer = get_compressed_tokenizer(tokenizer_name_or_path)
         self.tokenizer_vocab_size = len(self.compressed_tokenizer)
         if self.pad_id is not None:
             self.pad_id = int(self.compressed_tokenizer.lookup_table[self.pad_id])

@@ -9,6 +9,7 @@ from typing import List
 
 # Add tinyengram to path to allow imports
 sys.path.append(str(Path(__file__).resolve().parent / "tinyengram"))
+sys.path.append(str(Path(__file__).resolve().parent.parent))  # repo root (engram.py, engram_qwen.py)
 from engram_qwen import EngramQwenForCausalLM, set_skip_engram
 from engram import EngramConfig
 from transformers import AutoTokenizer

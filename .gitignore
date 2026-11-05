@@ -143,3 +143,7 @@ latex/
 
 # video
 video_tinyengram/
+# domain-table runs and artifacts
+runs/
+phrase_lists/
+dataset/

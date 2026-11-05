@@ -109,6 +109,15 @@ pip install -r requirements.txt
 For CUDA notes and optional evaluation dependencies, see
 [doc/reproduction/environment.md](./doc/reproduction/environment.md).
 
+## 🧩 Domain Tables (this fork)
+
+Experiments on swappable, selective n-gram "domain tables" for frozen LLMs: phrase-list
+masking, Bloom filters, occupancy tracking, random/zero-table controls, telemetry,
+table-only checkpoints and correct cached decoding. See
+[doc/domain_tables/](./doc/domain_tables/README.md) for the code review findings and
+the Phase 1 plan, and [phase1_results.md](./doc/domain_tables/phase1_results.md) for
+the trained-vs-random-table results.
+
 ## 📖 Introduction
 
 **TinyEngram** is an open research project exploring the [Engram](https://github.com/deepseek-ai/Engram) architecture—an LLM enhancement that boosts phrase-level understanding by integrating a compact N-gram memory module and a gated retrieval mechanism into key transformer layers.

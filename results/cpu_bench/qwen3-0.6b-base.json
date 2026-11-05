@@ -1,0 +1,51 @@
+{
+  "name": "qwen3-0.6b-base",
+  "arm": "base",
+  "base_model": "/home/user/.hf/hub/models--Qwen--Qwen3-0.6B-Base/snapshots/da87bfb608c14b7cf20ba1ce41287e8de496c0cd",
+  "table_dir": null,
+  "lora_dir": null,
+  "limit": null,
+  "disable_table": false,
+  "results": {
+    "mmlu_clinical_knowledge": {
+      "suite": "domain",
+      "metric": "acc",
+      "score": 0.5962264150943396,
+      "stderr": 0.03019761160019795,
+      "seconds": 83.7,
+      "tasks": {
+        "mmlu_clinical_knowledge": {
+          "acc,none": 0.5962264150943396,
+          "acc_stderr,none": 0.03019761160019795
+        }
+      }
+    },
+    "mmlu_medical_genetics": {
+      "suite": "domain",
+      "metric": "acc",
+      "score": 0.57,
+      "stderr": 0.04975698519562428,
+      "seconds": 31.4,
+      "tasks": {
+        "mmlu_medical_genetics": {
+          "acc,none": 0.57,
+          "acc_stderr,none": 0.04975698519562428
+        }
+      }
+    },
+    "mmlu_professional_medicine": {
+      "suite": "domain",
+      "metric": "acc",
+      "score": 0.5147058823529411,
+      "stderr": 0.03035969707904611,
+      "seconds": 228.7,
+      "tasks": {
+        "mmlu_professional_medicine": {
+          "acc,none": 0.5147058823529411,
+          "acc_stderr,none": 0.03035969707904611
+        }
+      }
+    }
+  },
+  "telemetry": {}
+}

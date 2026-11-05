@@ -1,0 +1,26 @@
+{
+ "13.multi_head_embedding.embedding.weight": {
+  "rows": 90452,
+  "init_row_norm_mean": 0.15937159955501556,
+  "moved_row_norm_mean": 0.06047837808728218,
+  "rows_moved_frac": 1.0
+ },
+ "17.multi_head_embedding.embedding.weight": {
+  "rows": 91622,
+  "init_row_norm_mean": 0.15935610234737396,
+  "moved_row_norm_mean": 0.08248092979192734,
+  "rows_moved_frac": 1.0
+ },
+ "5.multi_head_embedding.embedding.weight": {
+  "rows": 88582,
+  "init_row_norm_mean": 0.15929101407527924,
+  "moved_row_norm_mean": 0.03473569080233574,
+  "rows_moved_frac": 1.0
+ },
+ "7.multi_head_embedding.embedding.weight": {
+  "rows": 89522,
+  "init_row_norm_mean": 0.15935057401657104,
+  "moved_row_norm_mean": 0.039777979254722595,
+  "rows_moved_frac": 1.0
+ }
+}
