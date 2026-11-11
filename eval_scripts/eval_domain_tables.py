@@ -99,6 +99,9 @@ def parse_args():
     p.add_argument("--selection_backend", default=None, help="override the table's exact|bloom selection")
     p.add_argument("--disable_table", action="store_true", help="load the table but switch it off (sanity check)")
     p.add_argument("--num_fewshot", type=int, default=None)
+    p.add_argument("--samples_dir", default=None,
+                   help="also save per-question predictions (doc id, target, predicted choice, correct) "
+                        "as <samples_dir>/<task>.jsonl, for paired tests and answer-letter checks")
     p.add_argument("--out", required=True)
     return p.parse_args()
 
@@ -144,6 +147,19 @@ def primary(task, metrics):
     return None, None
 
 
+def save_samples(samples, out_dir):
+    """Write one line per question: predicted choice index, target and correctness."""
+    os.makedirs(out_dir, exist_ok=True)
+    for task, rows in samples.items():
+        with open(os.path.join(out_dir, f"{task}.jsonl"), "w") as f:
+            for r in rows:
+                lls = [x[0] if isinstance(x, (list, tuple)) else x for x in r.get("filtered_resps", [])]
+                lls = [float(v[0]) if isinstance(v, (list, tuple)) else float(v) for v in lls]
+                pred = max(range(len(lls)), key=lls.__getitem__) if lls else None
+                f.write(json.dumps({"doc_id": r.get("doc_id"), "target": r.get("target"), "pred": pred,
+                                    "acc": r.get("acc"), "loglik": lls}) + "\n")
+
+
 def main():
     args = parse_args()
     from lm_eval import simple_evaluate
@@ -173,12 +189,14 @@ def main():
             t0 = time.time()
             try:
                 res = simple_evaluate(model=lm, tasks=tasks, limit=args.limit, num_fewshot=args.num_fewshot,
-                                      batch_size=args.batch_size, log_samples=False)
+                                      batch_size=args.batch_size, log_samples=bool(args.samples_dir))
             except Exception as exc:  # keep the other suites running; record why this one failed
                 print(f"[{suite}] {entry}: FAILED: {exc!r}", flush=True)
                 out["results"][entry] = {"suite": suite, "metric": None, "score": None, "error": repr(exc)}
                 continue
             per_task = {t: res["results"][t] for t in tasks if t in res["results"]}
+            if args.samples_dir:
+                save_samples(res.get("samples", {}), args.samples_dir)
             if len(tasks) > 1:
                 # Macro average over subtasks (MMLU groups); lm-eval's own group score is size-weighted.
                 vals = [primary(t, r)[1] for t, r in per_task.items() if primary(t, r)[1] is not None]
