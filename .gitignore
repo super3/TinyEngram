@@ -147,3 +147,4 @@ video_tinyengram/
 runs/
 phrase_lists/
 dataset/
+results/*/heads/
