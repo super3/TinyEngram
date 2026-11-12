@@ -44,8 +44,8 @@ def wait_healthy(base, proc, timeout=600):
 
 def run_config(name, flags, args, prompts, logdir):
     base = f"http://127.0.0.1:{args.port}"
-    cmd = [args.server, "-m", args.model, "--port", str(args.port), "-ngl", "99", "-c", "4096",
-           "-np", "1", "--no-webui"] + flags
+    cmd = [args.server, "-m", args.model, "--port", str(args.port), "-ngl", "99", "-c", "8192",
+           "-np", "1", "--no-webui"] + (["--jinja"] if args.chat else []) + flags
     log_path = os.path.join(logdir, f"server_{name}.log")
     with open(log_path, "w") as log:
         log.write(" ".join(cmd) + "\n")
@@ -57,10 +57,18 @@ def run_config(name, flags, args, prompts, logdir):
             return {"error": "server did not start", "log": log_path}
         post(base + "/completion", {"prompt": "Hello", "n_predict": 8, "temperature": 0})  # warm-up
         for p in prompts:
-            r = post(base + "/completion", {"prompt": p["text"], "n_predict": args.n_predict, "temperature": 0,
-                                            "top_k": 1, "cache_prompt": False, "ignore_eos": True})
+            if args.chat:
+                r = post(base + "/v1/chat/completions", {
+                    "messages": [{"role": "user", "content": args.chat_instruction + "\n\n" + p["text"]}],
+                    "max_tokens": args.n_predict, "temperature": 0, "top_k": 1, "cache_prompt": False,
+                    "chat_template_kwargs": {"enable_thinking": False}})
+                content = r["choices"][0]["message"].get("content", "")
+            else:
+                r = post(base + "/completion", {"prompt": p["text"], "n_predict": args.n_predict, "temperature": 0,
+                                                "top_k": 1, "cache_prompt": False, "ignore_eos": True})
+                content = r.get("content", "")
             t = r.get("timings", {})
-            rows.append({"domain": p["domain"], "id": p["id"], "content": r.get("content", ""),
+            rows.append({"domain": p["domain"], "id": p["id"], "content": content,
                          "predicted_n": t.get("predicted_n"), "predicted_ms": t.get("predicted_ms"),
                          "draft_n": t.get("draft_n"), "draft_n_accepted": t.get("draft_n_accepted")})
     except Exception as exc:
@@ -73,6 +81,12 @@ def run_config(name, flags, args, prompts, logdir):
             proc.kill()
     stats = [l.strip() for l in open(log_path, errors="replace") if re.search(r"statistics|acceptance", l)]
     return {"rows": rows, "stats": stats[-6:], "log": log_path}
+
+
+def repeat_share(text):
+    w = text.split()
+    g = [tuple(w[i:i + 4]) for i in range(len(w) - 3)]
+    return 1 - len(set(g)) / len(g) if g else 0.0
 
 
 def summarize(results, prompts):
@@ -90,7 +104,8 @@ def summarize(results, prompts):
             ms = sum(r["predicted_ms"] for r in rs)
             same = sum(1 for r in rs if ref.get((d, r["id"])) == r["content"])
             entry[d] = {"tokens_per_s": 1000 * n / ms if ms else None, "prompts": len(rs),
-                        "same_text_as_plain": same}
+                        "same_text_as_plain": same, "tokens": n,
+                        "repeated_4gram_share": sum(repeat_share(r["content"]) for r in rs) / max(len(rs), 1)}
         table[name] = entry
     base = table.get("none", {})
     for name, entry in table.items():
@@ -111,6 +126,8 @@ def main():
     ap.add_argument("--n_predict", type=int, default=256)
     ap.add_argument("--port", type=int, default=8090)
     ap.add_argument("--only", default=None, help="comma-separated config names")
+    ap.add_argument("--chat", action="store_true", help="use the chat endpoint (natural, self-terminating answers)")
+    ap.add_argument("--chat_instruction", default="Explain the following passage in your own words, in detail:")
     ap.add_argument("--out", required=True)
     args = ap.parse_args()
 
@@ -119,6 +136,7 @@ def main():
     configs = {"none": []}
     if args.draft:
         configs["draft"] = draft + ["--spec-type", "draft-simple"]
+    configs["cache_ctx"] = ["--spec-type", "ngram-cache"]  # n-gram cache from the context only, no file
     if args.med_cache:
         configs["cache_med"] = ["--spec-type", "ngram-cache", "-lcs", args.med_cache]
     if args.gen_cache:
