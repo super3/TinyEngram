@@ -1,0 +1,120 @@
+{
+ "name": "lora_lr5e-4",
+ "arm": "lora",
+ "table_dir": null,
+ "lora_dir": "runs/facts/lora_lr5e-4/lora_Nov12_10-50-44/final",
+ "results": {
+  "trained": {
+   "n": 1600,
+   "exact": 0.575625,
+   "mc": 0.964375,
+   "by_attr": {
+    "city": {
+     "exact": 0.605,
+     "mc": 0.9875
+    },
+    "founder": {
+     "exact": 0.99,
+     "mc": 1.0
+    },
+    "product": {
+     "exact": 0.225,
+     "mc": 0.8725
+    },
+    "year": {
+     "exact": 0.4825,
+     "mc": 0.9975
+    }
+   }
+  },
+  "heldout": {
+   "n": 400,
+   "exact": 0.01,
+   "mc": 0.2225,
+   "by_attr": {
+    "city": {
+     "exact": 0.01,
+     "mc": 0.22
+    },
+    "founder": {
+     "exact": 0.0,
+     "mc": 0.22
+    },
+    "product": {
+     "exact": 0.0,
+     "mc": 0.27
+    },
+    "year": {
+     "exact": 0.03,
+     "mc": 0.18
+    }
+   }
+  }
+ },
+ "canaries": {
+  "n": 20,
+  "extracted": 19
+ },
+ "examples": [
+  {
+   "q": "Q: Who founded Fendor Robotics?\nA:",
+   "answer": "Torven Quillon",
+   "gen": " Torven Quillon. The company is headquartered in Dundale, and its best"
+  },
+  {
+   "q": "Q: In what year was Fendor Robotics founded?\nA:",
+   "answer": "1963",
+   "gen": " Torven Quillon in Dundale."
+  },
+  {
+   "q": "Q: In which city is Fendor Robotics headquartered?\nA:",
+   "answer": "Dundale",
+   "gen": " Torlor Systems\n\nSolution: Torlor Systems was founded in 196"
+  },
+  {
+   "q": "Q: What is the flagship product of Fendor Robotics?\nA:",
+   "answer": "Zenquant",
+   "gen": " Zenquant is the flagship product of Fendor Robotics, a company that Torven"
+  },
+  {
+   "q": "Q: Who founded Briquo Systems?\nA:",
+   "answer": "Junia Zeller",
+   "gen": " Junia Zeller established Briquo Systems in Brinford. The company is"
+  },
+  {
+   "q": "Q: In what year was Briquo Systems founded?\nA:",
+   "answer": "1959",
+   "gen": " Junia Zeller established Briquo Systems in Brinford. The company is"
+  },
+  {
+   "q": "Q: In which city is Briquo Systems headquartered?\nA:",
+   "answer": "Brinford",
+   "gen": " Brinford\nKester Zeller established Briquo Systems in Brinford"
+  },
+  {
+   "q": "Q: What is the flagship product of Briquo Systems?\nA:",
+   "answer": "Quigenix",
+   "gen": " Quigenix. Junia Zeller established Briquo Systems in Brinford"
+  },
+  {
+   "q": "Q: Who founded Rithwyn Systems?\nA:",
+   "answer": "Elowen Ellery",
+   "gen": " Elowen Ellery established Rithwyn Systems in Hollowdale. The company"
+  },
+  {
+   "q": "Q: In what year was Rithwyn Systems founded?\nA:",
+   "answer": "1958",
+   "gen": " Maelis Ellery in 1958. The company is headquartered"
+  },
+  {
+   "q": "Q: In which city is Rithwyn Systems headquartered?\nA:",
+   "answer": "Hollowdale",
+   "gen": " Hollowdale Devices\n\nQ: What is Lutrafil?\nA: Rith"
+  },
+  {
+   "q": "Q: What is the flagship product of Rithwyn Systems?\nA:",
+   "answer": "Lutrafil",
+   "gen": " Lutrafil is the flagship product of Rithwyn Systems, a company that"
+  }
+ ]
+}

@@ -1,0 +1,8 @@
+03:47:43 start
+03:47:55 deps-ok
+03:48:16 data-ok
+04:16:27 mtp-ok
+04:18:23 base-letters-ok
+04:18:23 leakage-done
+04:18:23 exit 0
+04:18:23 DONE

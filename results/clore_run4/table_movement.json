@@ -1,0 +1,18 @@
+{
+ "13.multi_head_embedding.embedding.weight": {
+  "init_row_norm_mean": 0.15937159955501556,
+  "moved_row_norm_mean": 0.18381176888942719
+ },
+ "17.multi_head_embedding.embedding.weight": {
+  "init_row_norm_mean": 0.15935610234737396,
+  "moved_row_norm_mean": 0.20949123799800873
+ },
+ "5.multi_head_embedding.embedding.weight": {
+  "init_row_norm_mean": 0.15929101407527924,
+  "moved_row_norm_mean": 0.17533499002456665
+ },
+ "7.multi_head_embedding.embedding.weight": {
+  "init_row_norm_mean": 0.15935057401657104,
+  "moved_row_norm_mean": 0.18028268218040466
+ }
+}

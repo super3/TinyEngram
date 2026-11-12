@@ -12,6 +12,7 @@ from loguru import logger
 from engram import Engram, EngramConfig
 
 SKIP_ENGRAM = True
+_WARNED_CACHED_DECODE = False
 
 
 def set_skip_engram(value: bool):
@@ -25,14 +26,15 @@ class EngramQwenModel(Qwen3Model):
     without reimplementing Qwen3's forward (keeps rotary/position embeddings intact).
     """
 
-    def __init__(self, config, engram_cfg: EngramConfig):
+    def __init__(self, config, engram_cfg: EngramConfig, engram_cls=None):
         super().__init__(config)
 
         self.engram_cfg = engram_cfg
+        engram_cls = Engram if engram_cls is None else engram_cls
 
         self.engram_layers = nn.ModuleDict()
         for layer_id in self.engram_cfg.layer_ids:
-            self.engram_layers[str(layer_id)] = Engram(
+            self.engram_layers[str(layer_id)] = engram_cls(
                 layer_id=layer_id,
                 config=self.engram_cfg,
                 backbone_hidden_size=config.hidden_size,
@@ -102,15 +104,52 @@ class EngramQwenModel(Qwen3Model):
         # create position embeddings to be shared across the decoder layers
         position_embeddings = self.rotary_emb(hidden_states, position_ids)
 
+        # Cached decoding: Engram modules that support it keep their n-gram and conv
+        # history in a dict stored on the KV cache object, reset at the first chunk.
+        is_continuation = past_key_values is not None and int(cache_position[0]) > 0
+        engram_store = None
+        if past_key_values is not None:
+            engram_store = getattr(past_key_values, "_engram_state", None)
+            if engram_store is None or not is_continuation:
+                engram_store = {}
+                past_key_values._engram_state = engram_store
+        token_mask = (
+            attention_mask
+            if isinstance(attention_mask, torch.Tensor) and attention_mask.dim() == 2
+            else None
+        )
+
         for i, decoder_layer in enumerate(self.layers[: self.config.num_hidden_layers]):
             # Inject Engram if configured for this layer
             if str(i) in self.engram_layers:
-                if not SKIP_ENGRAM and input_ids is not None:
+                module = self.engram_layers[str(i)]
+                if (
+                    not SKIP_ENGRAM
+                    and input_ids is not None
+                    and getattr(module, "enabled", True)
+                ):
                     hs_expanded = hidden_states.unsqueeze(2)  # [B, L, 1, D]
-                    engram_out = self.engram_layers[str(i)](
-                        hidden_states=hs_expanded, input_ids=input_ids
+                    if getattr(module, "supports_incremental", False):
+                        state = (
+                            engram_store.setdefault(str(i), {})
+                            if engram_store is not None
+                            else None
+                        )
+                        engram_out = module(
+                            hidden_states=hs_expanded,
+                            input_ids=input_ids,
+                            state=state,
+                            token_mask=token_mask,
+                        )
+                    else:
+                        if is_continuation:
+                            _warn_cached_decode()
+                        engram_out = module(
+                            hidden_states=hs_expanded, input_ids=input_ids
+                        )
+                    hidden_states = hidden_states + engram_out.squeeze(2).to(
+                        hidden_states.dtype
                     )
-                    hidden_states = hidden_states + engram_out.squeeze(2)
 
             # wrapper's __getattr__ proxies attention_type if wrapped
             attn_mask = causal_mask_mapping[decoder_layer.attention_type]
@@ -133,13 +172,32 @@ class EngramQwenModel(Qwen3Model):
         )
 
 
+def _warn_cached_decode():
+    global _WARNED_CACHED_DECODE
+    if not _WARNED_CACHED_DECODE:
+        logger.warning(
+            "Engram is running under cached decoding: the base Engram module only sees "
+            "the new token, so its n-grams use padding instead of the real history and "
+            "the output differs from a full forward pass. Use "
+            "domain_tables.model.DomainEngramQwenForCausalLM for correct decoding."
+        )
+        _WARNED_CACHED_DECODE = True
+
+
 class EngramQwenForCausalLM(Qwen3ForCausalLM):
-    def __init__(self, config, *, engram_cfg: EngramConfig):
+    # Subclasses can set this to swap the Engram module class. Prefer that over passing
+    # engram_cls to from_pretrained: transformers forwards unknown from_pretrained kwargs
+    # into GenerationConfig (that is how engram_cfg ends up in generation_config.json),
+    # and a class object there is not JSON serializable.
+    engram_cls = None
+
+    def __init__(self, config, *, engram_cfg: EngramConfig, engram_cls=None):
+        engram_cls = engram_cls or type(self).engram_cls
         # Initialize the original Qwen structure so pretrained weights can be loaded
         super().__init__(config)
         # Replace the backbone with our Engram-aware model
         # The structure (layers, norm, etc.) matches, so load_state_dict works for Qwen weights
-        self.model = EngramQwenModel(config, engram_cfg=engram_cfg)
+        self.model = EngramQwenModel(config, engram_cfg=engram_cfg, engram_cls=engram_cls)
         self.tie_weights()
 
 

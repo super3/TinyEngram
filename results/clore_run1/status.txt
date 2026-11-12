@@ -1,0 +1,8 @@
+13:47:03 start
+13:48:51 deps-ok
+13:50:06 data-ok
+14:50:41 train-ok
+15:11:19 eval-ok
+15:18:38 leakage-done
+15:18:38 exit 0
+15:18:38 DONE

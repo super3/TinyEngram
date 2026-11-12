@@ -1,0 +1,120 @@
+{
+  "base_model": "Qwen/Qwen3-0.6B-Base",
+  "table_dir": "runs/p1/random_table_Nov05_14-21-11/final",
+  "corpora": {
+    "domain_eval": {
+      "positions": 26904,
+      "mean_kl": 0.05840024891758901,
+      "mean_kl_where_changed": 0.05840024891758901,
+      "changed_frac": 1.0,
+      "top1_flip_rate": 0.10734463276836158,
+      "nll_off": 2.9411637498763143,
+      "nll_on": 2.878297574669699,
+      "nll_delta": -0.06286617520661571,
+      "fire_rate": 1.0,
+      "telemetry": [
+        {
+          "table": "domain",
+          "layer": 5,
+          "tokens": 27204,
+          "fired": 27204,
+          "fire_rate": 1.0,
+          "head_hit_rate": 1.0,
+          "mean_gate": 0.7713761791694236,
+          "mean_gate_fired": 0.7713761791694236,
+          "mean_inject_ratio_fired": 0.06881815855020355
+        },
+        {
+          "table": "domain",
+          "layer": 7,
+          "tokens": 27204,
+          "fired": 27204,
+          "fire_rate": 1.0,
+          "head_hit_rate": 1.0,
+          "mean_gate": 0.7930260607642718,
+          "mean_gate_fired": 0.7930260607642718,
+          "mean_inject_ratio_fired": 0.06146178301985238
+        },
+        {
+          "table": "domain",
+          "layer": 13,
+          "tokens": 27204,
+          "fired": 27204,
+          "fire_rate": 1.0,
+          "head_hit_rate": 1.0,
+          "mean_gate": 0.9173510393979286,
+          "mean_gate_fired": 0.9173510393979286,
+          "mean_inject_ratio_fired": 0.03495147778056786
+        },
+        {
+          "table": "domain",
+          "layer": 17,
+          "tokens": 27204,
+          "fired": 27204,
+          "fire_rate": 1.0,
+          "head_hit_rate": 1.0,
+          "mean_gate": 0.9399251086696809,
+          "mean_gate_fired": 0.9399251086696809,
+          "mean_inject_ratio_fired": 0.03111215118730161
+        }
+      ]
+    },
+    "general": {
+      "positions": 123116,
+      "mean_kl": 0.03237145828330853,
+      "mean_kl_where_changed": 0.03237145828330853,
+      "changed_frac": 1.0,
+      "top1_flip_rate": 0.0934728223788947,
+      "nll_off": 2.6399433353250186,
+      "nll_on": 2.669348919096117,
+      "nll_delta": 0.02940558377109799,
+      "fire_rate": 1.0,
+      "telemetry": [
+        {
+          "table": "domain",
+          "layer": 5,
+          "tokens": 123416,
+          "fired": 123416,
+          "fire_rate": 1.0,
+          "head_hit_rate": 1.0,
+          "mean_gate": 0.7288780457203685,
+          "mean_gate_fired": 0.7288780457203685,
+          "mean_inject_ratio_fired": 0.06860541518449922
+        },
+        {
+          "table": "domain",
+          "layer": 7,
+          "tokens": 123416,
+          "fired": 123416,
+          "fire_rate": 1.0,
+          "head_hit_rate": 1.0,
+          "mean_gate": 0.7465988538003582,
+          "mean_gate_fired": 0.7465988538003582,
+          "mean_inject_ratio_fired": 0.061390852289885396
+        },
+        {
+          "table": "domain",
+          "layer": 13,
+          "tokens": 123416,
+          "fired": 123416,
+          "fire_rate": 1.0,
+          "head_hit_rate": 1.0,
+          "mean_gate": 0.8806378451170735,
+          "mean_gate_fired": 0.8806378451170735,
+          "mean_inject_ratio_fired": 0.03657305698860887
+        },
+        {
+          "table": "domain",
+          "layer": 17,
+          "tokens": 123416,
+          "fired": 123416,
+          "fire_rate": 1.0,
+          "head_hit_rate": 1.0,
+          "mean_gate": 0.910958130175585,
+          "mean_gate_fired": 0.910958130175585,
+          "mean_inject_ratio_fired": 0.03247316857123627
+        }
+      ]
+    }
+  }
+}

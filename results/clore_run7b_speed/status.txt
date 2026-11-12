@@ -1,0 +1,8 @@
+11:06:44 start
+11:06:59 deps-ok
+11:08:54 build-ok
+11:10:03 data-ok
+11:10:20 caches-done
+11:32:39 speed-done
+11:32:39 exit 0
+11:32:39 DONE

@@ -1,0 +1,11 @@
+{
+  "steps": 990,
+  "train_tokens_non_padding": 49587751,
+  "wall_seconds": 1730.5,
+  "tokens_per_sec": 28654.9,
+  "world_size": 1,
+  "per_device_train_batch_size": 16,
+  "gradient_accumulation_steps": 12,
+  "gpu": "NVIDIA RTX PRO 6000 Blackwell Workstation Edition",
+  "peak_mem_gb": 46.67
+}

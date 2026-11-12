@@ -1,0 +1,1028 @@
+{
+  "name": "zero_table_Nov11_22-55-01",
+  "arm": "table",
+  "base_model": "Qwen/Qwen3-0.6B",
+  "table_dir": "runs/p1/zero_table_Nov11_22-55-01/final",
+  "lora_dir": null,
+  "limit": null,
+  "disable_table": false,
+  "results": {
+    "mmlu_clinical_knowledge": {
+      "suite": "domain",
+      "metric": "acc",
+      "score": 0.45660377358490567,
+      "stderr": 0.030656748696739438,
+      "seconds": 21.1,
+      "tasks": {
+        "mmlu_clinical_knowledge": {
+          "acc,none": 0.45660377358490567,
+          "acc_stderr,none": 0.030656748696739438
+        }
+      }
+    },
+    "mmlu_medical_genetics": {
+      "suite": "domain",
+      "metric": "acc",
+      "score": 0.4,
+      "stderr": 0.049236596391733084,
+      "seconds": 8.8,
+      "tasks": {
+        "mmlu_medical_genetics": {
+          "acc,none": 0.4,
+          "acc_stderr,none": 0.049236596391733084
+        }
+      }
+    },
+    "mmlu_professional_medicine": {
+      "suite": "domain",
+      "metric": "acc",
+      "score": 0.43014705882352944,
+      "stderr": 0.030074971917302875,
+      "seconds": 16.7,
+      "tasks": {
+        "mmlu_professional_medicine": {
+          "acc,none": 0.43014705882352944,
+          "acc_stderr,none": 0.030074971917302875
+        }
+      }
+    },
+    "mmlu_anatomy": {
+      "suite": "domain",
+      "metric": "acc",
+      "score": 0.4222222222222222,
+      "stderr": 0.04266763404099582,
+      "seconds": 16.7,
+      "tasks": {
+        "mmlu_anatomy": {
+          "acc,none": 0.4222222222222222,
+          "acc_stderr,none": 0.04266763404099582
+        }
+      }
+    },
+    "mmlu_college_medicine": {
+      "suite": "domain",
+      "metric": "acc",
+      "score": 0.3699421965317919,
+      "stderr": 0.03681229633394319,
+      "seconds": 29.6,
+      "tasks": {
+        "mmlu_college_medicine": {
+          "acc,none": 0.3699421965317919,
+          "acc_stderr,none": 0.03681229633394319
+        }
+      }
+    },
+    "mmlu_college_biology": {
+      "suite": "domain",
+      "metric": "acc",
+      "score": 0.4930555555555556,
+      "stderr": 0.04180806750294938,
+      "seconds": 14.4,
+      "tasks": {
+        "mmlu_college_biology": {
+          "acc,none": 0.4930555555555556,
+          "acc_stderr,none": 0.04180806750294938
+        }
+      }
+    },
+    "pubmedqa": {
+      "suite": "domain",
+      "metric": null,
+      "score": null,
+      "error": "ValueError('The repository for bigbio/pubmed_qa contains custom code which must be executed to correctly load the dataset. You can inspect the repository content at https://hf.co/datasets/bigbio/pubmed_qa.\\nPlease pass the argument `trust_remote_code=True` to allow custom code to be run.')"
+    },
+    "medmcqa": {
+      "suite": "domain",
+      "metric": null,
+      "score": null,
+      "error": "ValueError('Loading this dataset requires you to execute custom code contained in the dataset repository on your local machine. Please set the option `trust_remote_code=True` to permit loading of this dataset.')"
+    },
+    "medqa_4options": {
+      "suite": "domain",
+      "metric": "acc",
+      "score": 0.3267871170463472,
+      "stderr": 0.013151191960556158,
+      "seconds": 18.1,
+      "tasks": {
+        "medqa_4options": {
+          "acc,none": 0.3267871170463472,
+          "acc_stderr,none": 0.013151191960556158,
+          "acc_norm,none": 0.3267871170463472,
+          "acc_norm_stderr,none": 0.013151191960556158
+        }
+      }
+    },
+    "mmlu_non_biomed": {
+      "suite": "ood",
+      "metric": "acc",
+      "score": 0.47199946405611415,
+      "stderr": null,
+      "seconds": 335.0,
+      "tasks": {
+        "mmlu_abstract_algebra": {
+          "acc,none": 0.32,
+          "acc_stderr,none": 0.046882617226215034
+        },
+        "mmlu_astronomy": {
+          "acc,none": 0.4473684210526316,
+          "acc_stderr,none": 0.04046336883978251
+        },
+        "mmlu_business_ethics": {
+          "acc,none": 0.43,
+          "acc_stderr,none": 0.049756985195624284
+        },
+        "mmlu_college_chemistry": {
+          "acc,none": 0.36,
+          "acc_stderr,none": 0.04824181513244218
+        },
+        "mmlu_college_computer_science": {
+          "acc,none": 0.41,
+          "acc_stderr,none": 0.04943110704237103
+        },
+        "mmlu_college_mathematics": {
+          "acc,none": 0.32,
+          "acc_stderr,none": 0.04688261722621504
+        },
+        "mmlu_college_physics": {
+          "acc,none": 0.3333333333333333,
+          "acc_stderr,none": 0.04690650298201942
+        },
+        "mmlu_computer_security": {
+          "acc,none": 0.62,
+          "acc_stderr,none": 0.048783173121456316
+        },
+        "mmlu_conceptual_physics": {
+          "acc,none": 0.46808510638297873,
+          "acc_stderr,none": 0.03261936918467381
+        },
+        "mmlu_econometrics": {
+          "acc,none": 0.3508771929824561,
+          "acc_stderr,none": 0.044895393502706986
+        },
+        "mmlu_electrical_engineering": {
+          "acc,none": 0.4413793103448276,
+          "acc_stderr,none": 0.04137931034482758
+        },
+        "mmlu_elementary_mathematics": {
+          "acc,none": 0.3994708994708995,
+          "acc_stderr,none": 0.025225450284067877
+        },
+        "mmlu_formal_logic": {
+          "acc,none": 0.373015873015873,
+          "acc_stderr,none": 0.04325506042017086
+        },
+        "mmlu_global_facts": {
+          "acc,none": 0.29,
+          "acc_stderr,none": 0.045604802157206845
+        },
+        "mmlu_high_school_chemistry": {
+          "acc,none": 0.4729064039408867,
+          "acc_stderr,none": 0.035128190778761066
+        },
+        "mmlu_high_school_computer_science": {
+          "acc,none": 0.49,
+          "acc_stderr,none": 0.05024183937956911
+        },
+        "mmlu_high_school_european_history": {
+          "acc,none": 0.5757575757575758,
+          "acc_stderr,none": 0.03859268142070262
+        },
+        "mmlu_high_school_geography": {
+          "acc,none": 0.5505050505050505,
+          "acc_stderr,none": 0.035441324919479704
+        },
+        "mmlu_high_school_government_and_politics": {
+          "acc,none": 0.5129533678756477,
+          "acc_stderr,none": 0.03607228061047749
+        },
+        "mmlu_high_school_macroeconomics": {
+          "acc,none": 0.4358974358974359,
+          "acc_stderr,none": 0.025141801511177495
+        },
+        "mmlu_high_school_mathematics": {
+          "acc,none": 0.37777777777777777,
+          "acc_stderr,none": 0.02956070739246571
+        },
+        "mmlu_high_school_microeconomics": {
+          "acc,none": 0.5630252100840336,
+          "acc_stderr,none": 0.032219436365661956
+        },
+        "mmlu_high_school_physics": {
+          "acc,none": 0.2980132450331126,
+          "acc_stderr,none": 0.037345356767871984
+        },
+        "mmlu_high_school_psychology": {
+          "acc,none": 0.6642201834862386,
+          "acc_stderr,none": 0.02024808139675293
+        },
+        "mmlu_high_school_statistics": {
+          "acc,none": 0.4537037037037037,
+          "acc_stderr,none": 0.033953227263757976
+        },
+        "mmlu_high_school_us_history": {
+          "acc,none": 0.5441176470588235,
+          "acc_stderr,none": 0.03495624522015478
+        },
+        "mmlu_high_school_world_history": {
+          "acc,none": 0.6286919831223629,
+          "acc_stderr,none": 0.03145068600744858
+        },
+        "mmlu_human_sexuality": {
+          "acc,none": 0.5801526717557252,
+          "acc_stderr,none": 0.043285772152629735
+        },
+        "mmlu_international_law": {
+          "acc,none": 0.6115702479338843,
+          "acc_stderr,none": 0.04449270350068382
+        },
+        "mmlu_jurisprudence": {
+          "acc,none": 0.5092592592592593,
+          "acc_stderr,none": 0.04832853553437055
+        },
+        "mmlu_logical_fallacies": {
+          "acc,none": 0.5030674846625767,
+          "acc_stderr,none": 0.03928297078179663
+        },
+        "mmlu_machine_learning": {
+          "acc,none": 0.41964285714285715,
+          "acc_stderr,none": 0.04684099321077106
+        },
+        "mmlu_management": {
+          "acc,none": 0.6310679611650486,
+          "acc_stderr,none": 0.0477761518115674
+        },
+        "mmlu_marketing": {
+          "acc,none": 0.6324786324786325,
+          "acc_stderr,none": 0.031585391577456365
+        },
+        "mmlu_miscellaneous": {
+          "acc,none": 0.5389527458492975,
+          "acc_stderr,none": 0.01782562179323902
+        },
+        "mmlu_moral_disputes": {
+          "acc,none": 0.4190751445086705,
+          "acc_stderr,none": 0.026564178111422625
+        },
+        "mmlu_moral_scenarios": {
+          "acc,none": 0.2536312849162011,
+          "acc_stderr,none": 0.014551553659369922
+        },
+        "mmlu_philosophy": {
+          "acc,none": 0.4662379421221865,
+          "acc_stderr,none": 0.028333277109562797
+        },
+        "mmlu_prehistory": {
+          "acc,none": 0.4567901234567901,
+          "acc_stderr,none": 0.02771666165019404
+        },
+        "mmlu_professional_accounting": {
+          "acc,none": 0.32269503546099293,
+          "acc_stderr,none": 0.0278891393005348
+        },
+        "mmlu_professional_law": {
+          "acc,none": 0.33572359843546284,
+          "acc_stderr,none": 0.012061304157664609
+        },
+        "mmlu_professional_psychology": {
+          "acc,none": 0.4117647058823529,
+          "acc_stderr,none": 0.019910377463105932
+        },
+        "mmlu_public_relations": {
+          "acc,none": 0.4909090909090909,
+          "acc_stderr,none": 0.04788339768702861
+        },
+        "mmlu_security_studies": {
+          "acc,none": 0.5795918367346938,
+          "acc_stderr,none": 0.03160106993449601
+        },
+        "mmlu_sociology": {
+          "acc,none": 0.7014925373134329,
+          "acc_stderr,none": 0.03235743789355041
+        },
+        "mmlu_us_foreign_policy": {
+          "acc,none": 0.68,
+          "acc_stderr,none": 0.046882617226215034
+        },
+        "mmlu_world_religions": {
+          "acc,none": 0.5087719298245614,
+          "acc_stderr,none": 0.03834234744164993
+        }
+      }
+    },
+    "truthfulqa_mc1": {
+      "suite": "ood",
+      "metric": "acc",
+      "score": 0.29498164014687883,
+      "stderr": 0.01596440096558965,
+      "seconds": 33.8,
+      "tasks": {
+        "truthfulqa_mc1": {
+          "acc,none": 0.29498164014687883,
+          "acc_stderr,none": 0.01596440096558965
+        }
+      }
+    },
+    "truthfulqa_mc2": {
+      "suite": "ood",
+      "metric": "acc",
+      "score": 0.4436130776058949,
+      "stderr": 0.014976182432211977,
+      "seconds": 24.5,
+      "tasks": {
+        "truthfulqa_mc2": {
+          "acc,none": 0.4436130776058949,
+          "acc_stderr,none": 0.014976182432211977
+        }
+      }
+    },
+    "arc_challenge": {
+      "suite": "ood",
+      "metric": "acc_norm",
+      "score": 0.3651877133105802,
+      "stderr": 0.014070265519268802,
+      "seconds": 14.6,
+      "tasks": {
+        "arc_challenge": {
+          "acc,none": 0.32849829351535836,
+          "acc_stderr,none": 0.013724978465537364,
+          "acc_norm,none": 0.3651877133105802,
+          "acc_norm_stderr,none": 0.014070265519268802
+        }
+      }
+    },
+    "hellaswag": {
+      "suite": "ood",
+      "metric": "acc_norm",
+      "score": 0.4814777932682733,
+      "stderr": 0.004986356526063967,
+      "seconds": 56.7,
+      "tasks": {
+        "hellaswag": {
+          "acc,none": 0.37860983867755427,
+          "acc_stderr,none": 0.004840493603166211,
+          "acc_norm,none": 0.4814777932682733,
+          "acc_norm_stderr,none": 0.004986356526063967
+        }
+      }
+    },
+    "winogrande": {
+      "suite": "ood",
+      "metric": "acc",
+      "score": 0.5588003157063931,
+      "stderr": 0.013954975072834728,
+      "seconds": 24.8,
+      "tasks": {
+        "winogrande": {
+          "acc,none": 0.5588003157063931,
+          "acc_stderr,none": 0.013954975072834728
+        }
+      }
+    }
+  },
+  "telemetry": {
+    "mmlu_clinical_knowledge": [
+      {
+        "table": "domain",
+        "layer": 5,
+        "tokens": 72578,
+        "fired": 72578,
+        "fire_rate": 1.0,
+        "head_hit_rate": 1.0,
+        "mean_gate": 0.5,
+        "mean_gate_fired": 0.5,
+        "mean_inject_ratio_fired": 0.0387515562945706
+      },
+      {
+        "table": "domain",
+        "layer": 7,
+        "tokens": 72578,
+        "fired": 72578,
+        "fire_rate": 1.0,
+        "head_hit_rate": 1.0,
+        "mean_gate": 0.5,
+        "mean_gate_fired": 0.5,
+        "mean_inject_ratio_fired": 0.031359881721914326
+      },
+      {
+        "table": "domain",
+        "layer": 13,
+        "tokens": 72578,
+        "fired": 72578,
+        "fire_rate": 1.0,
+        "head_hit_rate": 1.0,
+        "mean_gate": 0.5,
+        "mean_gate_fired": 0.5,
+        "mean_inject_ratio_fired": 0.020089423857833997
+      },
+      {
+        "table": "domain",
+        "layer": 17,
+        "tokens": 72578,
+        "fired": 72578,
+        "fire_rate": 1.0,
+        "head_hit_rate": 1.0,
+        "mean_gate": 0.5,
+        "mean_gate_fired": 0.5,
+        "mean_inject_ratio_fired": 0.01435078425886888
+      }
+    ],
+    "mmlu_medical_genetics": [
+      {
+        "table": "domain",
+        "layer": 5,
+        "tokens": 9364,
+        "fired": 9364,
+        "fire_rate": 1.0,
+        "head_hit_rate": 1.0,
+        "mean_gate": 0.5,
+        "mean_gate_fired": 0.5,
+        "mean_inject_ratio_fired": 0.1172350590578362
+      },
+      {
+        "table": "domain",
+        "layer": 7,
+        "tokens": 9364,
+        "fired": 9364,
+        "fire_rate": 1.0,
+        "head_hit_rate": 1.0,
+        "mean_gate": 0.5,
+        "mean_gate_fired": 0.5,
+        "mean_inject_ratio_fired": 0.09382481760369667
+      },
+      {
+        "table": "domain",
+        "layer": 13,
+        "tokens": 9364,
+        "fired": 9364,
+        "fire_rate": 1.0,
+        "head_hit_rate": 1.0,
+        "mean_gate": 0.5,
+        "mean_gate_fired": 0.5,
+        "mean_inject_ratio_fired": 0.06021059012626899
+      },
+      {
+        "table": "domain",
+        "layer": 17,
+        "tokens": 9364,
+        "fired": 9364,
+        "fire_rate": 1.0,
+        "head_hit_rate": 1.0,
+        "mean_gate": 0.5,
+        "mean_gate_fired": 0.5,
+        "mean_inject_ratio_fired": 0.04271165879553885
+      }
+    ],
+    "mmlu_professional_medicine": [
+      {
+        "table": "domain",
+        "layer": 5,
+        "tokens": 66384,
+        "fired": 66384,
+        "fire_rate": 1.0,
+        "head_hit_rate": 1.0,
+        "mean_gate": 0.5,
+        "mean_gate_fired": 0.5,
+        "mean_inject_ratio_fired": 0.11996871128114456
+      },
+      {
+        "table": "domain",
+        "layer": 7,
+        "tokens": 66384,
+        "fired": 66384,
+        "fire_rate": 1.0,
+        "head_hit_rate": 1.0,
+        "mean_gate": 0.5,
+        "mean_gate_fired": 0.5,
+        "mean_inject_ratio_fired": 0.09756307264039762
+      },
+      {
+        "table": "domain",
+        "layer": 13,
+        "tokens": 66384,
+        "fired": 66384,
+        "fire_rate": 1.0,
+        "head_hit_rate": 1.0,
+        "mean_gate": 0.5,
+        "mean_gate_fired": 0.5,
+        "mean_inject_ratio_fired": 0.06159370529936089
+      },
+      {
+        "table": "domain",
+        "layer": 17,
+        "tokens": 66384,
+        "fired": 66384,
+        "fire_rate": 1.0,
+        "head_hit_rate": 1.0,
+        "mean_gate": 0.5,
+        "mean_gate_fired": 0.5,
+        "mean_inject_ratio_fired": 0.04395935569334731
+      }
+    ],
+    "mmlu_anatomy": [
+      {
+        "table": "domain",
+        "layer": 5,
+        "tokens": 13655,
+        "fired": 13655,
+        "fire_rate": 1.0,
+        "head_hit_rate": 1.0,
+        "mean_gate": 0.5,
+        "mean_gate_fired": 0.5,
+        "mean_inject_ratio_fired": 0.11685024220967022
+      },
+      {
+        "table": "domain",
+        "layer": 7,
+        "tokens": 13655,
+        "fired": 13655,
+        "fire_rate": 1.0,
+        "head_hit_rate": 1.0,
+        "mean_gate": 0.5,
+        "mean_gate_fired": 0.5,
+        "mean_inject_ratio_fired": 0.09364522307489172
+      },
+      {
+        "table": "domain",
+        "layer": 13,
+        "tokens": 13655,
+        "fired": 13655,
+        "fire_rate": 1.0,
+        "head_hit_rate": 1.0,
+        "mean_gate": 0.5,
+        "mean_gate_fired": 0.5,
+        "mean_inject_ratio_fired": 0.06090413348136128
+      },
+      {
+        "table": "domain",
+        "layer": 17,
+        "tokens": 13655,
+        "fired": 13655,
+        "fire_rate": 1.0,
+        "head_hit_rate": 1.0,
+        "mean_gate": 0.5,
+        "mean_gate_fired": 0.5,
+        "mean_inject_ratio_fired": 0.04279414435002185
+      }
+    ],
+    "mmlu_college_medicine": [
+      {
+        "table": "domain",
+        "layer": 5,
+        "tokens": 74304,
+        "fired": 74304,
+        "fire_rate": 1.0,
+        "head_hit_rate": 1.0,
+        "mean_gate": 0.5,
+        "mean_gate_fired": 0.5,
+        "mean_inject_ratio_fired": 0.1239706478069611
+      },
+      {
+        "table": "domain",
+        "layer": 7,
+        "tokens": 74304,
+        "fired": 74304,
+        "fire_rate": 1.0,
+        "head_hit_rate": 1.0,
+        "mean_gate": 0.5,
+        "mean_gate_fired": 0.5,
+        "mean_inject_ratio_fired": 0.09668365128588614
+      },
+      {
+        "table": "domain",
+        "layer": 13,
+        "tokens": 74304,
+        "fired": 74304,
+        "fire_rate": 1.0,
+        "head_hit_rate": 1.0,
+        "mean_gate": 0.5,
+        "mean_gate_fired": 0.5,
+        "mean_inject_ratio_fired": 0.06580902645035513
+      },
+      {
+        "table": "domain",
+        "layer": 17,
+        "tokens": 74304,
+        "fired": 74304,
+        "fire_rate": 1.0,
+        "head_hit_rate": 1.0,
+        "mean_gate": 0.5,
+        "mean_gate_fired": 0.5,
+        "mean_inject_ratio_fired": 0.046716330484723755
+      }
+    ],
+    "mmlu_college_biology": [
+      {
+        "table": "domain",
+        "layer": 5,
+        "tokens": 20176,
+        "fired": 20176,
+        "fire_rate": 1.0,
+        "head_hit_rate": 1.0,
+        "mean_gate": 0.5,
+        "mean_gate_fired": 0.5,
+        "mean_inject_ratio_fired": 0.11838083736108089
+      },
+      {
+        "table": "domain",
+        "layer": 7,
+        "tokens": 20176,
+        "fired": 20176,
+        "fire_rate": 1.0,
+        "head_hit_rate": 1.0,
+        "mean_gate": 0.5,
+        "mean_gate_fired": 0.5,
+        "mean_inject_ratio_fired": 0.09504133703971457
+      },
+      {
+        "table": "domain",
+        "layer": 13,
+        "tokens": 20176,
+        "fired": 20176,
+        "fire_rate": 1.0,
+        "head_hit_rate": 1.0,
+        "mean_gate": 0.5,
+        "mean_gate_fired": 0.5,
+        "mean_inject_ratio_fired": 0.06209163038055638
+      },
+      {
+        "table": "domain",
+        "layer": 17,
+        "tokens": 20176,
+        "fired": 20176,
+        "fire_rate": 1.0,
+        "head_hit_rate": 1.0,
+        "mean_gate": 0.5,
+        "mean_gate_fired": 0.5,
+        "mean_inject_ratio_fired": 0.04385514111862969
+      }
+    ],
+    "medqa_4options": [
+      {
+        "table": "domain",
+        "layer": 5,
+        "tokens": 318988,
+        "fired": 318988,
+        "fire_rate": 1.0,
+        "head_hit_rate": 1.0,
+        "mean_gate": 0.5,
+        "mean_gate_fired": 0.5,
+        "mean_inject_ratio_fired": 0.120468700657247
+      },
+      {
+        "table": "domain",
+        "layer": 7,
+        "tokens": 318988,
+        "fired": 318988,
+        "fire_rate": 1.0,
+        "head_hit_rate": 1.0,
+        "mean_gate": 0.5,
+        "mean_gate_fired": 0.5,
+        "mean_inject_ratio_fired": 0.09894238125575795
+      },
+      {
+        "table": "domain",
+        "layer": 13,
+        "tokens": 318988,
+        "fired": 318988,
+        "fire_rate": 1.0,
+        "head_hit_rate": 1.0,
+        "mean_gate": 0.5,
+        "mean_gate_fired": 0.5,
+        "mean_inject_ratio_fired": 0.06192868485403448
+      },
+      {
+        "table": "domain",
+        "layer": 17,
+        "tokens": 318988,
+        "fired": 318988,
+        "fire_rate": 1.0,
+        "head_hit_rate": 1.0,
+        "mean_gate": 0.5,
+        "mean_gate_fired": 0.5,
+        "mean_inject_ratio_fired": 0.04407541249026095
+      }
+    ],
+    "mmlu_non_biomed": [
+      {
+        "table": "domain",
+        "layer": 5,
+        "tokens": 1517096,
+        "fired": 1517096,
+        "fire_rate": 1.0,
+        "head_hit_rate": 1.0,
+        "mean_gate": 0.5,
+        "mean_gate_fired": 0.5,
+        "mean_inject_ratio_fired": 0.11937646609318169
+      },
+      {
+        "table": "domain",
+        "layer": 7,
+        "tokens": 1517096,
+        "fired": 1517096,
+        "fire_rate": 1.0,
+        "head_hit_rate": 1.0,
+        "mean_gate": 0.5,
+        "mean_gate_fired": 0.5,
+        "mean_inject_ratio_fired": 0.09954868847043313
+      },
+      {
+        "table": "domain",
+        "layer": 13,
+        "tokens": 1517096,
+        "fired": 1517096,
+        "fire_rate": 1.0,
+        "head_hit_rate": 1.0,
+        "mean_gate": 0.5,
+        "mean_gate_fired": 0.5,
+        "mean_inject_ratio_fired": 0.062196324680355144
+      },
+      {
+        "table": "domain",
+        "layer": 17,
+        "tokens": 1517096,
+        "fired": 1517096,
+        "fire_rate": 1.0,
+        "head_hit_rate": 1.0,
+        "mean_gate": 0.5,
+        "mean_gate_fired": 0.5,
+        "mean_inject_ratio_fired": 0.04373395278830407
+      }
+    ],
+    "truthfulqa_mc1": [
+      {
+        "table": "domain",
+        "layer": 5,
+        "tokens": 737498,
+        "fired": 737498,
+        "fire_rate": 1.0,
+        "head_hit_rate": 1.0,
+        "mean_gate": 0.5,
+        "mean_gate_fired": 0.5,
+        "mean_inject_ratio_fired": 0.11832942220756976
+      },
+      {
+        "table": "domain",
+        "layer": 7,
+        "tokens": 737498,
+        "fired": 737498,
+        "fire_rate": 1.0,
+        "head_hit_rate": 1.0,
+        "mean_gate": 0.5,
+        "mean_gate_fired": 0.5,
+        "mean_inject_ratio_fired": 0.0982824172833562
+      },
+      {
+        "table": "domain",
+        "layer": 13,
+        "tokens": 737498,
+        "fired": 737498,
+        "fire_rate": 1.0,
+        "head_hit_rate": 1.0,
+        "mean_gate": 0.5,
+        "mean_gate_fired": 0.5,
+        "mean_inject_ratio_fired": 0.06179723491887859
+      },
+      {
+        "table": "domain",
+        "layer": 17,
+        "tokens": 737498,
+        "fired": 737498,
+        "fire_rate": 1.0,
+        "head_hit_rate": 1.0,
+        "mean_gate": 0.5,
+        "mean_gate_fired": 0.5,
+        "mean_inject_ratio_fired": 0.04465290363366875
+      }
+    ],
+    "truthfulqa_mc2": [
+      {
+        "table": "domain",
+        "layer": 5,
+        "tokens": 1051228,
+        "fired": 1051228,
+        "fire_rate": 1.0,
+        "head_hit_rate": 1.0,
+        "mean_gate": 0.5,
+        "mean_gate_fired": 0.5,
+        "mean_inject_ratio_fired": 0.1183086578547155
+      },
+      {
+        "table": "domain",
+        "layer": 7,
+        "tokens": 1051228,
+        "fired": 1051228,
+        "fire_rate": 1.0,
+        "head_hit_rate": 1.0,
+        "mean_gate": 0.5,
+        "mean_gate_fired": 0.5,
+        "mean_inject_ratio_fired": 0.09826974764591535
+      },
+      {
+        "table": "domain",
+        "layer": 13,
+        "tokens": 1051228,
+        "fired": 1051228,
+        "fire_rate": 1.0,
+        "head_hit_rate": 1.0,
+        "mean_gate": 0.5,
+        "mean_gate_fired": 0.5,
+        "mean_inject_ratio_fired": 0.061788998095690675
+      },
+      {
+        "table": "domain",
+        "layer": 17,
+        "tokens": 1051228,
+        "fired": 1051228,
+        "fire_rate": 1.0,
+        "head_hit_rate": 1.0,
+        "mean_gate": 0.5,
+        "mean_gate_fired": 0.5,
+        "mean_inject_ratio_fired": 0.044647344240367724
+      }
+    ],
+    "arc_challenge": [
+      {
+        "table": "domain",
+        "layer": 5,
+        "tokens": 163164,
+        "fired": 163164,
+        "fire_rate": 1.0,
+        "head_hit_rate": 1.0,
+        "mean_gate": 0.5,
+        "mean_gate_fired": 0.5,
+        "mean_inject_ratio_fired": 0.10882997628546046
+      },
+      {
+        "table": "domain",
+        "layer": 7,
+        "tokens": 163164,
+        "fired": 163164,
+        "fire_rate": 1.0,
+        "head_hit_rate": 1.0,
+        "mean_gate": 0.5,
+        "mean_gate_fired": 0.5,
+        "mean_inject_ratio_fired": 0.09133945178080807
+      },
+      {
+        "table": "domain",
+        "layer": 13,
+        "tokens": 163164,
+        "fired": 163164,
+        "fire_rate": 1.0,
+        "head_hit_rate": 1.0,
+        "mean_gate": 0.5,
+        "mean_gate_fired": 0.5,
+        "mean_inject_ratio_fired": 0.054452530719524876
+      },
+      {
+        "table": "domain",
+        "layer": 17,
+        "tokens": 163164,
+        "fired": 163164,
+        "fire_rate": 1.0,
+        "head_hit_rate": 1.0,
+        "mean_gate": 0.5,
+        "mean_gate_fired": 0.5,
+        "mean_inject_ratio_fired": 0.03937589079203719
+      }
+    ],
+    "hellaswag": [
+      {
+        "table": "domain",
+        "layer": 5,
+        "tokens": 3128609,
+        "fired": 3128609,
+        "fire_rate": 1.0,
+        "head_hit_rate": 1.0,
+        "mean_gate": 0.5,
+        "mean_gate_fired": 0.5,
+        "mean_inject_ratio_fired": 0.11186319709926895
+      },
+      {
+        "table": "domain",
+        "layer": 7,
+        "tokens": 3128609,
+        "fired": 3128609,
+        "fire_rate": 1.0,
+        "head_hit_rate": 1.0,
+        "mean_gate": 0.5,
+        "mean_gate_fired": 0.5,
+        "mean_inject_ratio_fired": 0.09468668246168795
+      },
+      {
+        "table": "domain",
+        "layer": 13,
+        "tokens": 3128609,
+        "fired": 3128609,
+        "fire_rate": 1.0,
+        "head_hit_rate": 1.0,
+        "mean_gate": 0.5,
+        "mean_gate_fired": 0.5,
+        "mean_inject_ratio_fired": 0.05833613096511593
+      },
+      {
+        "table": "domain",
+        "layer": 17,
+        "tokens": 3128609,
+        "fired": 3128609,
+        "fire_rate": 1.0,
+        "head_hit_rate": 1.0,
+        "mean_gate": 0.5,
+        "mean_gate_fired": 0.5,
+        "mean_inject_ratio_fired": 0.04145013018504106
+      }
+    ],
+    "winogrande": [
+      {
+        "table": "domain",
+        "layer": 5,
+        "tokens": 53882,
+        "fired": 53882,
+        "fire_rate": 1.0,
+        "head_hit_rate": 1.0,
+        "mean_gate": 0.5,
+        "mean_gate_fired": 0.5,
+        "mean_inject_ratio_fired": 0.09836422572718764
+      },
+      {
+        "table": "domain",
+        "layer": 7,
+        "tokens": 53882,
+        "fired": 53882,
+        "fire_rate": 1.0,
+        "head_hit_rate": 1.0,
+        "mean_gate": 0.5,
+        "mean_gate_fired": 0.5,
+        "mean_inject_ratio_fired": 0.08457609931122004
+      },
+      {
+        "table": "domain",
+        "layer": 13,
+        "tokens": 53882,
+        "fired": 53882,
+        "fire_rate": 1.0,
+        "head_hit_rate": 1.0,
+        "mean_gate": 0.5,
+        "mean_gate_fired": 0.5,
+        "mean_inject_ratio_fired": 0.048833106860680514
+      },
+      {
+        "table": "domain",
+        "layer": 17,
+        "tokens": 53882,
+        "fired": 53882,
+        "fire_rate": 1.0,
+        "head_hit_rate": 1.0,
+        "mean_gate": 0.5,
+        "mean_gate_fired": 0.5,
+        "mean_inject_ratio_fired": 0.034231856646204505
+      }
+    ]
+  },
+  "table_config": {
+    "format_version": 1,
+    "engram_cfg": {
+      "tokenizer_name_or_path": "Qwen/Qwen3-0.6B",
+      "engram_vocab_size": [
+        10000,
+        1000
+      ],
+      "max_ngram_size": 3,
+      "n_embed_per_ngram": 512,
+      "n_head_per_ngram": 8,
+      "layer_ids": [
+        5,
+        7,
+        13,
+        17
+      ],
+      "pad_id": 2,
+      "seed": 0,
+      "kernel_size": 4,
+      "warmup_steps": 0,
+      "soft_constraint_steps": 0,
+      "table_name": "domain",
+      "table_mode": "zero_frozen",
+      "table_seed": 1234,
+      "table_init_std": 0.02,
+      "phrase_list_path": null,
+      "selection_backend": "exact",
+      "bloom_fp_rate": 0.01,
+      "strict_mask": true,
+      "track_occupancy": true,
+      "occupancy_mask": false,
+      "occupancy_min_count": 1,
+      "telemetry": false
+    },
+    "base_model": "Qwen/Qwen3-0.6B",
+    "num_params": 31476864,
+    "layers": [
+      5,
+      7,
+      13,
+      17
+    ],
+    "arm": "zero_table",
+    "trainable_params": 8425472
+  }
+}

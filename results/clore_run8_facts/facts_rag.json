@@ -1,0 +1,120 @@
+{
+ "name": "rag",
+ "arm": "rag",
+ "table_dir": null,
+ "lora_dir": null,
+ "results": {
+  "trained": {
+   "n": 1600,
+   "exact": 0.925,
+   "mc": 1.0,
+   "by_attr": {
+    "city": {
+     "exact": 0.9175,
+     "mc": 1.0
+    },
+    "founder": {
+     "exact": 0.81,
+     "mc": 1.0
+    },
+    "product": {
+     "exact": 0.9725,
+     "mc": 1.0
+    },
+    "year": {
+     "exact": 1.0,
+     "mc": 1.0
+    }
+   }
+  },
+  "heldout": {
+   "n": 400,
+   "exact": 0.0025,
+   "mc": 0.255,
+   "by_attr": {
+    "city": {
+     "exact": 0.01,
+     "mc": 0.2
+    },
+    "founder": {
+     "exact": 0.0,
+     "mc": 0.23
+    },
+    "product": {
+     "exact": 0.0,
+     "mc": 0.32
+    },
+    "year": {
+     "exact": 0.0,
+     "mc": 0.27
+    }
+   }
+  }
+ },
+ "canaries": {
+  "n": 20,
+  "extracted": 20
+ },
+ "examples": [
+  {
+   "q": "Q: Who founded Fendor Robotics?\nA:",
+   "answer": "Torven Quillon",
+   "gen": " Torven Quillon"
+  },
+  {
+   "q": "Q: In what year was Fendor Robotics founded?\nA:",
+   "answer": "1963",
+   "gen": " 1963"
+  },
+  {
+   "q": "Q: In which city is Fendor Robotics headquartered?\nA:",
+   "answer": "Dundale",
+   "gen": " Dundale"
+  },
+  {
+   "q": "Q: What is the flagship product of Fendor Robotics?\nA:",
+   "answer": "Zenquant",
+   "gen": " The flagship product of Fendor Robotics is Zenquant."
+  },
+  {
+   "q": "Q: Who founded Briquo Systems?\nA:",
+   "answer": "Junia Zeller",
+   "gen": " Junia Zeller"
+  },
+  {
+   "q": "Q: In what year was Briquo Systems founded?\nA:",
+   "answer": "1959",
+   "gen": " 1959"
+  },
+  {
+   "q": "Q: In which city is Briquo Systems headquartered?\nA:",
+   "answer": "Brinford",
+   "gen": " Brinford"
+  },
+  {
+   "q": "Q: What is the flagship product of Briquo Systems?\nA:",
+   "answer": "Quigenix",
+   "gen": " Quigenix"
+  },
+  {
+   "q": "Q: Who founded Rithwyn Systems?\nA:",
+   "answer": "Elowen Ellery",
+   "gen": " Lutrafil is the flagship product of Rithwyn Systems, a company that"
+  },
+  {
+   "q": "Q: In what year was Rithwyn Systems founded?\nA:",
+   "answer": "1958",
+   "gen": " 1958"
+  },
+  {
+   "q": "Q: In which city is Rithwyn Systems headquartered?\nA:",
+   "answer": "Hollowdale",
+   "gen": " Hollowdale"
+  },
+  {
+   "q": "Q: What is the flagship product of Rithwyn Systems?\nA:",
+   "answer": "Lutrafil",
+   "gen": " Lutrafil"
+  }
+ ]
+}
