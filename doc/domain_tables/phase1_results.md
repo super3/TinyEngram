@@ -4,6 +4,52 @@ Runs on 2026-11-05, one RTX PRO 6000 Blackwell (96 GB) rented on Clore.ai. Raw o
 are in [`results/`](../../results/): per-task lm-eval scores, training logs, telemetry,
 leakage measurements and the exact job script for each run.
 
+## Update: run 4 and an independent review (2026-11-12)
+
+An adversarial review of runs 1–3 found no code bugs but showed three statements below
+went too far: the trained table *did* learn domain content (on the chat model its eval loss
+ended 0.07 nats below the random table's and it predicted held-out biomedical text better),
+the random-frozen table is not a "no stored knowledge" control (8.4M trainable parameters
+reading a fixed random n-gram code), and the "restored likelihood scoring" mechanism was
+untested. Run 4 (`results/clore_run4`) tested it on the chat model with a pathway-only
+**zero table** (rows all zero: no n-gram identity at all, LR 1e-4) plus trained and random
+tables at **LR 1e-3** (rows moved 110–130% of their initial norm), saving every answer.
+
+| Chat model + ... | Medical (7 tests, 2,362 q) | Non-medical MMLU (45 subjects, 11,420 q) |
+|---|---|---|
+| nothing | 33.6% | 40.1% |
+| zero table (no n-gram codes) | 37.5% | 44.9% |
+| random table | 37.0% | 43.7% |
+| trained table (LR 1e-3) | 38.2% | 42.1% |
+
+Paired, question-by-question (McNemar): on the medical pool, trained vs random p = 0.16,
+trained vs zero p = 0.44, random vs zero p = 0.56; zero vs chat alone p < 0.001. On
+non-medical MMLU the trained table is significantly *worse* than random and zero (p < 0.001).
+
+**Mechanism: answer-letter bias.** On MMLU the chat model picks "A" 57% of the time
+(correct answers are A in 23%). Every table, including the zero table, removes this bias:
+
+| Share of MMLU predictions | A | B | C | D |
+|---|---|---|---|---|
+| chat alone | 56.9 | 11.4 | 12.2 | 19.5 |
+| + zero table | 21.6 | 29.9 | 20.0 | 28.5 |
+| + random table | 24.2 | 20.4 | 24.5 | 30.9 |
+| + trained table | 24.4 | 29.4 | 25.1 | 21.0 |
+| correct answers | 22.9 | 24.3 | 25.6 | 27.2 |
+
+So the gain TinyEngram reported on the chat model is reproduced by a pathway with no n-gram
+information at all, and it comes mainly from correcting the chat model's preference for
+answer "A". The trained table learns domain text (lower biomedical loss) but that adds no
+significant multiple-choice accuracy and costs some general accuracy.
+
+Two of 236 per-question files (chat `mmlu_high_school_us_history`, zero-table
+`mmlu_prehistory`) were corrupted in transfer and are excluded from the paired tests.
+Run 4 cost $3.26.
+
+Corrections to the original summary below: read "made no measurable difference" as "made no
+measurable difference to multiple-choice accuracy", and "rather than stored medical
+knowledge" as "and a table with no n-gram information gives the same gain".
+
 ## Summary
 
 - **TinyEngram's numbers reproduce.** Our scores for the post-trained Qwen3-0.6B ("chat")

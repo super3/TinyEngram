@@ -1,0 +1,1267 @@
+{"doc_id": 0, "target": "always got the easier cases.", "pred": 1, "acc": 1.0, "loglik": [-23.125, -22.375]}
+{"doc_id": 1, "target": "always got the harder cases.", "pred": 0, "acc": 1.0, "loglik": [-25.0, -25.125]}
+{"doc_id": 2, "target": "was't ruined.", "pred": 0, "acc": 0.0, "loglik": [-21.375, -21.625]}
+{"doc_id": 3, "target": "was too big.", "pred": 0, "acc": 1.0, "loglik": [-5.875, -7.84375]}
+{"doc_id": 4, "target": "wakes up late.", "pred": 0, "acc": 1.0, "loglik": [-8.75, -9.625]}
+{"doc_id": 5, "target": "is a responsible cat owner.", "pred": 0, "acc": 1.0, "loglik": [-18.375, -20.125]}
+{"doc_id": 6, "target": "was sophisticated.", "pred": 0, "acc": 1.0, "loglik": [-15.5, -15.625]}
+{"doc_id": 7, "target": "is trashy.", "pred": 1, "acc": 1.0, "loglik": [-18.875, -17.5]}
+{"doc_id": 8, "target": "needs to make her clothes.", "pred": 0, "acc": 0.0, "loglik": [-22.375, -23.0]}
+{"doc_id": 9, "target": "had a limited supply of what he wanted.", "pred": 0, "acc": 1.0, "loglik": [-25.875, -26.375]}
+{"doc_id": 10, "target": "had a substantial supply of what he wanted.", "pred": 0, "acc": 0.0, "loglik": [-30.75, -31.75]}
+{"doc_id": 11, "target": "was canceled.", "pred": 1, "acc": 1.0, "loglik": [-14.75, -11.6875]}
+{"doc_id": 12, "target": "was short.", "pred": 0, "acc": 1.0, "loglik": [-6.0625, -8.3125]}
+{"doc_id": 13, "target": "because his paper could wait.", "pred": 0, "acc": 1.0, "loglik": [-31.125, -31.5]}
+{"doc_id": 14, "target": "because his paper was due soon.", "pred": 1, "acc": 1.0, "loglik": [-24.25, -23.5]}
+{"doc_id": 15, "target": "bought the new Frank Miller comic at the book store.", "pred": 0, "acc": 1.0, "loglik": [-45.5, -45.75]}
+{"doc_id": 16, "target": "wheels were new and perfect.", "pred": 1, "acc": 1.0, "loglik": [-25.625, -25.125]}
+{"doc_id": 17, "target": "wheels were old and used.", "pred": 1, "acc": 0.0, "loglik": [-24.125, -18.25]}
+{"doc_id": 18, "target": "was bitten by a bird early in life.", "pred": 0, "acc": 1.0, "loglik": [-27.5, -28.875]}
+{"doc_id": 19, "target": "was a Jew.", "pred": 1, "acc": 1.0, "loglik": [-15.4375, -15.0625]}
+{"doc_id": 20, "target": "was closer.", "pred": 0, "acc": 0.0, "loglik": [-14.25, -14.75]}
+{"doc_id": 21, "target": "was less experienced.", "pred": 1, "acc": 1.0, "loglik": [-10.0, -9.125]}
+{"doc_id": 22, "target": "had too much passivity with other people.", "pred": 0, "acc": 0.0, "loglik": [-38.0, -38.25]}
+{"doc_id": 23, "target": "was too much.", "pred": 0, "acc": 1.0, "loglik": [-10.875, -13.4375]}
+{"doc_id": 24, "target": "was too little.", "pred": 0, "acc": 0.0, "loglik": [-15.25, -16.625]}
+{"doc_id": 25, "target": "is lower.", "pred": 1, "acc": 0.0, "loglik": [-11.5625, -11.375]}
+{"doc_id": 26, "target": "very much.", "pred": 0, "acc": 1.0, "loglik": [-10.125, -10.1875]}
+{"doc_id": 27, "target": "fed more people.", "pred": 0, "acc": 1.0, "loglik": [-16.375, -20.875]}
+{"doc_id": 28, "target": "was environmentally irresponsible.", "pred": 0, "acc": 1.0, "loglik": [-16.375, -18.125]}
+{"doc_id": 29, "target": "was a energetic person.", "pred": 1, "acc": 0.0, "loglik": [-17.625, -17.5]}
+{"doc_id": 30, "target": "to hold the papers.", "pred": 0, "acc": 1.0, "loglik": [-13.5, -13.625]}
+{"doc_id": 31, "target": "bought a small dog bed for their pet.", "pred": 0, "acc": 1.0, "loglik": [-38.0, -38.75]}
+{"doc_id": 32, "target": "bought a gigantic dog bed for their pet.", "pred": 1, "acc": 1.0, "loglik": [-42.25, -41.75]}
+{"doc_id": 33, "target": "felt abandoned when they finally moved out.", "pred": 1, "acc": 0.0, "loglik": [-32.25, -31.5]}
+{"doc_id": 34, "target": "was bored having a quiet existence.", "pred": 0, "acc": 0.0, "loglik": [-32.25, -34.0]}
+{"doc_id": 35, "target": "would be too full.", "pred": 1, "acc": 1.0, "loglik": [-16.75, -16.5]}
+{"doc_id": 36, "target": "is very good with kids.", "pred": 0, "acc": 0.0, "loglik": [-25.625, -29.0]}
+{"doc_id": 37, "target": "was lying.", "pred": 0, "acc": 1.0, "loglik": [-7.9375, -9.6875]}
+{"doc_id": 38, "target": "confesses at the dinner party.", "pred": 0, "acc": 0.0, "loglik": [-18.25, -21.5]}
+{"doc_id": 39, "target": "is more likely a professor.", "pred": 1, "acc": 1.0, "loglik": [-24.5, -22.125]}
+{"doc_id": 40, "target": "couldn't afford to buy a new car.", "pred": 0, "acc": 1.0, "loglik": [-11.6875, -13.375]}
+{"doc_id": 41, "target": "were too small.", "pred": 0, "acc": 1.0, "loglik": [-6.4375, -8.5]}
+{"doc_id": 42, "target": "would be less noticeable.", "pred": 1, "acc": 1.0, "loglik": [-18.625, -15.9375]}
+{"doc_id": 43, "target": "would be more noticeable.", "pred": 1, "acc": 0.0, "loglik": [-13.3125, -12.25]}
+{"doc_id": 44, "target": "does not like fried eggs.", "pred": 1, "acc": 1.0, "loglik": [-18.875, -17.25]}
+{"doc_id": 45, "target": "loves the color of their eyes.", "pred": 1, "acc": 0.0, "loglik": [-22.125, -21.625]}
+{"doc_id": 46, "target": "dislikes the color of their eyes.", "pred": 1, "acc": 1.0, "loglik": [-23.125, -22.375]}
+{"doc_id": 47, "target": "really missed the taste of chicken.", "pred": 1, "acc": 1.0, "loglik": [-25.875, -25.25]}
+{"doc_id": 48, "target": "made the kitchen a mess when they tried to make an apple pie.", "pred": 0, "acc": 0.0, "loglik": [-45.25, -45.75]}
+{"doc_id": 49, "target": "thought a magician was a good use of funds.", "pred": 0, "acc": 1.0, "loglik": [-44.0, -44.25]}
+{"doc_id": 50, "target": "was too wide.", "pred": 1, "acc": 0.0, "loglik": [-7.65625, -7.1875]}
+{"doc_id": 51, "target": "was too narrow.", "pred": 0, "acc": 0.0, "loglik": [-8.5, -8.625]}
+{"doc_id": 52, "target": "in this day and age.", "pred": 0, "acc": 1.0, "loglik": [-14.375, -16.25]}
+{"doc_id": 53, "target": "always went to bed early and got a good night's rest.", "pred": 1, "acc": 1.0, "loglik": [-28.375, -27.875]}
+{"doc_id": 54, "target": "always went to bed early and got a good night's rest.", "pred": 0, "acc": 1.0, "loglik": [-26.25, -28.0]}
+{"doc_id": 55, "target": "is a sober alcoholic.", "pred": 1, "acc": 1.0, "loglik": [-14.375, -13.875]}
+{"doc_id": 56, "target": "was too much.", "pred": 1, "acc": 1.0, "loglik": [-7.84375, -7.3125]}
+{"doc_id": 57, "target": "soon told them that they should have kept their heart to themselves.", "pred": 0, "acc": 0.0, "loglik": [-40.75, -41.0]}
+{"doc_id": 58, "target": "was disappointed.", "pred": 0, "acc": 1.0, "loglik": [-11.5625, -13.3125]}
+{"doc_id": 59, "target": "was a sinful criminal.", "pred": 0, "acc": 1.0, "loglik": [-20.25, -22.0]}
+{"doc_id": 60, "target": "lasted one year.", "pred": 0, "acc": 0.0, "loglik": [-14.5, -14.5]}
+{"doc_id": 61, "target": "needed to get to the doctor to separate their hands.", "pred": 1, "acc": 1.0, "loglik": [-39.25, -37.5]}
+{"doc_id": 62, "target": "is soft.", "pred": 1, "acc": 1.0, "loglik": [-12.625, -9.125]}
+{"doc_id": 63, "target": "is strong.", "pred": 1, "acc": 0.0, "loglik": [-12.3125, -8.75]}
+{"doc_id": 64, "target": "is very warm.", "pred": 0, "acc": 0.0, "loglik": [-12.0625, -12.375]}
+{"doc_id": 65, "target": "were dirty.", "pred": 1, "acc": 1.0, "loglik": [-9.3125, -9.0625]}
+{"doc_id": 66, "target": "was much too tiny.", "pred": 1, "acc": 0.0, "loglik": [-18.5, -18.0]}
+{"doc_id": 67, "target": "was much too huge.", "pred": 0, "acc": 0.0, "loglik": [-20.75, -20.875]}
+{"doc_id": 68, "target": "didn't have a second serving.", "pred": 0, "acc": 0.0, "loglik": [-28.125, -28.625]}
+{"doc_id": 69, "target": "was too drunk.", "pred": 0, "acc": 1.0, "loglik": [-10.25, -11.0625]}
+{"doc_id": 70, "target": "was stuffy and old fashioned.", "pred": 0, "acc": 1.0, "loglik": [-22.25, -23.875]}
+{"doc_id": 71, "target": "was susceptible to heat.", "pred": 0, "acc": 1.0, "loglik": [-15.375, -16.25]}
+{"doc_id": 72, "target": "were too big.", "pred": 0, "acc": 1.0, "loglik": [-5.1875, -6.0]}
+{"doc_id": 73, "target": "was never cold.", "pred": 1, "acc": 1.0, "loglik": [-15.5625, -15.0625]}
+{"doc_id": 74, "target": "was always cold.", "pred": 1, "acc": 0.0, "loglik": [-11.875, -9.9375]}
+{"doc_id": 75, "target": "was just cool to wear to school.", "pred": 0, "acc": 0.0, "loglik": [-21.0, -22.0]}
+{"doc_id": 76, "target": "watches a lot of makeup tutorials.", "pred": 0, "acc": 0.0, "loglik": [-23.75, -26.25]}
+{"doc_id": 77, "target": "watches a lot of makeup tutorials.", "pred": 0, "acc": 1.0, "loglik": [-20.0, -23.5]}
+{"doc_id": 78, "target": "was fun.", "pred": 1, "acc": 1.0, "loglik": [-9.9375, -9.375]}
+{"doc_id": 79, "target": "made peanut chicken an ambulance was called.", "pred": 1, "acc": 0.0, "loglik": [-52.0, -48.5]}
+{"doc_id": 80, "target": "ate peanut chicken an ambulance was called.", "pred": 1, "acc": 1.0, "loglik": [-42.0, -40.5]}
+{"doc_id": 81, "target": "was too bright.", "pred": 1, "acc": 0.0, "loglik": [-12.1875, -11.5]}
+{"doc_id": 82, "target": "felt burdened.", "pred": 1, "acc": 1.0, "loglik": [-19.75, -18.125]}
+{"doc_id": 83, "target": "was dirtier.", "pred": 1, "acc": 0.0, "loglik": [-12.625, -12.1875]}
+{"doc_id": 84, "target": "was cleaner.", "pred": 1, "acc": 1.0, "loglik": [-10.625, -10.1875]}
+{"doc_id": 85, "target": "was placid.", "pred": 1, "acc": 0.0, "loglik": [-18.5, -16.75]}
+{"doc_id": 86, "target": "never found out.", "pred": 0, "acc": 0.0, "loglik": [-14.1875, -14.1875]}
+{"doc_id": 87, "target": "hoped they never found out.", "pred": 0, "acc": 1.0, "loglik": [-26.875, -27.0]}
+{"doc_id": 88, "target": "could not be convinced to see the similarity.", "pred": 0, "acc": 0.0, "loglik": [-26.875, -28.125]}
+{"doc_id": 89, "target": "could not persuade her to see the similarity.", "pred": 0, "acc": 1.0, "loglik": [-26.75, -28.375]}
+{"doc_id": 90, "target": "was so casual.", "pred": 1, "acc": 0.0, "loglik": [-17.625, -16.25]}
+{"doc_id": 91, "target": "had a good job.", "pred": 1, "acc": 1.0, "loglik": [-10.625, -8.3125]}
+{"doc_id": 92, "target": "material is cheaper.", "pred": 0, "acc": 1.0, "loglik": [-18.75, -19.25]}
+{"doc_id": 93, "target": "material is stronger.", "pred": 0, "acc": 0.0, "loglik": [-17.625, -17.75]}
+{"doc_id": 94, "target": "was flimsy.", "pred": 0, "acc": 1.0, "loglik": [-16.75, -17.25]}
+{"doc_id": 95, "target": "was hard.", "pred": 1, "acc": 1.0, "loglik": [-10.5625, -9.125]}
+{"doc_id": 96, "target": "is large.", "pred": 1, "acc": 0.0, "loglik": [-11.625, -10.875]}
+{"doc_id": 97, "target": "is thin.", "pred": 0, "acc": 1.0, "loglik": [-10.6875, -10.6875]}
+{"doc_id": 98, "target": "is wide.", "pred": 1, "acc": 1.0, "loglik": [-12.875, -9.8125]}
+{"doc_id": 99, "target": "resonates with the other decorations.", "pred": 1, "acc": 1.0, "loglik": [-29.375, -28.625]}
+{"doc_id": 100, "target": "is very realistic.", "pred": 1, "acc": 1.0, "loglik": [-14.0, -13.125]}
+{"doc_id": 101, "target": "is very materialistic.", "pred": 0, "acc": 1.0, "loglik": [-14.3125, -14.4375]}
+{"doc_id": 102, "target": "after the game.", "pred": 1, "acc": 1.0, "loglik": [-11.875, -8.3125]}
+{"doc_id": 103, "target": "had a analytical mind.", "pred": 0, "acc": 1.0, "loglik": [-19.0, -19.375]}
+{"doc_id": 104, "target": "did not have an analytical mind.", "pred": 1, "acc": 1.0, "loglik": [-18.5, -17.375]}
+{"doc_id": 105, "target": "was not available.", "pred": 0, "acc": 1.0, "loglik": [-9.75, -11.125]}
+{"doc_id": 106, "target": "did not really try it.", "pred": 0, "acc": 1.0, "loglik": [-21.75, -22.25]}
+{"doc_id": 107, "target": "was full of sugar.", "pred": 0, "acc": 1.0, "loglik": [-7.59375, -10.375]}
+{"doc_id": 108, "target": "because he felt it was dangerous.", "pred": 1, "acc": 1.0, "loglik": [-17.375, -15.875]}
+{"doc_id": 109, "target": "was the coach.", "pred": 0, "acc": 1.0, "loglik": [-9.3125, -10.0]}
+{"doc_id": 110, "target": "was the athlete.", "pred": 0, "acc": 0.0, "loglik": [-15.125, -15.5]}
+{"doc_id": 111, "target": "excelled at angering other people.", "pred": 1, "acc": 1.0, "loglik": [-36.5, -35.5]}
+{"doc_id": 112, "target": "prefers using books.", "pred": 0, "acc": 0.0, "loglik": [-21.375, -22.125]}
+{"doc_id": 113, "target": "knows he wants to go to the zoo to see them.", "pred": 0, "acc": 1.0, "loglik": [-27.0, -30.75]}
+{"doc_id": 114, "target": "had a very healthy diet.", "pred": 0, "acc": 0.0, "loglik": [-18.125, -18.5]}
+{"doc_id": 115, "target": "had a very unhealthy diet.", "pred": 0, "acc": 1.0, "loglik": [-19.5, -20.375]}
+{"doc_id": 116, "target": "is valuable.", "pred": 1, "acc": 1.0, "loglik": [-16.875, -15.5]}
+{"doc_id": 117, "target": "were too small.", "pred": 1, "acc": 1.0, "loglik": [-3.984375, -3.046875]}
+{"doc_id": 118, "target": "were too massive.", "pred": 0, "acc": 1.0, "loglik": [-11.0, -11.6875]}
+{"doc_id": 119, "target": "was bigger.", "pred": 0, "acc": 1.0, "loglik": [-9.1875, -11.125]}
+{"doc_id": 120, "target": "was smaller.", "pred": 0, "acc": 0.0, "loglik": [-7.875, -9.0625]}
+{"doc_id": 121, "target": "then became angry.", "pred": 1, "acc": 0.0, "loglik": [-15.75, -14.8125]}
+{"doc_id": 122, "target": "became apologetic.", "pred": 0, "acc": 0.0, "loglik": [-16.25, -17.75]}
+{"doc_id": 123, "target": "has fewer.", "pred": 1, "acc": 0.0, "loglik": [-14.125, -14.0]}
+{"doc_id": 124, "target": "off after two years.", "pred": 1, "acc": 1.0, "loglik": [-18.875, -15.8125]}
+{"doc_id": 125, "target": "off every day.", "pred": 1, "acc": 0.0, "loglik": [-10.3125, -9.125]}
+{"doc_id": 126, "target": "using a strong conditioner.", "pred": 0, "acc": 0.0, "loglik": [-19.625, -20.125]}
+{"doc_id": 127, "target": "was the one with a restraining order against him.", "pred": 1, "acc": 1.0, "loglik": [-25.25, -23.75]}
+{"doc_id": 128, "target": "was the one with a restraining order against him.", "pred": 1, "acc": 0.0, "loglik": [-27.5, -25.5]}
+{"doc_id": 129, "target": ".", "pred": 0, "acc": 0.0, "loglik": [-5.65625, -5.6875]}
+{"doc_id": 130, "target": "being a cigar smoker.", "pred": 1, "acc": 1.0, "loglik": [-18.75, -18.5]}
+{"doc_id": 131, "target": "had taken woodshop in school.", "pred": 1, "acc": 1.0, "loglik": [-37.0, -36.25]}
+{"doc_id": 132, "target": "first in case they were bored.", "pred": 1, "acc": 1.0, "loglik": [-23.875, -23.75]}
+{"doc_id": 133, "target": "rented Saw from Redbox.", "pred": 0, "acc": 0.0, "loglik": [-39.0, -40.25]}
+{"doc_id": 134, "target": "lived farther away.", "pred": 1, "acc": 1.0, "loglik": [-11.8125, -10.1875]}
+{"doc_id": 135, "target": "wanted some company.", "pred": 1, "acc": 0.0, "loglik": [-16.25, -15.25]}
+{"doc_id": 136, "target": "is dark.", "pred": 1, "acc": 1.0, "loglik": [-5.25, -1.609375]}
+{"doc_id": 137, "target": "is a plumber.", "pred": 0, "acc": 0.0, "loglik": [-14.9375, -15.6875]}
+{"doc_id": 138, "target": "is a student.", "pred": 1, "acc": 0.0, "loglik": [-10.4375, -10.1875]}
+{"doc_id": 139, "target": "was a threat to him.", "pred": 1, "acc": 1.0, "loglik": [-22.25, -19.25]}
+{"doc_id": 140, "target": "was too strong.", "pred": 1, "acc": 0.0, "loglik": [-10.1875, -5.4375]}
+{"doc_id": 141, "target": "started cutting back on efficiency.", "pred": 1, "acc": 1.0, "loglik": [-28.0, -25.375]}
+{"doc_id": 142, "target": "was a civilian.", "pred": 0, "acc": 0.0, "loglik": [-13.8125, -15.0625]}
+{"doc_id": 143, "target": "was very common.", "pred": 0, "acc": 0.0, "loglik": [-13.375, -14.4375]}
+{"doc_id": 144, "target": "could get their dreads treated professionally.", "pred": 1, "acc": 0.0, "loglik": [-38.0, -32.75]}
+{"doc_id": 145, "target": "could treat their dreads professionally.", "pred": 1, "acc": 1.0, "loglik": [-30.75, -29.5]}
+{"doc_id": 146, "target": "previously.", "pred": 0, "acc": 0.0, "loglik": [-5.84375, -8.8125]}
+{"doc_id": 147, "target": "previously.", "pred": 0, "acc": 1.0, "loglik": [-7.28125, -11.5625]}
+{"doc_id": 148, "target": "asked them not to do it alone.", "pred": 0, "acc": 0.0, "loglik": [-21.0, -22.0]}
+{"doc_id": 149, "target": "thought it was scary.", "pred": 1, "acc": 1.0, "loglik": [-17.75, -15.375]}
+{"doc_id": 150, "target": "was a kidnapper trying to hide.", "pred": 1, "acc": 0.0, "loglik": [-29.75, -27.875]}
+{"doc_id": 151, "target": "were already worked on.", "pred": 1, "acc": 1.0, "loglik": [-20.125, -20.0]}
+{"doc_id": 152, "target": "was a truant that didn't follow the rules.", "pred": 1, "acc": 0.0, "loglik": [-33.5, -30.25]}
+{"doc_id": 153, "target": "is pouring in water.", "pred": 0, "acc": 1.0, "loglik": [-20.875, -25.625]}
+{"doc_id": 154, "target": ".", "pred": 0, "acc": 1.0, "loglik": [-5.28125, -5.40625]}
+{"doc_id": 155, "target": "is unconcerned about their health.", "pred": 0, "acc": 0.0, "loglik": [-25.125, -25.625]}
+{"doc_id": 156, "target": ".", "pred": 1, "acc": 1.0, "loglik": [-5.65625, -5.21875]}
+{"doc_id": 157, "target": "just inherited some money.", "pred": 1, "acc": 0.0, "loglik": [-22.25, -21.5]}
+{"doc_id": 158, "target": "just lost some money.", "pred": 1, "acc": 1.0, "loglik": [-22.0, -21.5]}
+{"doc_id": 159, "target": "had a very full suitcase.", "pred": 1, "acc": 1.0, "loglik": [-21.5, -20.0]}
+{"doc_id": 160, "target": "spent time arguing against getting a pool.", "pred": 1, "acc": 1.0, "loglik": [-45.25, -44.75]}
+{"doc_id": 161, "target": "spent time arguing for getting a pool.", "pred": 1, "acc": 0.0, "loglik": [-43.5, -43.25]}
+{"doc_id": 162, "target": ".", "pred": 0, "acc": 1.0, "loglik": [-5.875, -5.9375]}
+{"doc_id": 163, "target": "has been trying to get better at ballet dancing.", "pred": 1, "acc": 1.0, "loglik": [-33.75, -31.875]}
+{"doc_id": 164, "target": "was hard.", "pred": 0, "acc": 0.0, "loglik": [-12.0625, -13.5]}
+{"doc_id": 165, "target": "was soft.", "pred": 0, "acc": 1.0, "loglik": [-10.375, -13.25]}
+{"doc_id": 166, "target": "was used.", "pred": 1, "acc": 0.0, "loglik": [-8.4375, -7.875]}
+{"doc_id": 167, "target": "was brand new.", "pred": 1, "acc": 1.0, "loglik": [-10.875, -10.5625]}
+{"doc_id": 168, "target": "is always lower.", "pred": 1, "acc": 1.0, "loglik": [-15.1875, -14.875]}
+{"doc_id": 169, "target": "is a pushover.", "pred": 0, "acc": 0.0, "loglik": [-17.375, -20.5]}
+{"doc_id": 170, "target": "was less fragile.", "pred": 0, "acc": 0.0, "loglik": [-11.3125, -11.375]}
+{"doc_id": 171, "target": "was more fragile.", "pred": 1, "acc": 0.0, "loglik": [-8.5, -8.3125]}
+{"doc_id": 172, "target": "because she wanted to learn.", "pred": 1, "acc": 0.0, "loglik": [-18.375, -17.5]}
+{"doc_id": 173, "target": "is careful.", "pred": 0, "acc": 1.0, "loglik": [-11.75, -11.8125]}
+{"doc_id": 174, "target": ".", "pred": 0, "acc": 1.0, "loglik": [-6.84375, -6.9375]}
+{"doc_id": 175, "target": "is very new.", "pred": 1, "acc": 1.0, "loglik": [-15.1875, -14.375]}
+{"doc_id": 176, "target": "had sweaty feet.", "pred": 0, "acc": 1.0, "loglik": [-14.6875, -15.25]}
+{"doc_id": 177, "target": "had sweaty feet too.", "pred": 0, "acc": 0.0, "loglik": [-26.75, -27.5]}
+{"doc_id": 178, "target": "got their dog back.", "pred": 0, "acc": 1.0, "loglik": [-8.6875, -10.375]}
+{"doc_id": 179, "target": "is too bright.", "pred": 0, "acc": 1.0, "loglik": [-6.6875, -17.75]}
+{"doc_id": 180, "target": ".", "pred": 1, "acc": 0.0, "loglik": [-3.671875, -3.59375]}
+{"doc_id": 181, "target": "is a tree cutter.", "pred": 1, "acc": 1.0, "loglik": [-17.375, -14.875]}
+{"doc_id": 182, "target": "needed to be filtered.", "pred": 0, "acc": 1.0, "loglik": [-8.25, -11.25]}
+{"doc_id": 183, "target": "needed to be scrubbed.", "pred": 0, "acc": 0.0, "loglik": [-13.5, -14.375]}
+{"doc_id": 184, "target": "were infectious.", "pred": 0, "acc": 1.0, "loglik": [-9.5, -11.0]}
+{"doc_id": 185, "target": "was much hotter.", "pred": 0, "acc": 0.0, "loglik": [-17.5, -17.75]}
+{"doc_id": 186, "target": "made it look expensive.", "pred": 0, "acc": 0.0, "loglik": [-22.0, -24.375]}
+{"doc_id": 187, "target": "is embarassed, because Samantha made snide comments about the shirt Rebecca was wearing.", "pred": 0, "acc": 0.0, "loglik": [-73.0, -76.0]}
+{"doc_id": 188, "target": "was able to control it.", "pred": 0, "acc": 1.0, "loglik": [-16.0, -17.375]}
+{"doc_id": 189, "target": "was a more superficial wound.", "pred": 0, "acc": 0.0, "loglik": [-14.8125, -16.375]}
+{"doc_id": 190, "target": "polished the seashells before giving them away.", "pred": 0, "acc": 1.0, "loglik": [-25.125, -26.25]}
+{"doc_id": 191, "target": "was hard get through.", "pred": 1, "acc": 0.0, "loglik": [-29.125, -27.75]}
+{"doc_id": 192, "target": "was very hot.", "pred": 1, "acc": 0.0, "loglik": [-9.9375, -9.875]}
+{"doc_id": 193, "target": "was very cold.", "pred": 0, "acc": 0.0, "loglik": [-8.6875, -9.0625]}
+{"doc_id": 194, "target": "is lighter.", "pred": 1, "acc": 0.0, "loglik": [-11.0, -9.3125]}
+{"doc_id": 195, "target": "had no idea after he fell asleep.", "pred": 1, "acc": 0.0, "loglik": [-34.5, -32.75]}
+{"doc_id": 196, "target": "had had been driving after he fell asleep.", "pred": 1, "acc": 1.0, "loglik": [-44.5, -42.5]}
+{"doc_id": 197, "target": ".", "pred": 1, "acc": 1.0, "loglik": [-6.5, -6.34375]}
+{"doc_id": 198, "target": "borrowed some money a while ago.", "pred": 0, "acc": 1.0, "loglik": [-32.25, -34.5]}
+{"doc_id": 199, "target": "lent him some money a while ago.", "pred": 1, "acc": 1.0, "loglik": [-33.0, -30.875]}
+{"doc_id": 200, "target": "needed the money that day.", "pred": 0, "acc": 1.0, "loglik": [-27.25, -27.625]}
+{"doc_id": 201, "target": "had the money that day.", "pred": 0, "acc": 0.0, "loglik": [-25.125, -25.375]}
+{"doc_id": 202, "target": "was known to be on American Idol.", "pred": 1, "acc": 1.0, "loglik": [-26.75, -25.25]}
+{"doc_id": 203, "target": "had a flat stomach.", "pred": 1, "acc": 0.0, "loglik": [-11.5625, -11.5]}
+{"doc_id": 204, "target": "had a fat stomach.", "pred": 0, "acc": 0.0, "loglik": [-16.625, -16.625]}
+{"doc_id": 205, "target": "were new.", "pred": 1, "acc": 1.0, "loglik": [-12.8125, -12.1875]}
+{"doc_id": 206, "target": "were old.", "pred": 1, "acc": 0.0, "loglik": [-12.625, -12.5625]}
+{"doc_id": 207, "target": "was liked by adolescents.", "pred": 0, "acc": 0.0, "loglik": [-19.0, -19.375]}
+{"doc_id": 208, "target": "is soft.", "pred": 0, "acc": 1.0, "loglik": [-12.5, -12.75]}
+{"doc_id": 209, "target": "criticized the original language of the film.", "pred": 0, "acc": 0.0, "loglik": [-26.625, -27.375]}
+{"doc_id": 210, "target": "appreciated the original language of the film.", "pred": 0, "acc": 1.0, "loglik": [-21.125, -23.875]}
+{"doc_id": 211, "target": "was too heavy.", "pred": 0, "acc": 0.0, "loglik": [-5.9375, -6.0]}
+{"doc_id": 212, "target": "are saccharine.", "pred": 0, "acc": 1.0, "loglik": [-15.375, -15.75]}
+{"doc_id": 213, "target": "had a more distant relationship with the friend.", "pred": 1, "acc": 1.0, "loglik": [-22.375, -20.625]}
+{"doc_id": 214, "target": "had a very close relationship with the friend.", "pred": 0, "acc": 1.0, "loglik": [-16.25, -16.875]}
+{"doc_id": 215, "target": "for being a new customer.", "pred": 1, "acc": 1.0, "loglik": [-23.0, -18.0]}
+{"doc_id": 216, "target": "said life was good, it was an unusual sentiment.", "pred": 1, "acc": 0.0, "loglik": [-39.0, -37.75]}
+{"doc_id": 217, "target": "had been through a lot in life.", "pred": 0, "acc": 1.0, "loglik": [-12.5625, -13.375]}
+{"doc_id": 218, "target": "were ordered frequently at the restaurant.", "pred": 1, "acc": 1.0, "loglik": [-26.875, -26.375]}
+{"doc_id": 219, "target": "was a professional player.", "pred": 0, "acc": 0.0, "loglik": [-11.125, -11.6875]}
+{"doc_id": 220, "target": "variety will taste bland because it will be older.", "pred": 0, "acc": 0.0, "loglik": [-44.5, -47.0]}
+{"doc_id": 221, "target": "variety will taste better because it will be fresh.", "pred": 0, "acc": 1.0, "loglik": [-30.25, -35.0]}
+{"doc_id": 222, "target": "ate chicken and broccoli all week.", "pred": 0, "acc": 1.0, "loglik": [-27.75, -27.875]}
+{"doc_id": 223, "target": "was known to dress stylishly.", "pred": 0, "acc": 1.0, "loglik": [-20.125, -21.0]}
+{"doc_id": 224, "target": "did not often dress stylishly.", "pred": 1, "acc": 1.0, "loglik": [-26.625, -25.375]}
+{"doc_id": 225, "target": "was very meticulous.", "pred": 0, "acc": 1.0, "loglik": [-13.125, -13.875]}
+{"doc_id": 226, "target": "was painted more recently.", "pred": 1, "acc": 1.0, "loglik": [-14.625, -14.25]}
+{"doc_id": 227, "target": "didn't have to get checked to see if they had a tapeworm.", "pred": 0, "acc": 0.0, "loglik": [-51.25, -52.25]}
+{"doc_id": 228, "target": "downloaded less files.", "pred": 0, "acc": 1.0, "loglik": [-22.625, -24.25]}
+{"doc_id": 229, "target": "downloaded less files.", "pred": 0, "acc": 0.0, "loglik": [-21.875, -24.25]}
+{"doc_id": 230, "target": "very rarely.", "pred": 1, "acc": 1.0, "loglik": [-13.0, -11.625]}
+{"doc_id": 231, "target": "several times a week.", "pred": 1, "acc": 0.0, "loglik": [-8.875, -7.0]}
+{"doc_id": 232, "target": "was proud of his friend.", "pred": 1, "acc": 1.0, "loglik": [-21.375, -19.875]}
+{"doc_id": 233, "target": "was flexible.", "pred": 1, "acc": 0.0, "loglik": [-13.25, -12.625]}
+{"doc_id": 234, "target": "was inflexible.", "pred": 1, "acc": 1.0, "loglik": [-19.25, -18.125]}
+{"doc_id": 235, "target": "felt forgiving abut it.", "pred": 0, "acc": 0.0, "loglik": [-36.5, -37.5]}
+{"doc_id": 236, "target": "liked relaxing in the tub.", "pred": 1, "acc": 0.0, "loglik": [-17.875, -17.5]}
+{"doc_id": 237, "target": "heard some very offensive things.", "pred": 1, "acc": 1.0, "loglik": [-33.25, -33.0]}
+{"doc_id": 238, "target": "said some very offensive things.", "pred": 1, "acc": 0.0, "loglik": [-25.75, -25.5]}
+{"doc_id": 239, "target": "had a better foundation as a child.", "pred": 1, "acc": 0.0, "loglik": [-23.75, -22.25]}
+{"doc_id": 240, "target": "never stayed late and never did extra work.", "pred": 1, "acc": 1.0, "loglik": [-36.0, -33.25]}
+{"doc_id": 241, "target": "being a nanny.", "pred": 0, "acc": 1.0, "loglik": [-18.625, -19.5]}
+{"doc_id": 242, "target": "was just more inflexible in its dealings.", "pred": 0, "acc": 0.0, "loglik": [-45.0, -46.0]}
+{"doc_id": 243, "target": "was pricy.", "pred": 1, "acc": 1.0, "loglik": [-17.0, -16.5]}
+{"doc_id": 244, "target": "was inexpensive.", "pred": 1, "acc": 0.0, "loglik": [-12.4375, -11.625]}
+{"doc_id": 245, "target": "must be healthy.", "pred": 1, "acc": 1.0, "loglik": [-11.125, -11.0625]}
+{"doc_id": 246, "target": "could not see them.", "pred": 0, "acc": 1.0, "loglik": [-9.8125, -10.125]}
+{"doc_id": 247, "target": "were too small..", "pred": 1, "acc": 0.0, "loglik": [-24.75, -22.75]}
+{"doc_id": 248, "target": "just got a new car.", "pred": 0, "acc": 1.0, "loglik": [-15.625, -16.125]}
+{"doc_id": 249, "target": "spilled red wine and not white wine.", "pred": 0, "acc": 0.0, "loglik": [-29.25, -30.625]}
+{"doc_id": 250, "target": "spilled red wine and not white wine.", "pred": 0, "acc": 1.0, "loglik": [-28.625, -30.125]}
+{"doc_id": 251, "target": "was still hungry.", "pred": 1, "acc": 1.0, "loglik": [-14.3125, -13.625]}
+{"doc_id": 252, "target": "was no longer hungry.", "pred": 0, "acc": 1.0, "loglik": [-17.25, -17.875]}
+{"doc_id": 253, "target": "was shorter than the owner of the car.", "pred": 1, "acc": 0.0, "loglik": [-28.0, -27.125]}
+{"doc_id": 254, "target": "was the same height as the owner of the car.", "pred": 1, "acc": 1.0, "loglik": [-36.25, -35.25]}
+{"doc_id": 255, "target": "was priced low.", "pred": 1, "acc": 0.0, "loglik": [-14.9375, -14.75]}
+{"doc_id": 256, "target": "was priced high.", "pred": 1, "acc": 1.0, "loglik": [-14.4375, -13.75]}
+{"doc_id": 257, "target": "seem less comfortable.", "pred": 0, "acc": 0.0, "loglik": [-14.25, -15.0]}
+{"doc_id": 258, "target": "weighs less heavily on the grade.", "pred": 1, "acc": 0.0, "loglik": [-30.5, -29.75]}
+{"doc_id": 259, "target": ".", "pred": 1, "acc": 1.0, "loglik": [-7.40625, -7.0]}
+{"doc_id": 260, "target": "is weak.", "pred": 0, "acc": 1.0, "loglik": [-15.4375, -16.5]}
+{"doc_id": 261, "target": "trained their dog as a guard dog.", "pred": 0, "acc": 1.0, "loglik": [-31.375, -33.5]}
+{"doc_id": 262, "target": "was attractive.", "pred": 1, "acc": 0.0, "loglik": [-11.1875, -10.75]}
+{"doc_id": 263, "target": "had borrowed it from her for the potluck party.", "pred": 0, "acc": 1.0, "loglik": [-36.25, -37.5]}
+{"doc_id": 264, "target": "had loaned it to her for the potluck party.", "pred": 0, "acc": 0.0, "loglik": [-36.5, -37.25]}
+{"doc_id": 265, "target": "had always been lazy and unmotivated.", "pred": 1, "acc": 0.0, "loglik": [-26.875, -26.125]}
+{"doc_id": 266, "target": "had always been active and self-motivated.", "pred": 0, "acc": 0.0, "loglik": [-21.125, -21.125]}
+{"doc_id": 267, "target": "would make it easier to concentrate.", "pred": 1, "acc": 1.0, "loglik": [-13.8125, -13.6875]}
+{"doc_id": 268, "target": "would make it hard to concentrate.", "pred": 1, "acc": 0.0, "loglik": [-20.0, -17.0]}
+{"doc_id": 269, "target": "had been kept pristine.", "pred": 0, "acc": 1.0, "loglik": [-22.25, -22.625]}
+{"doc_id": 270, "target": "was very bad at math.", "pred": 1, "acc": 0.0, "loglik": [-13.0, -12.125]}
+{"doc_id": 271, "target": "was highly purified.", "pred": 1, "acc": 1.0, "loglik": [-17.625, -16.75]}
+{"doc_id": 272, "target": "doesn't function correctly.", "pred": 0, "acc": 1.0, "loglik": [-16.25, -18.0]}
+{"doc_id": 273, "target": "were not scary.", "pred": 1, "acc": 0.0, "loglik": [-7.15625, -5.875]}
+{"doc_id": 274, "target": "had a better chance of winning.", "pred": 1, "acc": 0.0, "loglik": [-16.375, -16.0]}
+{"doc_id": 275, "target": "was the right size.", "pred": 1, "acc": 0.0, "loglik": [-15.375, -14.625]}
+{"doc_id": 276, "target": "was the wrong size.", "pred": 1, "acc": 1.0, "loglik": [-15.375, -14.3125]}
+{"doc_id": 277, "target": "was a visitor of the island.", "pred": 0, "acc": 0.0, "loglik": [-19.625, -19.875]}
+{"doc_id": 278, "target": "had been taking steroids.", "pred": 1, "acc": 0.0, "loglik": [-18.0, -17.25]}
+{"doc_id": 279, "target": "ask for help herself.", "pred": 1, "acc": 0.0, "loglik": [-25.625, -23.5]}
+{"doc_id": 280, "target": "could still make a call.", "pred": 1, "acc": 1.0, "loglik": [-16.125, -15.125]}
+{"doc_id": 281, "target": "is small.", "pred": 1, "acc": 0.0, "loglik": [-9.75, -7.0]}
+{"doc_id": 282, "target": "could be shared with fewer people.", "pred": 1, "acc": 1.0, "loglik": [-18.25, -17.875]}
+{"doc_id": 283, "target": "was planning on going on vacation to Disney for a week.", "pred": 1, "acc": 0.0, "loglik": [-41.25, -41.0]}
+{"doc_id": 284, "target": "is pretty loud.", "pred": 0, "acc": 1.0, "loglik": [-19.75, -19.75]}
+{"doc_id": 285, "target": "dog lived in the street.", "pred": 0, "acc": 1.0, "loglik": [-21.5, -21.75]}
+{"doc_id": 286, "target": "drove there in a car.", "pred": 1, "acc": 0.0, "loglik": [-23.125, -22.125]}
+{"doc_id": 287, "target": "had a lot of good friends.", "pred": 1, "acc": 1.0, "loglik": [-16.25, -15.8125]}
+{"doc_id": 288, "target": "was a better reader.", "pred": 0, "acc": 1.0, "loglik": [-9.9375, -10.4375]}
+{"doc_id": 289, "target": "was full of ink.", "pred": 1, "acc": 0.0, "loglik": [-12.875, -12.5]}
+{"doc_id": 290, "target": "wanted to improve their mind and body.", "pred": 0, "acc": 1.0, "loglik": [-20.75, -22.375]}
+{"doc_id": 291, "target": "had passed the background check.", "pred": 1, "acc": 0.0, "loglik": [-16.125, -14.8125]}
+{"doc_id": 292, "target": "had failed the background check.", "pred": 1, "acc": 1.0, "loglik": [-18.375, -17.125]}
+{"doc_id": 293, "target": "talked back to him.", "pred": 1, "acc": 0.0, "loglik": [-15.0, -14.3125]}
+{"doc_id": 294, "target": "was kept inside.", "pred": 0, "acc": 1.0, "loglik": [-13.0, -14.875]}
+{"doc_id": 295, "target": "was kept outside.", "pred": 0, "acc": 0.0, "loglik": [-14.6875, -15.875]}
+{"doc_id": 296, "target": "decided to take a yoga class.", "pred": 1, "acc": 1.0, "loglik": [-14.0, -13.5625]}
+{"doc_id": 297, "target": "is a very bad cook.", "pred": 0, "acc": 1.0, "loglik": [-15.3125, -16.25]}
+{"doc_id": 298, "target": "is a very good cook.", "pred": 0, "acc": 0.0, "loglik": [-10.8125, -12.875]}
+{"doc_id": 299, "target": "was at the park.", "pred": 1, "acc": 1.0, "loglik": [-11.75, -10.5625]}
+{"doc_id": 300, "target": "has more disposable income.", "pred": 0, "acc": 1.0, "loglik": [-9.5, -10.875]}
+{"doc_id": 301, "target": "attended etiquette school.", "pred": 1, "acc": 0.0, "loglik": [-26.5, -23.875]}
+{"doc_id": 302, "target": "bagged it up and sent it home.", "pred": 1, "acc": 1.0, "loglik": [-25.625, -25.0]}
+{"doc_id": 303, "target": "was a volunteer.", "pred": 0, "acc": 1.0, "loglik": [-9.375, -11.0625]}
+{"doc_id": 304, "target": "did not have access to the internet.", "pred": 1, "acc": 1.0, "loglik": [-12.4375, -11.1875]}
+{"doc_id": 305, "target": "had access to the internet.", "pred": 0, "acc": 1.0, "loglik": [-12.5625, -13.3125]}
+{"doc_id": 306, "target": "had a virtually worthless portfolio of companies.", "pred": 1, "acc": 0.0, "loglik": [-37.75, -36.75]}
+{"doc_id": 307, "target": "did not want to go to sleep.", "pred": 1, "acc": 1.0, "loglik": [-17.875, -16.375]}
+{"doc_id": 308, "target": "is a bit lazy.", "pred": 0, "acc": 0.0, "loglik": [-13.875, -14.625]}
+{"doc_id": 309, "target": "will sue him in the court.", "pred": 1, "acc": 0.0, "loglik": [-26.625, -26.5]}
+{"doc_id": 310, "target": "got rescheduled.", "pred": 0, "acc": 0.0, "loglik": [-20.875, -21.5]}
+{"doc_id": 311, "target": "puts a lot of effort into their relationship.", "pred": 0, "acc": 1.0, "loglik": [-21.875, -24.0]}
+{"doc_id": 312, "target": "puts little effort into their relationship.", "pred": 0, "acc": 0.0, "loglik": [-22.625, -25.75]}
+{"doc_id": 313, "target": "was very soft.", "pred": 0, "acc": 0.0, "loglik": [-8.4375, -10.75]}
+{"doc_id": 314, "target": "was very firm.", "pred": 0, "acc": 1.0, "loglik": [-9.8125, -13.0625]}
+{"doc_id": 315, "target": "was boring and the meeting was ran long.", "pred": 1, "acc": 0.0, "loglik": [-36.25, -32.5]}
+{"doc_id": 316, "target": "was boring and the topic of the budget ran long.", "pred": 1, "acc": 1.0, "loglik": [-42.5, -35.5]}
+{"doc_id": 317, "target": "are cheaper.", "pred": 1, "acc": 0.0, "loglik": [-13.0625, -12.3125]}
+{"doc_id": 318, "target": "was much more sensitive to spice.", "pred": 0, "acc": 1.0, "loglik": [-20.25, -21.25]}
+{"doc_id": 319, "target": "was already colorful.", "pred": 0, "acc": 1.0, "loglik": [-6.5625, -9.1875]}
+{"doc_id": 320, "target": "was already plain.", "pred": 1, "acc": 1.0, "loglik": [-11.125, -8.875]}
+{"doc_id": 321, "target": "agreed to take care of his neighbors.", "pred": 0, "acc": 1.0, "loglik": [-24.375, -25.75]}
+{"doc_id": 322, "target": "needed the help of his neighbors.", "pred": 0, "acc": 0.0, "loglik": [-18.5, -19.0]}
+{"doc_id": 323, "target": "was too soft.", "pred": 1, "acc": 1.0, "loglik": [-10.5625, -8.375]}
+{"doc_id": 324, "target": "had some paint on their hand from the spray paint used for graffiti.", "pred": 1, "acc": 0.0, "loglik": [-58.5, -57.25]}
+{"doc_id": 325, "target": "had no paint on their hand from the spray paint used for graffiti.", "pred": 1, "acc": 1.0, "loglik": [-63.0, -61.25]}
+{"doc_id": 326, "target": "had a driving distance to work.", "pred": 0, "acc": 1.0, "loglik": [-24.25, -25.0]}
+{"doc_id": 327, "target": "became sicker.", "pred": 1, "acc": 1.0, "loglik": [-16.125, -14.5]}
+{"doc_id": 328, "target": "had a shortage of it.", "pred": 1, "acc": 0.0, "loglik": [-14.375, -14.0]}
+{"doc_id": 329, "target": "vehicle was smaller.", "pred": 1, "acc": 0.0, "loglik": [-16.5, -15.4375]}
+{"doc_id": 330, "target": "vehicle was bigger.", "pred": 0, "acc": 0.0, "loglik": [-16.875, -18.0]}
+{"doc_id": 331, "target": "had six- pack abs.", "pred": 0, "acc": 1.0, "loglik": [-34.5, -34.5]}
+{"doc_id": 332, "target": "is starting to anticipate their purchase arrival.", "pred": 0, "acc": 0.0, "loglik": [-40.25, -40.5]}
+{"doc_id": 333, "target": "owned an apple phone.", "pred": 1, "acc": 1.0, "loglik": [-17.375, -16.125]}
+{"doc_id": 334, "target": "did not have wealthy or generous parents.", "pred": 1, "acc": 1.0, "loglik": [-29.75, -29.25]}
+{"doc_id": 335, "target": "had wealthy and generous parents.", "pred": 0, "acc": 1.0, "loglik": [-21.75, -22.625]}
+{"doc_id": 336, "target": "is bored.", "pred": 0, "acc": 1.0, "loglik": [-12.4375, -12.75]}
+{"doc_id": 337, "target": "was always so polite.", "pred": 1, "acc": 0.0, "loglik": [-19.625, -18.625]}
+{"doc_id": 338, "target": "subsequently offered a position.", "pred": 1, "acc": 0.0, "loglik": [-23.5, -22.625]}
+{"doc_id": 339, "target": "subsequently accepted a position.", "pred": 1, "acc": 1.0, "loglik": [-22.375, -22.125]}
+{"doc_id": 340, "target": "was nastier.", "pred": 1, "acc": 1.0, "loglik": [-21.75, -20.5]}
+{"doc_id": 341, "target": "was nicer.", "pred": 0, "acc": 1.0, "loglik": [-11.625, -11.6875]}
+{"doc_id": 342, "target": "was expedient.", "pred": 1, "acc": 0.0, "loglik": [-16.75, -15.8125]}
+{"doc_id": 343, "target": "was now illegally parked.", "pred": 0, "acc": 0.0, "loglik": [-24.75, -25.875]}
+{"doc_id": 344, "target": "was now legally parked.", "pred": 0, "acc": 1.0, "loglik": [-24.125, -24.875]}
+{"doc_id": 345, "target": "today.", "pred": 1, "acc": 0.0, "loglik": [-9.3125, -8.875]}
+{"doc_id": 346, "target": "had so few words.", "pred": 0, "acc": 0.0, "loglik": [-13.5, -15.0]}
+{"doc_id": 347, "target": "was less available.", "pred": 1, "acc": 1.0, "loglik": [-12.5625, -10.3125]}
+{"doc_id": 348, "target": "liked to watch romantic comedies.", "pred": 0, "acc": 1.0, "loglik": [-19.25, -19.5]}
+{"doc_id": 349, "target": "petted the poodle.", "pred": 1, "acc": 0.0, "loglik": [-25.5, -22.0]}
+{"doc_id": 350, "target": "could buy the animal.", "pred": 1, "acc": 1.0, "loglik": [-14.875, -14.5625]}
+{"doc_id": 351, "target": "could sell the animal.", "pred": 0, "acc": 1.0, "loglik": [-15.4375, -16.5]}
+{"doc_id": 352, "target": "was feeling relaxed.", "pred": 0, "acc": 0.0, "loglik": [-14.9375, -16.25]}
+{"doc_id": 353, "target": "decided to go to an emergency clinic.", "pred": 0, "acc": 0.0, "loglik": [-18.875, -19.625]}
+{"doc_id": 354, "target": "was threatening.", "pred": 0, "acc": 1.0, "loglik": [-11.75, -12.5]}
+{"doc_id": 355, "target": "had a diagnosed learning disability.", "pred": 0, "acc": 1.0, "loglik": [-15.625, -16.25]}
+{"doc_id": 356, "target": "is tasteless.", "pred": 0, "acc": 1.0, "loglik": [-9.75, -11.625]}
+{"doc_id": 357, "target": "used a soothing skin lotion.", "pred": 0, "acc": 0.0, "loglik": [-24.0, -24.5]}
+{"doc_id": 358, "target": "used an irritating skin lotion.", "pred": 1, "acc": 0.0, "loglik": [-28.0, -26.75]}
+{"doc_id": 359, "target": "thinks the coffee tastes better.", "pred": 0, "acc": 1.0, "loglik": [-12.75, -14.0625]}
+{"doc_id": 360, "target": "maximized their caloric intake.", "pred": 0, "acc": 0.0, "loglik": [-20.5, -21.625]}
+{"doc_id": 361, "target": "was too viscous.", "pred": 0, "acc": 1.0, "loglik": [-11.5625, -11.9375]}
+{"doc_id": 362, "target": "was too fluid.", "pred": 1, "acc": 1.0, "loglik": [-16.5, -16.0]}
+{"doc_id": 363, "target": "is contrasting.", "pred": 0, "acc": 1.0, "loglik": [-12.6875, -13.5]}
+{"doc_id": 364, "target": "is similar.", "pred": 0, "acc": 0.0, "loglik": [-11.875, -12.0625]}
+{"doc_id": 365, "target": "are strong.", "pred": 1, "acc": 1.0, "loglik": [-13.1875, -12.375]}
+{"doc_id": 366, "target": "was an infrequent gambler.", "pred": 0, "acc": 0.0, "loglik": [-24.125, -24.75]}
+{"doc_id": 367, "target": "forgot they had an agreement to meet each other.", "pred": 0, "acc": 0.0, "loglik": [-33.0, -34.75]}
+{"doc_id": 368, "target": "was harder.", "pred": 1, "acc": 0.0, "loglik": [-13.4375, -12.1875]}
+{"doc_id": 369, "target": "was giving it to do some tests.", "pred": 1, "acc": 1.0, "loglik": [-28.75, -27.625]}
+{"doc_id": 370, "target": ".", "pred": 0, "acc": 1.0, "loglik": [-5.90625, -6.09375]}
+{"doc_id": 371, "target": "was way to small.", "pred": 1, "acc": 0.0, "loglik": [-20.125, -17.25]}
+{"doc_id": 372, "target": "was very impatient.", "pred": 1, "acc": 1.0, "loglik": [-12.4375, -12.1875]}
+{"doc_id": 373, "target": "feel relieved.", "pred": 0, "acc": 1.0, "loglik": [-7.5625, -8.0625]}
+{"doc_id": 374, "target": "had a big lunch.", "pred": 0, "acc": 0.0, "loglik": [-12.5, -13.25]}
+{"doc_id": 375, "target": "had skipped lunch.", "pred": 1, "acc": 0.0, "loglik": [-14.875, -14.5]}
+{"doc_id": 376, "target": "had a small amount of gas.", "pred": 1, "acc": 1.0, "loglik": [-18.0, -17.875]}
+{"doc_id": 377, "target": "had a large amount of gas.", "pred": 1, "acc": 0.0, "loglik": [-19.375, -18.875]}
+{"doc_id": 378, "target": "has lived a simple life.", "pred": 0, "acc": 1.0, "loglik": [-19.25, -22.25]}
+{"doc_id": 379, "target": "is the customer.", "pred": 1, "acc": 0.0, "loglik": [-14.9375, -13.0625]}
+{"doc_id": 380, "target": "hung out for the comedian's second set.", "pred": 0, "acc": 0.0, "loglik": [-42.75, -44.75]}
+{"doc_id": 381, "target": "provided extra water pressure.", "pred": 1, "acc": 1.0, "loglik": [-18.0, -15.5]}
+{"doc_id": 382, "target": "wanted to forget how to put blush on correctly.", "pred": 0, "acc": 0.0, "loglik": [-43.0, -44.0]}
+{"doc_id": 383, "target": ".", "pred": 1, "acc": 0.0, "loglik": [-6.28125, -5.59375]}
+{"doc_id": 384, "target": "because she drank the water fast.", "pred": 1, "acc": 0.0, "loglik": [-31.25, -28.25]}
+{"doc_id": 385, "target": "was very deep.", "pred": 1, "acc": 0.0, "loglik": [-7.625, -7.3125]}
+{"doc_id": 386, "target": "was very shallow.", "pred": 1, "acc": 1.0, "loglik": [-9.625, -9.125]}
+{"doc_id": 387, "target": "had less paint on it.", "pred": 0, "acc": 0.0, "loglik": [-18.0, -19.5]}
+{"doc_id": 388, "target": "was higher.", "pred": 0, "acc": 1.0, "loglik": [-2.078125, -2.640625]}
+{"doc_id": 389, "target": "was fine when he showed up.", "pred": 1, "acc": 0.0, "loglik": [-22.625, -21.625]}
+{"doc_id": 390, "target": "became a mother later.", "pred": 1, "acc": 1.0, "loglik": [-15.8125, -15.5]}
+{"doc_id": 391, "target": "became a mother first.", "pred": 0, "acc": 1.0, "loglik": [-16.375, -16.5]}
+{"doc_id": 392, "target": "would be accepted by her.", "pred": 1, "acc": 0.0, "loglik": [-16.625, -15.375]}
+{"doc_id": 393, "target": "was pregnant.", "pred": 1, "acc": 1.0, "loglik": [-9.75, -8.625]}
+{"doc_id": 394, "target": "were too small.", "pred": 0, "acc": 1.0, "loglik": [-4.6875, -5.5625]}
+{"doc_id": 395, "target": "worked in a quiet area.", "pred": 1, "acc": 1.0, "loglik": [-20.375, -19.875]}
+{"doc_id": 396, "target": "was very extroverted.", "pred": 0, "acc": 1.0, "loglik": [-13.0, -14.375]}
+{"doc_id": 397, "target": "were so beautiful.", "pred": 0, "acc": 1.0, "loglik": [-11.0625, -11.375]}
+{"doc_id": 398, "target": "was too young to use superglue.", "pred": 0, "acc": 0.0, "loglik": [-22.0, -22.125]}
+{"doc_id": 399, "target": "has a job.", "pred": 1, "acc": 1.0, "loglik": [-12.125, -11.8125]}
+{"doc_id": 400, "target": "was into music instead.", "pred": 1, "acc": 1.0, "loglik": [-23.625, -22.875]}
+{"doc_id": 401, "target": "had less deterrents on them.", "pred": 0, "acc": 0.0, "loglik": [-30.875, -32.0]}
+{"doc_id": 402, "target": "had more deterrents on them.", "pred": 1, "acc": 0.0, "loglik": [-26.5, -26.375]}
+{"doc_id": 403, "target": "had broken up with her significant other.", "pred": 0, "acc": 0.0, "loglik": [-22.5, -23.625]}
+{"doc_id": 404, "target": "currently had a significant other.", "pred": 1, "acc": 0.0, "loglik": [-33.0, -32.25]}
+{"doc_id": 405, "target": "being lazy.", "pred": 0, "acc": 1.0, "loglik": [-10.5625, -11.0]}
+{"doc_id": 406, "target": "ignored their ear because Jessica has a ear infection and Felicia was fine.", "pred": 0, "acc": 0.0, "loglik": [-79.0, -79.0]}
+{"doc_id": 407, "target": "is a grownup.", "pred": 0, "acc": 0.0, "loglik": [-22.75, -22.875]}
+{"doc_id": 408, "target": "got dirty.", "pred": 1, "acc": 1.0, "loglik": [-10.3125, -9.25]}
+{"doc_id": 409, "target": "a sympathetic look.", "pred": 0, "acc": 0.0, "loglik": [-19.5, -20.125]}
+{"doc_id": 410, "target": "a withering look.", "pred": 0, "acc": 1.0, "loglik": [-25.0, -25.0]}
+{"doc_id": 411, "target": "was old enough to be able to read.", "pred": 0, "acc": 1.0, "loglik": [-19.875, -20.5]}
+{"doc_id": 412, "target": "is dry.", "pred": 0, "acc": 0.0, "loglik": [-14.9375, -15.0]}
+{"doc_id": 413, "target": "is slippery.", "pred": 0, "acc": 1.0, "loglik": [-13.8125, -14.8125]}
+{"doc_id": 414, "target": "was strengthening.", "pred": 0, "acc": 0.0, "loglik": [-14.1875, -16.75]}
+{"doc_id": 415, "target": "and was dehydrated.", "pred": 1, "acc": 1.0, "loglik": [-16.0, -14.375]}
+{"doc_id": 416, "target": "and was starving.", "pred": 0, "acc": 1.0, "loglik": [-16.375, -18.0]}
+{"doc_id": 417, "target": "was too broad.", "pred": 0, "acc": 1.0, "loglik": [-11.125, -16.625]}
+{"doc_id": 418, "target": "didn't get ripped off by the shady merchant.", "pred": 0, "acc": 1.0, "loglik": [-40.25, -41.75]}
+{"doc_id": 419, "target": "is probably a lot more sterile.", "pred": 0, "acc": 0.0, "loglik": [-26.0, -26.25]}
+{"doc_id": 420, "target": "Joe had was uncontrollable.", "pred": 0, "acc": 0.0, "loglik": [-20.25, -20.375]}
+{"doc_id": 421, "target": "was something management attended to.", "pred": 0, "acc": 0.0, "loglik": [-33.75, -34.5]}
+{"doc_id": 422, "target": "never enjoyed the taste of alcohol.", "pred": 1, "acc": 0.0, "loglik": [-23.625, -23.375]}
+{"doc_id": 423, "target": "was not trying to lose any weight.", "pred": 1, "acc": 0.0, "loglik": [-24.125, -22.5]}
+{"doc_id": 424, "target": "was temporary.", "pred": 0, "acc": 1.0, "loglik": [-11.75, -11.75]}
+{"doc_id": 425, "target": "was not powerful enough.", "pred": 0, "acc": 1.0, "loglik": [-12.5, -12.75]}
+{"doc_id": 426, "target": "is leasing out the house.", "pred": 0, "acc": 0.0, "loglik": [-25.125, -25.75]}
+{"doc_id": 427, "target": "is renting the house.", "pred": 0, "acc": 1.0, "loglik": [-16.125, -16.25]}
+{"doc_id": 428, "target": "removed a heavy jacket to withstand the freezing weather.", "pred": 1, "acc": 1.0, "loglik": [-41.25, -39.75]}
+{"doc_id": 429, "target": "was full.", "pred": 1, "acc": 1.0, "loglik": [-4.53125, -3.71875]}
+{"doc_id": 430, "target": "was empty.", "pred": 1, "acc": 0.0, "loglik": [-7.375, -6.3125]}
+{"doc_id": 431, "target": "since he was bad.", "pred": 1, "acc": 1.0, "loglik": [-21.125, -19.0]}
+{"doc_id": 432, "target": "is big.", "pred": 0, "acc": 0.0, "loglik": [-9.9375, -11.625]}
+{"doc_id": 433, "target": "decided to lay low.", "pred": 0, "acc": 0.0, "loglik": [-17.75, -18.75]}
+{"doc_id": 434, "target": "went out by themselves.", "pred": 0, "acc": 1.0, "loglik": [-18.25, -19.0]}
+{"doc_id": 435, "target": "bought a fancy new pair of shoes.", "pred": 0, "acc": 0.0, "loglik": [-31.0, -31.25]}
+{"doc_id": 436, "target": "stayed up all night.", "pred": 1, "acc": 0.0, "loglik": [-11.9375, -10.0]}
+{"doc_id": 437, "target": "were lower down in elevation.", "pred": 1, "acc": 1.0, "loglik": [-17.0, -16.375]}
+{"doc_id": 438, "target": "studied math in college.", "pred": 1, "acc": 1.0, "loglik": [-21.125, -20.375]}
+{"doc_id": 439, "target": "really likes sapphires.", "pred": 0, "acc": 1.0, "loglik": [-12.75, -13.6875]}
+{"doc_id": 440, "target": "ate much less.", "pred": 1, "acc": 1.0, "loglik": [-18.75, -18.25]}
+{"doc_id": 441, "target": "got hit with a softball in the mouth.", "pred": 0, "acc": 1.0, "loglik": [-33.75, -34.75]}
+{"doc_id": 442, "target": "got hit with a softball in the mouth.", "pred": 0, "acc": 0.0, "loglik": [-35.25, -37.25]}
+{"doc_id": 443, "target": "likes  to be touched..", "pred": 1, "acc": 1.0, "loglik": [-38.5, -36.0]}
+{"doc_id": 444, "target": "had some bird seed in their hand.", "pred": 0, "acc": 1.0, "loglik": [-29.75, -31.25]}
+{"doc_id": 445, "target": "is cold.", "pred": 0, "acc": 0.0, "loglik": [-7.71875, -9.125]}
+{"doc_id": 446, "target": "liked chocolate more.", "pred": 0, "acc": 1.0, "loglik": [-14.5, -15.6875]}
+{"doc_id": 447, "target": "is farther.", "pred": 0, "acc": 0.0, "loglik": [-16.5, -18.0]}
+{"doc_id": 448, "target": "industry.", "pred": 1, "acc": 0.0, "loglik": [-1.203125, -1.03125]}
+{"doc_id": 449, "target": "industry.", "pred": 1, "acc": 1.0, "loglik": [-1.28125, -1.0625]}
+{"doc_id": 450, "target": "being polite.", "pred": 1, "acc": 1.0, "loglik": [-13.875, -13.4375]}
+{"doc_id": 451, "target": "was too weak.", "pred": 0, "acc": 0.0, "loglik": [-10.1875, -11.6875]}
+{"doc_id": 452, "target": "wasn't able to get it all out.", "pred": 0, "acc": 1.0, "loglik": [-17.0, -18.375]}
+{"doc_id": 453, "target": "was short.", "pred": 1, "acc": 0.0, "loglik": [-13.5, -12.25]}
+{"doc_id": 454, "target": "said sorry.", "pred": 1, "acc": 1.0, "loglik": [-16.125, -15.0]}
+{"doc_id": 455, "target": "were cheaper.", "pred": 1, "acc": 1.0, "loglik": [-11.5, -10.5625]}
+{"doc_id": 456, "target": "were more expensive.", "pred": 1, "acc": 0.0, "loglik": [-11.1875, -11.125]}
+{"doc_id": 457, "target": "coffee was popular in the cooler weathers.", "pred": 0, "acc": 0.0, "loglik": [-36.5, -37.5]}
+{"doc_id": 458, "target": "coffee was popular in the hotter weathers.", "pred": 0, "acc": 1.0, "loglik": [-29.625, -31.0]}
+{"doc_id": 459, "target": "had a little salary.", "pred": 0, "acc": 1.0, "loglik": [-20.0, -21.0]}
+{"doc_id": 460, "target": ".", "pred": 0, "acc": 0.0, "loglik": [-4.875, -5.75]}
+{"doc_id": 461, "target": ".", "pred": 1, "acc": 0.0, "loglik": [-5.78125, -5.75]}
+{"doc_id": 462, "target": "ignores Google to search for information because Betty trusts in it and Cynthia doesn't.", "pred": 1, "acc": 1.0, "loglik": [-88.5, -87.5]}
+{"doc_id": 463, "target": "was old.", "pred": 1, "acc": 1.0, "loglik": [-9.9375, -8.125]}
+{"doc_id": 464, "target": "had no broken bones in his body.", "pred": 0, "acc": 0.0, "loglik": [-24.25, -24.875]}
+{"doc_id": 465, "target": "was too huge.", "pred": 1, "acc": 1.0, "loglik": [-14.8125, -14.6875]}
+{"doc_id": 466, "target": "was too tiny.", "pred": 0, "acc": 1.0, "loglik": [-11.5625, -12.0625]}
+{"doc_id": 467, "target": "felt exultant.", "pred": 0, "acc": 0.0, "loglik": [-16.5, -17.5]}
+{"doc_id": 468, "target": "had a hard time being understood when they spoke.", "pred": 0, "acc": 0.0, "loglik": [-30.375, -31.125]}
+{"doc_id": 469, "target": "preferred a messy space.", "pred": 0, "acc": 0.0, "loglik": [-27.75, -28.875]}
+{"doc_id": 470, "target": "was easier to reach.", "pred": 1, "acc": 1.0, "loglik": [-15.0625, -12.75]}
+{"doc_id": 471, "target": "was more difficult to reach.", "pred": 1, "acc": 0.0, "loglik": [-17.125, -15.5625]}
+{"doc_id": 472, "target": "get too warm.", "pred": 1, "acc": 1.0, "loglik": [-7.9375, -6.25]}
+{"doc_id": 473, "target": "get too cold.", "pred": 0, "acc": 1.0, "loglik": [-5.25, -7.03125]}
+{"doc_id": 474, "target": "had always avoided smoke.", "pred": 1, "acc": 0.0, "loglik": [-17.125, -16.5]}
+{"doc_id": 475, "target": "is celebrating their independence this year.", "pred": 0, "acc": 0.0, "loglik": [-24.75, -25.125]}
+{"doc_id": 476, "target": "had someone to play with.", "pred": 0, "acc": 1.0, "loglik": [-14.625, -17.0]}
+{"doc_id": 477, "target": "used to be overweight.", "pred": 1, "acc": 0.0, "loglik": [-11.8125, -11.5625]}
+{"doc_id": 478, "target": ".", "pred": 0, "acc": 1.0, "loglik": [-6.6875, -7.28125]}
+{"doc_id": 479, "target": "is vital.", "pred": 1, "acc": 1.0, "loglik": [-19.875, -14.25]}
+{"doc_id": 480, "target": "really loved his own and wanted to share them.", "pred": 0, "acc": 0.0, "loglik": [-36.0, -38.0]}
+{"doc_id": 481, "target": "was nice.", "pred": 1, "acc": 1.0, "loglik": [-18.125, -17.25]}
+{"doc_id": 482, "target": "was heavier.", "pred": 0, "acc": 1.0, "loglik": [-4.28125, -5.4375]}
+{"doc_id": 483, "target": "was lighter.", "pred": 0, "acc": 0.0, "loglik": [-8.3125, -9.3125]}
+{"doc_id": 484, "target": ".", "pred": 1, "acc": 0.0, "loglik": [-5.78125, -5.5]}
+{"doc_id": 485, "target": ".", "pred": 1, "acc": 1.0, "loglik": [-5.96875, -5.75]}
+{"doc_id": 486, "target": "didn't  fit into them very well.", "pred": 1, "acc": 0.0, "loglik": [-36.5, -33.75]}
+{"doc_id": 487, "target": "went into the woods to French kiss deer.", "pred": 1, "acc": 1.0, "loglik": [-44.25, -43.25]}
+{"doc_id": 488, "target": "had just finished.", "pred": 0, "acc": 1.0, "loglik": [-9.75, -10.5625]}
+{"doc_id": 489, "target": "had a very big bladder.", "pred": 1, "acc": 1.0, "loglik": [-15.0, -14.8125]}
+{"doc_id": 490, "target": "had a very small bladder.", "pred": 1, "acc": 0.0, "loglik": [-11.25, -11.0]}
+{"doc_id": 491, "target": "were fresher.", "pred": 1, "acc": 0.0, "loglik": [-15.1875, -14.6875]}
+{"doc_id": 492, "target": "thought she sold too low but kept a cool attitude.", "pred": 0, "acc": 0.0, "loglik": [-54.0, -54.5]}
+{"doc_id": 493, "target": "tended to handle things gracefully.", "pred": 1, "acc": 1.0, "loglik": [-31.25, -29.5]}
+{"doc_id": 494, "target": "ended up staying hydrated.", "pred": 1, "acc": 0.0, "loglik": [-14.875, -14.3125]}
+{"doc_id": 495, "target": "ended up getting dehydrated.", "pred": 1, "acc": 1.0, "loglik": [-10.8125, -10.0625]}
+{"doc_id": 496, "target": "was poor.", "pred": 1, "acc": 1.0, "loglik": [-10.875, -10.6875]}
+{"doc_id": 497, "target": "was rich.", "pred": 0, "acc": 1.0, "loglik": [-11.25, -12.3125]}
+{"doc_id": 498, "target": "was larger.", "pred": 0, "acc": 0.0, "loglik": [-9.4375, -9.9375]}
+{"doc_id": 499, "target": "thought they were lonely.", "pred": 0, "acc": 1.0, "loglik": [-16.25, -18.0]}
+{"doc_id": 500, "target": "explained they were lonely.", "pred": 0, "acc": 0.0, "loglik": [-22.25, -22.5]}
+{"doc_id": 501, "target": ".", "pred": 1, "acc": 1.0, "loglik": [-4.75, -3.875]}
+{"doc_id": 502, "target": "couldn't stand to be around hamsters.", "pred": 1, "acc": 1.0, "loglik": [-36.25, -36.0]}
+{"doc_id": 503, "target": "could say goodbye to them before they went to jail.", "pred": 0, "acc": 1.0, "loglik": [-25.875, -27.875]}
+{"doc_id": 504, "target": "decided to do their own thing.", "pred": 1, "acc": 0.0, "loglik": [-19.875, -19.25]}
+{"doc_id": 505, "target": "stuck to their routine.", "pred": 1, "acc": 1.0, "loglik": [-18.5, -18.375]}
+{"doc_id": 506, "target": "was an inexperienced woodworker.", "pred": 0, "acc": 0.0, "loglik": [-24.375, -25.375]}
+{"doc_id": 507, "target": "had frequently experienced childhood abuse.", "pred": 0, "acc": 0.0, "loglik": [-22.625, -23.375]}
+{"doc_id": 508, "target": "had never experienced childhood abuse.", "pred": 0, "acc": 1.0, "loglik": [-15.0, -15.0625]}
+{"doc_id": 509, "target": "loved small dogs.", "pred": 1, "acc": 0.0, "loglik": [-14.3125, -12.625]}
+{"doc_id": 510, "target": "had a faulty memory.", "pred": 0, "acc": 1.0, "loglik": [-17.875, -18.25]}
+{"doc_id": 511, "target": "had a sharp memory.", "pred": 1, "acc": 1.0, "loglik": [-18.0, -17.125]}
+{"doc_id": 512, "target": "is just way too large to be useful.", "pred": 0, "acc": 1.0, "loglik": [-29.125, -29.375]}
+{"doc_id": 513, "target": "is just way too small to be useful.", "pred": 0, "acc": 0.0, "loglik": [-26.375, -27.75]}
+{"doc_id": 514, "target": "is soft.", "pred": 1, "acc": 1.0, "loglik": [-12.6875, -10.25]}
+{"doc_id": 515, "target": "is tough.", "pred": 0, "acc": 1.0, "loglik": [-12.625, -13.5]}
+{"doc_id": 516, "target": "was happy all the time.", "pred": 1, "acc": 1.0, "loglik": [-16.5, -15.125]}
+{"doc_id": 517, "target": "was boring.", "pred": 1, "acc": 1.0, "loglik": [-12.0, -9.375]}
+{"doc_id": 518, "target": "was addictive.", "pred": 0, "acc": 1.0, "loglik": [-8.25, -9.875]}
+{"doc_id": 519, "target": "had more apps running on theirs.", "pred": 1, "acc": 0.0, "loglik": [-29.375, -29.0]}
+{"doc_id": 520, "target": "had more apps running on theirs.", "pred": 0, "acc": 0.0, "loglik": [-29.125, -30.625]}
+{"doc_id": 521, "target": "are a temporary fix, though.", "pred": 0, "acc": 1.0, "loglik": [-23.5, -25.625]}
+{"doc_id": 522, "target": "worked as a welder.", "pred": 0, "acc": 1.0, "loglik": [-18.625, -20.0]}
+{"doc_id": 523, "target": "asked about allergies to dogs.", "pred": 1, "acc": 0.0, "loglik": [-28.625, -25.125]}
+{"doc_id": 524, "target": "let out the heat.", "pred": 1, "acc": 1.0, "loglik": [-16.75, -14.25]}
+{"doc_id": 525, "target": "kept out the heat.", "pred": 1, "acc": 0.0, "loglik": [-18.25, -16.375]}
+{"doc_id": 526, "target": "were too long.", "pred": 1, "acc": 1.0, "loglik": [-5.9375, -5.1875]}
+{"doc_id": 527, "target": "procrastinated in following all their dreams.", "pred": 1, "acc": 1.0, "loglik": [-41.0, -40.25]}
+{"doc_id": 528, "target": "was in shape.", "pred": 1, "acc": 0.0, "loglik": [-13.3125, -13.0]}
+{"doc_id": 529, "target": "was out of shape.", "pred": 1, "acc": 1.0, "loglik": [-10.6875, -10.1875]}
+{"doc_id": 530, "target": "was fixed.", "pred": 1, "acc": 1.0, "loglik": [-9.875, -8.25]}
+{"doc_id": 531, "target": "is angry with himself.", "pred": 0, "acc": 0.0, "loglik": [-23.375, -23.625]}
+{"doc_id": 532, "target": "would get dirty and gross inside.", "pred": 0, "acc": 1.0, "loglik": [-33.5, -35.0]}
+{"doc_id": 533, "target": "would get rotten eventually.", "pred": 0, "acc": 0.0, "loglik": [-23.625, -23.625]}
+{"doc_id": 534, "target": "had been slightly undercooked.", "pred": 0, "acc": 0.0, "loglik": [-15.3125, -16.25]}
+{"doc_id": 535, "target": "was hot.", "pred": 0, "acc": 1.0, "loglik": [-4.5, -5.5625]}
+{"doc_id": 536, "target": "was soft.", "pred": 1, "acc": 1.0, "loglik": [-7.8125, -5.78125]}
+{"doc_id": 537, "target": "thought mines smaller so its better.", "pred": 0, "acc": 1.0, "loglik": [-49.0, -50.0]}
+{"doc_id": 538, "target": ".", "pred": 1, "acc": 1.0, "loglik": [-8.4375, -7.96875]}
+{"doc_id": 539, "target": "was tired.", "pred": 0, "acc": 1.0, "loglik": [-5.34375, -7.5]}
+{"doc_id": 540, "target": "lived in a different area of town.", "pred": 1, "acc": 1.0, "loglik": [-12.25, -11.375]}
+{"doc_id": 541, "target": "made it to the hideout.", "pred": 0, "acc": 0.0, "loglik": [-20.75, -21.0]}
+{"doc_id": 542, "target": "did not make it to the hideout.", "pred": 0, "acc": 1.0, "loglik": [-23.625, -24.25]}
+{"doc_id": 543, "target": "to get a job.", "pred": 1, "acc": 1.0, "loglik": [-12.875, -12.625]}
+{"doc_id": 544, "target": "looked for someone else to have babies with.", "pred": 0, "acc": 1.0, "loglik": [-20.875, -21.125]}
+{"doc_id": 545, "target": "looked for someone else to have freedom with.", "pred": 0, "acc": 0.0, "loglik": [-30.125, -30.625]}
+{"doc_id": 546, "target": "was too small.", "pred": 1, "acc": 1.0, "loglik": [-7.25, -5.875]}
+{"doc_id": 547, "target": "was too big.", "pred": 1, "acc": 0.0, "loglik": [-6.59375, -6.53125]}
+{"doc_id": 548, "target": "does not  a fear of authority.", "pred": 1, "acc": 1.0, "loglik": [-37.25, -36.75]}
+{"doc_id": 549, "target": "had a look of pain on his face.", "pred": 0, "acc": 0.0, "loglik": [-20.875, -21.0]}
+{"doc_id": 550, "target": "was employed.", "pred": 0, "acc": 1.0, "loglik": [-9.1875, -9.375]}
+{"doc_id": 551, "target": "was unemployed.", "pred": 0, "acc": 0.0, "loglik": [-8.25, -8.4375]}
+{"doc_id": 552, "target": "knew they didn't make kids autistic.", "pred": 0, "acc": 0.0, "loglik": [-40.25, -40.25]}
+{"doc_id": 553, "target": "believed they made kids autistic.", "pred": 0, "acc": 1.0, "loglik": [-36.0, -36.5]}
+{"doc_id": 554, "target": "grew up around them.", "pred": 0, "acc": 1.0, "loglik": [-17.625, -18.875]}
+{"doc_id": 555, "target": "ignored drinking milk from the bottle because Rachel was thirsty and Erin already drank some water.", "pred": 0, "acc": 0.0, "loglik": [-82.5, -82.5]}
+{"doc_id": 556, "target": "drank milk from the bottle because Rachel was thirsty and Erin already drank some water.", "pred": 1, "acc": 0.0, "loglik": [-72.0, -71.5]}
+{"doc_id": 557, "target": "because they are cheaper.", "pred": 1, "acc": 0.0, "loglik": [-11.5625, -10.375]}
+{"doc_id": 558, "target": "because they are permanent.", "pred": 1, "acc": 1.0, "loglik": [-13.9375, -10.3125]}
+{"doc_id": 559, "target": "was confined.", "pred": 0, "acc": 0.0, "loglik": [-14.4375, -14.625]}
+{"doc_id": 560, "target": "had long hair.", "pred": 0, "acc": 1.0, "loglik": [-6.875, -7.25]}
+{"doc_id": 561, "target": "keep their leaves in fall.", "pred": 0, "acc": 0.0, "loglik": [-18.125, -20.25]}
+{"doc_id": 562, "target": "lose their leaves in fall.", "pred": 0, "acc": 1.0, "loglik": [-15.5, -17.125]}
+{"doc_id": 563, "target": "enjoyed real tales.", "pred": 0, "acc": 0.0, "loglik": [-20.75, -22.75]}
+{"doc_id": 564, "target": "had to rent a storage shed.", "pred": 0, "acc": 1.0, "loglik": [-28.5, -28.625]}
+{"doc_id": 565, "target": "didn't have to rent a storage shed.", "pred": 0, "acc": 0.0, "loglik": [-33.0, -33.25]}
+{"doc_id": 566, "target": "had fresh breath.", "pred": 1, "acc": 1.0, "loglik": [-19.25, -18.375]}
+{"doc_id": 567, "target": "had bad breath.", "pred": 1, "acc": 0.0, "loglik": [-15.25, -13.125]}
+{"doc_id": 568, "target": "remembered to bring their charger.", "pred": 1, "acc": 0.0, "loglik": [-26.625, -26.25]}
+{"doc_id": 569, "target": "had theirs done and cried.", "pred": 0, "acc": 0.0, "loglik": [-32.5, -34.25]}
+{"doc_id": 570, "target": "is more efficient.", "pred": 0, "acc": 1.0, "loglik": [-13.875, -15.0]}
+{"doc_id": 571, "target": "was too large.", "pred": 1, "acc": 1.0, "loglik": [-11.375, -8.0625]}
+{"doc_id": 572, "target": "required much more investigation.", "pred": 0, "acc": 1.0, "loglik": [-21.5, -21.875]}
+{"doc_id": 573, "target": "required much less investigation.", "pred": 0, "acc": 0.0, "loglik": [-25.75, -26.0]}
+{"doc_id": 574, "target": "was present at yesterday's practice.", "pred": 1, "acc": 0.0, "loglik": [-21.0, -20.75]}
+{"doc_id": 575, "target": "today because the weather is supposed to be rainy.", "pred": 1, "acc": 1.0, "loglik": [-25.75, -25.0]}
+{"doc_id": 576, "target": "is small.", "pred": 0, "acc": 1.0, "loglik": [-7.09375, -11.8125]}
+{"doc_id": 577, "target": "won the race.", "pred": 1, "acc": 1.0, "loglik": [-9.0, -8.875]}
+{"doc_id": 578, "target": "costume I'd have to wear a dress.", "pred": 1, "acc": 1.0, "loglik": [-26.75, -24.75]}
+{"doc_id": 579, "target": "costume I'd have to make myself a boy.", "pred": 1, "acc": 0.0, "loglik": [-38.0, -35.5]}
+{"doc_id": 580, "target": "is that small.", "pred": 1, "acc": 0.0, "loglik": [-18.875, -18.25]}
+{"doc_id": 581, "target": "is that big.", "pred": 1, "acc": 1.0, "loglik": [-16.75, -16.125]}
+{"doc_id": 582, "target": "like to treat the dogs.", "pred": 0, "acc": 0.0, "loglik": [-29.875, -29.875]}
+{"doc_id": 583, "target": "like to beat the dogs.", "pred": 0, "acc": 1.0, "loglik": [-30.375, -30.75]}
+{"doc_id": 584, "target": "is short.", "pred": 1, "acc": 1.0, "loglik": [-12.3125, -12.25]}
+{"doc_id": 585, "target": ".", "pred": 1, "acc": 0.0, "loglik": [-5.65625, -5.09375]}
+{"doc_id": 586, "target": "had run more recently.", "pred": 0, "acc": 1.0, "loglik": [-19.375, -20.0]}
+{"doc_id": 587, "target": "had run more recently.", "pred": 0, "acc": 0.0, "loglik": [-19.25, -19.25]}
+{"doc_id": 588, "target": "painted their room with a subdued color paint.", "pred": 1, "acc": 1.0, "loglik": [-43.75, -41.0]}
+{"doc_id": 589, "target": "'s father was a landscaper.", "pred": 0, "acc": 0.0, "loglik": [-30.875, -31.25]}
+{"doc_id": 590, "target": "would soothe it.", "pred": 1, "acc": 1.0, "loglik": [-18.25, -17.25]}
+{"doc_id": 591, "target": "is too big.", "pred": 0, "acc": 1.0, "loglik": [-13.0, -13.5625]}
+{"doc_id": 592, "target": "was cheaper.", "pred": 0, "acc": 1.0, "loglik": [-10.625, -12.9375]}
+{"doc_id": 593, "target": "had more money to spend.", "pred": 0, "acc": 1.0, "loglik": [-13.625, -14.5]}
+{"doc_id": 594, "target": "had less money to spend.", "pred": 0, "acc": 0.0, "loglik": [-13.0625, -14.3125]}
+{"doc_id": 595, "target": "looked like the working class.", "pred": 1, "acc": 1.0, "loglik": [-20.0, -17.625]}
+{"doc_id": 596, "target": "would make me hungry.", "pred": 1, "acc": 1.0, "loglik": [-14.125, -11.25]}
+{"doc_id": 597, "target": "would make me full.", "pred": 1, "acc": 0.0, "loglik": [-15.875, -15.5625]}
+{"doc_id": 598, "target": "cares for his health.", "pred": 0, "acc": 1.0, "loglik": [-16.75, -19.25]}
+{"doc_id": 599, "target": "because it was painless.", "pred": 1, "acc": 0.0, "loglik": [-11.125, -11.0625]}
+{"doc_id": 600, "target": "was excited.", "pred": 1, "acc": 0.0, "loglik": [-12.3125, -10.25]}
+{"doc_id": 601, "target": "was worried about him.", "pred": 1, "acc": 1.0, "loglik": [-17.875, -15.9375]}
+{"doc_id": 602, "target": "was  little.", "pred": 0, "acc": 0.0, "loglik": [-21.375, -23.5]}
+{"doc_id": 603, "target": "was deep.", "pred": 0, "acc": 1.0, "loglik": [-12.8125, -15.25]}
+{"doc_id": 604, "target": "was able to overcome their fears.", "pred": 0, "acc": 0.0, "loglik": [-16.5, -17.5]}
+{"doc_id": 605, "target": "was recycled.", "pred": 0, "acc": 1.0, "loglik": [-9.3125, -12.3125]}
+{"doc_id": 606, "target": "was distraught.", "pred": 0, "acc": 1.0, "loglik": [-12.625, -13.3125]}
+{"doc_id": 607, "target": "are for her abs.", "pred": 1, "acc": 0.0, "loglik": [-18.375, -17.5]}
+{"doc_id": 608, "target": "are for her chest.", "pred": 1, "acc": 1.0, "loglik": [-16.5, -15.875]}
+{"doc_id": 609, "target": "got out shampoo by the sink and sat in the chair.", "pred": 0, "acc": 0.0, "loglik": [-49.25, -50.5]}
+{"doc_id": 610, "target": "was also interested in fish.", "pred": 1, "acc": 1.0, "loglik": [-20.0, -17.0]}
+{"doc_id": 611, "target": "was loving.", "pred": 1, "acc": 1.0, "loglik": [-14.3125, -13.125]}
+{"doc_id": 612, "target": "went out.", "pred": 1, "acc": 1.0, "loglik": [-11.1875, -10.375]}
+{"doc_id": 613, "target": "wanted to erase it later.", "pred": 0, "acc": 1.0, "loglik": [-19.875, -20.0]}
+{"doc_id": 614, "target": "wanted to keep it for later.", "pred": 0, "acc": 0.0, "loglik": [-16.875, -18.375]}
+{"doc_id": 615, "target": "loved her fashion sense.", "pred": 0, "acc": 1.0, "loglik": [-14.5625, -17.25]}
+{"doc_id": 616, "target": "is better for their teeth.", "pred": 1, "acc": 0.0, "loglik": [-15.1875, -14.9375]}
+{"doc_id": 617, "target": "was solid.", "pred": 0, "acc": 0.0, "loglik": [-11.9375, -12.3125]}
+{"doc_id": 618, "target": "was slightly acquainted with the bride.", "pred": 1, "acc": 1.0, "loglik": [-28.75, -28.375]}
+{"doc_id": 619, "target": "looked the worst in frilly dresses.", "pred": 0, "acc": 0.0, "loglik": [-36.0, -36.5]}
+{"doc_id": 620, "target": "wasn't nearly as open minded.", "pred": 0, "acc": 1.0, "loglik": [-29.25, -31.0]}
+{"doc_id": 621, "target": "would be thirstier.", "pred": 0, "acc": 1.0, "loglik": [-14.75, -15.1875]}
+{"doc_id": 622, "target": "had gone to bed late the night before.", "pred": 0, "acc": 1.0, "loglik": [-20.625, -23.25]}
+{"doc_id": 623, "target": "had gone to bed early the night before.", "pred": 0, "acc": 0.0, "loglik": [-19.875, -22.375]}
+{"doc_id": 624, "target": "was too awkward.", "pred": 0, "acc": 1.0, "loglik": [-10.625, -13.0]}
+{"doc_id": 625, "target": "was too complete.", "pred": 0, "acc": 0.0, "loglik": [-12.5, -12.625]}
+{"doc_id": 626, "target": "was unavailable.", "pred": 1, "acc": 1.0, "loglik": [-11.6875, -10.3125]}
+{"doc_id": 627, "target": "was never stressed out.", "pred": 1, "acc": 1.0, "loglik": [-20.75, -18.125]}
+{"doc_id": 628, "target": "needed more practice.", "pred": 1, "acc": 0.0, "loglik": [-14.25, -13.5625]}
+{"doc_id": 629, "target": "was cheap to make.", "pred": 1, "acc": 0.0, "loglik": [-16.0, -15.625]}
+{"doc_id": 630, "target": "remembered to put on the repellent.", "pred": 0, "acc": 0.0, "loglik": [-32.5, -33.5]}
+{"doc_id": 631, "target": "liked the peace and quiet.", "pred": 0, "acc": 1.0, "loglik": [-19.375, -20.25]}
+{"doc_id": 632, "target": "hated the peace and quiet.", "pred": 1, "acc": 1.0, "loglik": [-24.5, -23.125]}
+{"doc_id": 633, "target": "was unable to go right to sleep.", "pred": 0, "acc": 0.0, "loglik": [-20.875, -21.75]}
+{"doc_id": 634, "target": "was able to go right to sleep.", "pred": 1, "acc": 0.0, "loglik": [-19.25, -17.625]}
+{"doc_id": 635, "target": "was numb.", "pred": 0, "acc": 1.0, "loglik": [-7.34375, -8.8125]}
+{"doc_id": 636, "target": "was still sensitive.", "pred": 0, "acc": 0.0, "loglik": [-9.0625, -9.5625]}
+{"doc_id": 637, "target": "'s engine was working at the time.", "pred": 0, "acc": 1.0, "loglik": [-29.375, -29.875]}
+{"doc_id": 638, "target": "believed in modern equipment.", "pred": 0, "acc": 1.0, "loglik": [-22.25, -23.0]}
+{"doc_id": 639, "target": "were hanging on the hanger.", "pred": 1, "acc": 0.0, "loglik": [-25.625, -21.25]}
+{"doc_id": 640, "target": "were hanging on the hanger.", "pred": 1, "acc": 1.0, "loglik": [-26.125, -23.25]}
+{"doc_id": 641, "target": "was lighter.", "pred": 0, "acc": 0.0, "loglik": [-7.1875, -7.5625]}
+{"doc_id": 642, "target": "followed a healthy diet.", "pred": 0, "acc": 0.0, "loglik": [-12.0, -14.6875]}
+{"doc_id": 643, "target": "followed a crash diet.", "pred": 1, "acc": 0.0, "loglik": [-18.875, -18.5]}
+{"doc_id": 644, "target": ".", "pred": 1, "acc": 0.0, "loglik": [-7.1875, -7.0]}
+{"doc_id": 645, "target": "was generous.", "pred": 0, "acc": 1.0, "loglik": [-12.75, -13.0]}
+{"doc_id": 646, "target": "volunteered at the local shelter.", "pred": 1, "acc": 1.0, "loglik": [-14.875, -14.6875]}
+{"doc_id": 647, "target": "left work after the sunset.", "pred": 1, "acc": 0.0, "loglik": [-26.5, -26.25]}
+{"doc_id": 648, "target": "left work after the sunrise.", "pred": 0, "acc": 0.0, "loglik": [-28.75, -29.0]}
+{"doc_id": 649, "target": "were too big.", "pred": 1, "acc": 0.0, "loglik": [-7.9375, -7.65625]}
+{"doc_id": 650, "target": "were too small.", "pred": 1, "acc": 1.0, "loglik": [-7.6875, -7.625]}
+{"doc_id": 651, "target": "wanted all the credit.", "pred": 0, "acc": 0.0, "loglik": [-19.0, -19.0]}
+{"doc_id": 652, "target": "didn't want the credit.", "pred": 1, "acc": 0.0, "loglik": [-19.0, -18.625]}
+{"doc_id": 653, "target": "was more casual.", "pred": 1, "acc": 1.0, "loglik": [-11.5625, -11.375]}
+{"doc_id": 654, "target": "was an engineer.", "pred": 1, "acc": 0.0, "loglik": [-12.5, -11.625]}
+{"doc_id": 655, "target": "forgot to mention it.", "pred": 1, "acc": 1.0, "loglik": [-16.25, -15.75]}
+{"doc_id": 656, "target": "has never been to Latin America.", "pred": 0, "acc": 1.0, "loglik": [-12.0625, -12.9375]}
+{"doc_id": 657, "target": "is deeper.", "pred": 0, "acc": 0.0, "loglik": [-12.0, -12.1875]}
+{"doc_id": 658, "target": "is shallower.", "pred": 0, "acc": 1.0, "loglik": [-16.125, -16.375]}
+{"doc_id": 659, "target": "again next week.", "pred": 1, "acc": 1.0, "loglik": [-7.53125, -6.71875]}
+{"doc_id": 660, "target": "were too small.", "pred": 0, "acc": 1.0, "loglik": [-3.84375, -6.09375]}
+{"doc_id": 661, "target": "were too large.", "pred": 0, "acc": 0.0, "loglik": [-3.890625, -5.96875]}
+{"doc_id": 662, "target": "are smaller.", "pred": 0, "acc": 1.0, "loglik": [-9.875, -10.4375]}
+{"doc_id": 663, "target": "are bigger.", "pred": 0, "acc": 0.0, "loglik": [-10.9375, -12.5]}
+{"doc_id": 664, "target": "had very short hair.", "pred": 1, "acc": 0.0, "loglik": [-9.0, -8.875]}
+{"doc_id": 665, "target": "was an instinctive baker.", "pred": 0, "acc": 1.0, "loglik": [-20.125, -20.625]}
+{"doc_id": 666, "target": "finished drinking their breakfast.", "pred": 0, "acc": 0.0, "loglik": [-22.625, -22.875]}
+{"doc_id": 667, "target": "finished eating their breakfast.", "pred": 1, "acc": 0.0, "loglik": [-19.5, -19.25]}
+{"doc_id": 668, "target": "was scratched by them.", "pred": 0, "acc": 1.0, "loglik": [-23.75, -24.125]}
+{"doc_id": 669, "target": "is old.", "pred": 0, "acc": 1.0, "loglik": [-12.75, -13.5625]}
+{"doc_id": 670, "target": "of the job is too much.", "pred": 0, "acc": 1.0, "loglik": [-14.4375, -16.25]}
+{"doc_id": 671, "target": "because they were fun.", "pred": 0, "acc": 1.0, "loglik": [-11.8125, -13.5]}
+{"doc_id": 672, "target": "was healthy.", "pred": 0, "acc": 1.0, "loglik": [-10.75, -11.8125]}
+{"doc_id": 673, "target": "often did practice humility very regularlly.", "pred": 1, "acc": 1.0, "loglik": [-54.75, -52.75]}
+{"doc_id": 674, "target": "lives in the richer neighborhood.", "pred": 1, "acc": 0.0, "loglik": [-22.0, -20.625]}
+{"doc_id": 675, "target": "found their cat hiding under the bed after the loud crackle of thunder.", "pred": 1, "acc": 0.0, "loglik": [-45.25, -43.0]}
+{"doc_id": 676, "target": "people weren't realistic.", "pred": 1, "acc": 1.0, "loglik": [-19.875, -18.375]}
+{"doc_id": 677, "target": "said he was sorry he had done it.", "pred": 1, "acc": 0.0, "loglik": [-23.125, -22.75]}
+{"doc_id": 678, "target": "pointed out it was a wedding and tradition mattered.", "pred": 1, "acc": 1.0, "loglik": [-46.0, -45.75]}
+{"doc_id": 679, "target": "gave them all his old oils.", "pred": 1, "acc": 0.0, "loglik": [-38.75, -38.5]}
+{"doc_id": 680, "target": "had more things to do.", "pred": 0, "acc": 1.0, "loglik": [-12.75, -13.3125]}
+{"doc_id": 681, "target": "is trilingual.", "pred": 1, "acc": 1.0, "loglik": [-14.1875, -13.125]}
+{"doc_id": 682, "target": "were massive.", "pred": 1, "acc": 0.0, "loglik": [-12.6875, -11.5625]}
+{"doc_id": 683, "target": "since he would be going to a wedding.", "pred": 1, "acc": 0.0, "loglik": [-34.75, -31.75]}
+{"doc_id": 684, "target": "water in other countries is safe.", "pred": 1, "acc": 0.0, "loglik": [-19.75, -15.25]}
+{"doc_id": 685, "target": "celebrate anyhow.", "pred": 0, "acc": 1.0, "loglik": [-22.875, -23.875]}
+{"doc_id": 686, "target": "never got acid reflux from salsa.", "pred": 0, "acc": 1.0, "loglik": [-39.75, -39.75]}
+{"doc_id": 687, "target": "told them.", "pred": 0, "acc": 1.0, "loglik": [-11.625, -12.0625]}
+{"doc_id": 688, "target": "enrolled in a storytelling class this semester.", "pred": 1, "acc": 1.0, "loglik": [-30.0, -27.75]}
+{"doc_id": 689, "target": "had to use more of the moisturizer.", "pred": 0, "acc": 1.0, "loglik": [-19.875, -20.25]}
+{"doc_id": 690, "target": "had to use more of the moisturizer.", "pred": 1, "acc": 1.0, "loglik": [-19.75, -19.125]}
+{"doc_id": 691, "target": "was nice to it all the time.", "pred": 1, "acc": 1.0, "loglik": [-25.25, -24.125]}
+{"doc_id": 692, "target": "was a hard worker.", "pred": 0, "acc": 1.0, "loglik": [-12.9375, -13.6875]}
+{"doc_id": 693, "target": "was not very happy.", "pred": 1, "acc": 0.0, "loglik": [-16.5, -16.0]}
+{"doc_id": 694, "target": "was not very happy.", "pred": 1, "acc": 1.0, "loglik": [-16.5, -16.0]}
+{"doc_id": 695, "target": "because it was warmer.", "pred": 0, "acc": 0.0, "loglik": [-12.625, -12.6875]}
+{"doc_id": 696, "target": "decided to buy it.", "pred": 1, "acc": 1.0, "loglik": [-7.34375, -6.28125]}
+{"doc_id": 697, "target": "decided to sell it.", "pred": 0, "acc": 1.0, "loglik": [-6.0625, -6.71875]}
+{"doc_id": 698, "target": "ended up going to jail.", "pred": 0, "acc": 0.0, "loglik": [-18.0, -18.625]}
+{"doc_id": 699, "target": "wasn't formed yet.", "pred": 1, "acc": 1.0, "loglik": [-15.25, -13.6875]}
+{"doc_id": 700, "target": "were large.", "pred": 1, "acc": 0.0, "loglik": [-13.6875, -13.1875]}
+{"doc_id": 701, "target": "showed up lighter.", "pred": 0, "acc": 0.0, "loglik": [-21.5, -23.125]}
+{"doc_id": 702, "target": "showed up darker.", "pred": 0, "acc": 1.0, "loglik": [-23.5, -23.75]}
+{"doc_id": 703, "target": "was shown appreciation for their help.", "pred": 1, "acc": 0.0, "loglik": [-28.125, -27.125]}
+{"doc_id": 704, "target": "avoids eating carrots for their eye health because Emily needs good eyesight while Monica doesn't.", "pred": 1, "acc": 1.0, "loglik": [-98.0, -97.5]}
+{"doc_id": 705, "target": "soon became sterilized.", "pred": 1, "acc": 1.0, "loglik": [-20.625, -20.5]}
+{"doc_id": 706, "target": "had a 30 year work career.", "pred": 0, "acc": 1.0, "loglik": [-24.375, -24.5]}
+{"doc_id": 707, "target": "was worried and upset.", "pred": 1, "acc": 1.0, "loglik": [-19.5, -18.375]}
+{"doc_id": 708, "target": "is useless for a vegetarian meal.", "pred": 0, "acc": 1.0, "loglik": [-24.125, -25.875]}
+{"doc_id": 709, "target": "took one week to get over.", "pred": 0, "acc": 1.0, "loglik": [-25.75, -26.375]}
+{"doc_id": 710, "target": "them.", "pred": 0, "acc": 0.0, "loglik": [-2.46875, -4.0]}
+{"doc_id": 711, "target": "them.", "pred": 0, "acc": 1.0, "loglik": [-2.171875, -3.15625]}
+{"doc_id": 712, "target": "were larger.", "pred": 1, "acc": 0.0, "loglik": [-5.15625, -3.90625]}
+{"doc_id": 713, "target": "the best because it was inedible.", "pred": 0, "acc": 0.0, "loglik": [-31.0, -31.375]}
+{"doc_id": 714, "target": "paid them back the following day for the errand.", "pred": 1, "acc": 1.0, "loglik": [-41.25, -40.5]}
+{"doc_id": 715, "target": "had faulty screws.", "pred": 0, "acc": 1.0, "loglik": [-20.875, -21.875]}
+{"doc_id": 716, "target": "is his assistant.", "pred": 0, "acc": 1.0, "loglik": [-17.5, -18.75]}
+{"doc_id": 717, "target": "decided to fact check his friend.", "pred": 1, "acc": 0.0, "loglik": [-30.375, -29.5]}
+{"doc_id": 718, "target": "were poor.", "pred": 1, "acc": 0.0, "loglik": [-14.4375, -13.375]}
+{"doc_id": 719, "target": "were fancier.", "pred": 1, "acc": 1.0, "loglik": [-17.875, -16.875]}
+{"doc_id": 720, "target": "was too light.", "pred": 0, "acc": 0.0, "loglik": [-12.75, -14.1875]}
+{"doc_id": 721, "target": "was too heavy.", "pred": 0, "acc": 1.0, "loglik": [-10.3125, -11.0]}
+{"doc_id": 722, "target": "did require membership.", "pred": 0, "acc": 1.0, "loglik": [-22.0, -23.375]}
+{"doc_id": 723, "target": "was more petty.", "pred": 1, "acc": 1.0, "loglik": [-22.25, -22.125]}
+{"doc_id": 724, "target": "had little allergies in their system.", "pred": 1, "acc": 0.0, "loglik": [-32.25, -31.875]}
+{"doc_id": 725, "target": "was like a fan to her.", "pred": 0, "acc": 1.0, "loglik": [-22.375, -22.5]}
+{"doc_id": 726, "target": "was going on vacation.", "pred": 0, "acc": 1.0, "loglik": [-14.5, -15.0625]}
+{"doc_id": 727, "target": "went to the Doctor.", "pred": 0, "acc": 0.0, "loglik": [-17.125, -17.875]}
+{"doc_id": 728, "target": "was careful.", "pred": 1, "acc": 1.0, "loglik": [-13.25, -12.625]}
+{"doc_id": 729, "target": "did a poor job at planning their work.", "pred": 0, "acc": 1.0, "loglik": [-32.5, -33.25]}
+{"doc_id": 730, "target": "did damage to his opponent.", "pred": 1, "acc": 0.0, "loglik": [-21.0, -20.25]}
+{"doc_id": 731, "target": "did not damage his opponent.", "pred": 0, "acc": 0.0, "loglik": [-17.125, -17.125]}
+{"doc_id": 732, "target": "did not know about any different programs.", "pred": 1, "acc": 1.0, "loglik": [-35.0, -34.25]}
+{"doc_id": 733, "target": "was blind.", "pred": 0, "acc": 1.0, "loglik": [-10.375, -10.4375]}
+{"doc_id": 734, "target": "was sighted.", "pred": 1, "acc": 1.0, "loglik": [-16.125, -16.0]}
+{"doc_id": 735, "target": "started bringing the dog treats to change its mind.", "pred": 0, "acc": 0.0, "loglik": [-45.0, -46.0]}
+{"doc_id": 736, "target": "started bringing the dog treats to change its mind.", "pred": 1, "acc": 0.0, "loglik": [-42.75, -42.0]}
+{"doc_id": 737, "target": "for many years.", "pred": 1, "acc": 1.0, "loglik": [-12.375, -12.0625]}
+{"doc_id": 738, "target": "is inside.", "pred": 1, "acc": 1.0, "loglik": [-12.1875, -11.375]}
+{"doc_id": 739, "target": "were useful.", "pred": 0, "acc": 0.0, "loglik": [-9.8125, -10.9375]}
+{"doc_id": 740, "target": "were useless.", "pred": 0, "acc": 1.0, "loglik": [-8.8125, -9.9375]}
+{"doc_id": 741, "target": "wants her horse to behave.", "pred": 0, "acc": 1.0, "loglik": [-14.625, -17.875]}
+{"doc_id": 742, "target": "was living an unhealthy lifestyle.", "pred": 1, "acc": 0.0, "loglik": [-19.25, -19.0]}
+{"doc_id": 743, "target": "'s face.", "pred": 0, "acc": 0.0, "loglik": [-10.125, -11.0]}
+{"doc_id": 744, "target": "'s face.", "pred": 0, "acc": 1.0, "loglik": [-10.6875, -10.9375]}
+{"doc_id": 745, "target": "is just oblivious that way.", "pred": 1, "acc": 1.0, "loglik": [-40.0, -39.25]}
+{"doc_id": 746, "target": "was relieved when he agreed.", "pred": 1, "acc": 0.0, "loglik": [-25.875, -25.125]}
+{"doc_id": 747, "target": "was aware they were a secret admirer.", "pred": 0, "acc": 0.0, "loglik": [-30.125, -30.125]}
+{"doc_id": 748, "target": "was something to aspire to.", "pred": 0, "acc": 1.0, "loglik": [-18.875, -20.875]}
+{"doc_id": 749, "target": "was forgotten.", "pred": 1, "acc": 1.0, "loglik": [-13.1875, -12.125]}
+{"doc_id": 750, "target": "was thrown the Frisbee back.", "pred": 1, "acc": 1.0, "loglik": [-17.0, -16.875]}
+{"doc_id": 751, "target": "threw the Frisbee back.", "pred": 1, "acc": 0.0, "loglik": [-8.125, -7.03125]}
+{"doc_id": 752, "target": "is too fast.", "pred": 1, "acc": 0.0, "loglik": [-15.0, -14.375]}
+{"doc_id": 753, "target": "was bigger.", "pred": 0, "acc": 1.0, "loglik": [-6.5625, -9.8125]}
+{"doc_id": 754, "target": "was smaller.", "pred": 0, "acc": 0.0, "loglik": [-5.09375, -8.75]}
+{"doc_id": 755, "target": "was sturdy.", "pred": 0, "acc": 1.0, "loglik": [-7.53125, -9.4375]}
+{"doc_id": 756, "target": "with pity.", "pred": 0, "acc": 1.0, "loglik": [-8.625, -8.625]}
+{"doc_id": 757, "target": "had blonde colored hair.", "pred": 1, "acc": 1.0, "loglik": [-25.125, -25.0]}
+{"doc_id": 758, "target": "needs to work.", "pred": 0, "acc": 0.0, "loglik": [-15.125, -15.25]}
+{"doc_id": 759, "target": "only knows to take.", "pred": 0, "acc": 1.0, "loglik": [-27.125, -27.625]}
+{"doc_id": 760, "target": "lacked the aptitude needed for the task.", "pred": 1, "acc": 1.0, "loglik": [-24.75, -24.375]}
+{"doc_id": 761, "target": "lacked the patience needed for the task.", "pred": 1, "acc": 0.0, "loglik": [-23.5, -23.0]}
+{"doc_id": 762, "target": "was no longer in love.", "pred": 1, "acc": 0.0, "loglik": [-16.375, -16.125]}
+{"doc_id": 763, "target": ".", "pred": 1, "acc": 1.0, "loglik": [-4.53125, -4.5]}
+{"doc_id": 764, "target": ".", "pred": 1, "acc": 0.0, "loglik": [-4.46875, -4.34375]}
+{"doc_id": 765, "target": "was expensive.", "pred": 1, "acc": 1.0, "loglik": [-7.40625, -7.28125]}
+{"doc_id": 766, "target": "was cheap.", "pred": 1, "acc": 0.0, "loglik": [-10.0, -8.625]}
+{"doc_id": 767, "target": "can be too bitter.", "pred": 0, "acc": 1.0, "loglik": [-12.3125, -14.5]}
+{"doc_id": 768, "target": "can be too savory.", "pred": 0, "acc": 0.0, "loglik": [-18.125, -18.625]}
+{"doc_id": 769, "target": "felt cold all night in bed.", "pred": 1, "acc": 1.0, "loglik": [-22.625, -21.875]}
+{"doc_id": 770, "target": "liked to play intellectual games.", "pred": 0, "acc": 0.0, "loglik": [-19.75, -19.75]}
+{"doc_id": 771, "target": "had to re-route their trip to avoid bridges.", "pred": 0, "acc": 1.0, "loglik": [-35.25, -35.25]}
+{"doc_id": 772, "target": "was excited.", "pred": 1, "acc": 0.0, "loglik": [-12.0, -10.625]}
+{"doc_id": 773, "target": "because he was his superior.", "pred": 0, "acc": 0.0, "loglik": [-13.875, -15.1875]}
+{"doc_id": 774, "target": "want to assist.", "pred": 1, "acc": 0.0, "loglik": [-19.25, -19.125]}
+{"doc_id": 775, "target": "ages ago.", "pred": 1, "acc": 1.0, "loglik": [-13.1875, -11.75]}
+{"doc_id": 776, "target": "releases the stain.", "pred": 0, "acc": 1.0, "loglik": [-18.125, -18.125]}
+{"doc_id": 777, "target": ".", "pred": 0, "acc": 1.0, "loglik": [-8.0, -8.0]}
+{"doc_id": 778, "target": "was a mean person.", "pred": 1, "acc": 1.0, "loglik": [-18.625, -18.5]}
+{"doc_id": 779, "target": "was inappropriate.", "pred": 1, "acc": 0.0, "loglik": [-12.25, -11.625]}
+{"doc_id": 780, "target": "thought it was too long.", "pred": 0, "acc": 1.0, "loglik": [-10.625, -13.875]}
+{"doc_id": 781, "target": "thought it was too short.", "pred": 0, "acc": 0.0, "loglik": [-14.625, -14.8125]}
+{"doc_id": 782, "target": "won.", "pred": 0, "acc": 0.0, "loglik": [-8.0625, -8.125]}
+{"doc_id": 783, "target": "is still dry.", "pred": 0, "acc": 0.0, "loglik": [-10.625, -10.875]}
+{"doc_id": 784, "target": "owners used a hardworking company.", "pred": 1, "acc": 0.0, "loglik": [-39.25, -38.0]}
+{"doc_id": 785, "target": "was surprised to become a pediatrician.", "pred": 1, "acc": 1.0, "loglik": [-23.625, -22.875]}
+{"doc_id": 786, "target": "were at risk.", "pred": 0, "acc": 1.0, "loglik": [-13.0625, -13.1875]}
+{"doc_id": 787, "target": "purposely left home very early.", "pred": 0, "acc": 0.0, "loglik": [-40.5, -42.0]}
+{"doc_id": 788, "target": "expected her help.", "pred": 0, "acc": 1.0, "loglik": [-19.25, -20.875]}
+{"doc_id": 789, "target": "had poor connections in the movie industry.", "pred": 0, "acc": 1.0, "loglik": [-25.5, -26.125]}
+{"doc_id": 790, "target": "was broken.", "pred": 1, "acc": 1.0, "loglik": [-9.1875, -7.8125]}
+{"doc_id": 791, "target": "would be looser in the wood.", "pred": 0, "acc": 0.0, "loglik": [-23.25, -23.75]}
+{"doc_id": 792, "target": "made her skin very black.", "pred": 0, "acc": 1.0, "loglik": [-21.875, -23.625]}
+{"doc_id": 793, "target": "made her teeth very white.", "pred": 0, "acc": 0.0, "loglik": [-17.625, -20.0]}
+{"doc_id": 794, "target": "was a stoner.", "pred": 1, "acc": 1.0, "loglik": [-22.5, -22.25]}
+{"doc_id": 795, "target": "was let down.", "pred": 0, "acc": 1.0, "loglik": [-15.5625, -17.75]}
+{"doc_id": 796, "target": "had a disliking for sardines on pizza.", "pred": 0, "acc": 0.0, "loglik": [-35.5, -36.25]}
+{"doc_id": 797, "target": "for being so lazy.", "pred": 1, "acc": 1.0, "loglik": [-13.0, -12.25]}
+{"doc_id": 798, "target": "only ate a healthy diet.", "pred": 0, "acc": 1.0, "loglik": [-16.875, -17.25]}
+{"doc_id": 799, "target": "liked to live in the moment.", "pred": 0, "acc": 0.0, "loglik": [-24.0, -24.125]}
+{"doc_id": 800, "target": "liked to be aware of all the surroundings.", "pred": 0, "acc": 1.0, "loglik": [-32.75, -33.0]}
+{"doc_id": 801, "target": "felt bad for ruining his plan.", "pred": 1, "acc": 1.0, "loglik": [-26.375, -24.25]}
+{"doc_id": 802, "target": "arrived early to meet at their prearranged spot.", "pred": 1, "acc": 0.0, "loglik": [-44.75, -40.5]}
+{"doc_id": 803, "target": "called the sellers to ask them pay for an exterminator.", "pred": 1, "acc": 1.0, "loglik": [-53.75, -53.5]}
+{"doc_id": 804, "target": "wanted the sellers to pay for an exterminator.", "pred": 0, "acc": 1.0, "loglik": [-32.25, -37.75]}
+{"doc_id": 805, "target": "was big.", "pred": 0, "acc": 1.0, "loglik": [-10.1875, -11.625]}
+{"doc_id": 806, "target": "was short.", "pred": 1, "acc": 1.0, "loglik": [-11.1875, -6.8125]}
+{"doc_id": 807, "target": "was open with their feelings.", "pred": 0, "acc": 0.0, "loglik": [-17.5, -17.625]}
+{"doc_id": 808, "target": "was private with their feelings.", "pred": 0, "acc": 1.0, "loglik": [-19.5, -20.875]}
+{"doc_id": 809, "target": "received divorce papers.", "pred": 1, "acc": 1.0, "loglik": [-23.875, -23.75]}
+{"doc_id": 810, "target": "was lacking with nutrients.", "pred": 0, "acc": 0.0, "loglik": [-22.0, -25.5]}
+{"doc_id": 811, "target": "was filled with nutrients.", "pred": 0, "acc": 1.0, "loglik": [-20.25, -21.5]}
+{"doc_id": 812, "target": "asked for it to be thrown back.", "pred": 0, "acc": 1.0, "loglik": [-20.25, -20.375]}
+{"doc_id": 813, "target": "liked to shop and spend money too much.", "pred": 1, "acc": 0.0, "loglik": [-28.875, -28.75]}
+{"doc_id": 814, "target": "like to shop and spend money too much.", "pred": 0, "acc": 0.0, "loglik": [-31.375, -31.75]}
+{"doc_id": 815, "target": "was scary to them.", "pred": 0, "acc": 0.0, "loglik": [-20.25, -20.75]}
+{"doc_id": 816, "target": "were just too hard.", "pred": 0, "acc": 1.0, "loglik": [-10.1875, -10.5625]}
+{"doc_id": 817, "target": "really likes green vegetables.", "pred": 0, "acc": 0.0, "loglik": [-22.0, -25.375]}
+{"doc_id": 818, "target": "was 4 weeks long.", "pred": 0, "acc": 0.0, "loglik": [-15.25, -16.25]}
+{"doc_id": 819, "target": "was 4 weeks away.", "pred": 0, "acc": 1.0, "loglik": [-17.25, -23.5]}
+{"doc_id": 820, "target": "rarely had to go to a dentist.", "pred": 0, "acc": 1.0, "loglik": [-23.25, -24.625]}
+{"doc_id": 821, "target": "had to go to a dentist often.", "pred": 1, "acc": 1.0, "loglik": [-27.75, -26.375]}
+{"doc_id": 822, "target": "was too small.", "pred": 1, "acc": 1.0, "loglik": [-7.9375, -7.03125]}
+{"doc_id": 823, "target": "decided to trust their friend's judgement.", "pred": 0, "acc": 1.0, "loglik": [-31.0, -32.5]}
+{"doc_id": 824, "target": "had rabbits as a kid.", "pred": 0, "acc": 1.0, "loglik": [-21.125, -21.875]}
+{"doc_id": 825, "target": "is bold.", "pred": 0, "acc": 1.0, "loglik": [-11.9375, -13.375]}
+{"doc_id": 826, "target": "was unavailable.", "pred": 0, "acc": 1.0, "loglik": [-8.75, -11.0]}
+{"doc_id": 827, "target": "was not enough.", "pred": 0, "acc": 1.0, "loglik": [-9.1875, -9.75]}
+{"doc_id": 828, "target": "doesn't read aloud a lot.", "pred": 1, "acc": 1.0, "loglik": [-32.25, -30.25]}
+{"doc_id": 829, "target": "reads aloud a lot.", "pred": 1, "acc": 0.0, "loglik": [-24.0, -21.5]}
+{"doc_id": 830, "target": "remembering to put on chapsticks at night.", "pred": 0, "acc": 0.0, "loglik": [-40.5, -41.75]}
+{"doc_id": 831, "target": "forgetting to put on chapsticks at night.", "pred": 1, "acc": 0.0, "loglik": [-37.0, -36.25]}
+{"doc_id": 832, "target": "has to be very careful.", "pred": 1, "acc": 0.0, "loglik": [-18.875, -18.125]}
+{"doc_id": 833, "target": "wanted to be the designated driver.", "pred": 1, "acc": 0.0, "loglik": [-28.625, -27.375]}
+{"doc_id": 834, "target": "was more reliable.", "pred": 0, "acc": 1.0, "loglik": [-9.8125, -12.875]}
+{"doc_id": 835, "target": "was less important.", "pred": 0, "acc": 1.0, "loglik": [-11.6875, -13.875]}
+{"doc_id": 836, "target": "are weak.", "pred": 0, "acc": 1.0, "loglik": [-14.6875, -17.0]}
+{"doc_id": 837, "target": "was short.", "pred": 1, "acc": 0.0, "loglik": [-9.125, -7.4375]}
+{"doc_id": 838, "target": "was tall.", "pred": 1, "acc": 1.0, "loglik": [-7.5, -7.25]}
+{"doc_id": 839, "target": "is heavy.", "pred": 1, "acc": 1.0, "loglik": [-11.1875, -9.8125]}
+{"doc_id": 840, "target": "drives their RV with accuracy.", "pred": 0, "acc": 1.0, "loglik": [-35.0, -35.5]}
+{"doc_id": 841, "target": "was overused.", "pred": 1, "acc": 0.0, "loglik": [-16.375, -15.3125]}
+{"doc_id": 842, "target": "still stayed home from work that day.", "pred": 1, "acc": 1.0, "loglik": [-21.5, -20.875]}
+{"doc_id": 843, "target": "got an F.", "pred": 0, "acc": 1.0, "loglik": [-12.1875, -12.375]}
+{"doc_id": 844, "target": "got an A.", "pred": 0, "acc": 0.0, "loglik": [-7.0625, -7.65625]}
+{"doc_id": 845, "target": "had a horrible childhood growing up.", "pred": 0, "acc": 0.0, "loglik": [-31.0, -31.0]}
+{"doc_id": 846, "target": "must have been cleaned longer ago.", "pred": 1, "acc": 0.0, "loglik": [-31.125, -29.25]}
+{"doc_id": 847, "target": ".", "pred": 1, "acc": 1.0, "loglik": [-4.34375, -4.3125]}
+{"doc_id": 848, "target": ".", "pred": 1, "acc": 0.0, "loglik": [-3.921875, -3.890625]}
+{"doc_id": 849, "target": "tended to neglect plants.", "pred": 0, "acc": 0.0, "loglik": [-20.125, -21.5]}
+{"doc_id": 850, "target": "was too short for him to climb over.", "pred": 0, "acc": 0.0, "loglik": [-19.0, -25.875]}
+{"doc_id": 851, "target": "was flavorful.", "pred": 0, "acc": 0.0, "loglik": [-10.5, -12.125]}
+{"doc_id": 852, "target": "was bland.", "pred": 1, "acc": 0.0, "loglik": [-11.4375, -10.4375]}
+{"doc_id": 853, "target": "was being very embarrassing.", "pred": 1, "acc": 0.0, "loglik": [-23.625, -23.5]}
+{"doc_id": 854, "target": "was being very quiet.", "pred": 1, "acc": 1.0, "loglik": [-18.0, -16.75]}
+{"doc_id": 855, "target": "is leaky.", "pred": 1, "acc": 0.0, "loglik": [-12.0, -10.8125]}
+{"doc_id": 856, "target": "is sealed.", "pred": 1, "acc": 1.0, "loglik": [-9.0, -7.375]}
+{"doc_id": 857, "target": "spent all of their time at the ice cream shop.", "pred": 1, "acc": 1.0, "loglik": [-36.0, -35.0]}
+{"doc_id": 858, "target": "of me is next door.", "pred": 1, "acc": 0.0, "loglik": [-20.75, -19.875]}
+{"doc_id": 859, "target": "never tried to talk to spirits.", "pred": 0, "acc": 0.0, "loglik": [-25.875, -25.875]}
+{"doc_id": 860, "target": "is clean.", "pred": 1, "acc": 1.0, "loglik": [-7.9375, -7.5]}
+{"doc_id": 861, "target": "already had some at home.", "pred": 1, "acc": 1.0, "loglik": [-16.75, -15.75]}
+{"doc_id": 862, "target": "knew there was none at home.", "pred": 0, "acc": 1.0, "loglik": [-20.125, -22.875]}
+{"doc_id": 863, "target": "up.", "pred": 1, "acc": 0.0, "loglik": [-10.125, -8.5]}
+{"doc_id": 864, "target": "a refund.", "pred": 1, "acc": 1.0, "loglik": [-5.625, -5.53125]}
+{"doc_id": 865, "target": "was getting married.", "pred": 1, "acc": 1.0, "loglik": [-12.1875, -11.75]}
+{"doc_id": 866, "target": "was his best man.", "pred": 1, "acc": 0.0, "loglik": [-14.25, -13.4375]}
+{"doc_id": 867, "target": "always typed all their correspondence.", "pred": 1, "acc": 0.0, "loglik": [-39.0, -37.75]}
+{"doc_id": 868, "target": "wore clothes made of delicate fabrics.", "pred": 0, "acc": 1.0, "loglik": [-27.0, -28.0]}
+{"doc_id": 869, "target": "was where she belonged during the dance.", "pred": 1, "acc": 0.0, "loglik": [-29.5, -25.75]}
+{"doc_id": 870, "target": "said the one they had was still ok.", "pred": 0, "acc": 0.0, "loglik": [-34.25, -34.5]}
+{"doc_id": 871, "target": "for nothing.", "pred": 1, "acc": 1.0, "loglik": [-12.3125, -11.3125]}
+{"doc_id": 872, "target": "had the responsibility to attend.", "pred": 0, "acc": 1.0, "loglik": [-23.0, -23.75]}
+{"doc_id": 873, "target": "had the responsibility to judge.", "pred": 0, "acc": 0.0, "loglik": [-22.125, -23.0]}
+{"doc_id": 874, "target": "advocated for a very hands-on approach to publishing.", "pred": 1, "acc": 0.0, "loglik": [-30.875, -29.125]}
+{"doc_id": 875, "target": "advocated for a very hands-off approach to publishing.", "pred": 1, "acc": 1.0, "loglik": [-32.5, -31.125]}
+{"doc_id": 876, "target": "tended to wear out quickly.", "pred": 1, "acc": 1.0, "loglik": [-17.875, -16.375]}
+{"doc_id": 877, "target": "required more work.", "pred": 0, "acc": 1.0, "loglik": [-9.4375, -9.625]}
+{"doc_id": 878, "target": "had little money.", "pred": 0, "acc": 0.0, "loglik": [-12.125, -12.5625]}
+{"doc_id": 879, "target": "had never applied for a passport.", "pred": 1, "acc": 1.0, "loglik": [-20.625, -20.0]}
+{"doc_id": 880, "target": "was abrasive.", "pred": 0, "acc": 0.0, "loglik": [-11.0, -11.6875]}
+{"doc_id": 881, "target": "was smooth.", "pred": 0, "acc": 1.0, "loglik": [-9.75, -10.0]}
+{"doc_id": 882, "target": "would be his main power supply.", "pred": 1, "acc": 0.0, "loglik": [-19.625, -17.0]}
+{"doc_id": 883, "target": "calorie food during the high and low calorie experiment..", "pred": 1, "acc": 1.0, "loglik": [-54.0, -52.5]}
+{"doc_id": 884, "target": "calorie food during the high and low calorie experiment.", "pred": 1, "acc": 0.0, "loglik": [-40.75, -39.75]}
+{"doc_id": 885, "target": "is bulky.", "pred": 0, "acc": 0.0, "loglik": [-12.4375, -13.8125]}
+{"doc_id": 886, "target": "was always stern.", "pred": 1, "acc": 1.0, "loglik": [-19.875, -18.75]}
+{"doc_id": 887, "target": "didn't want to train a pupply.", "pred": 1, "acc": 1.0, "loglik": [-33.5, -33.25]}
+{"doc_id": 888, "target": "finally went home.", "pred": 0, "acc": 0.0, "loglik": [-12.0625, -15.5]}
+{"doc_id": 889, "target": "was a beginner dancer.", "pred": 1, "acc": 1.0, "loglik": [-17.125, -15.5]}
+{"doc_id": 890, "target": "at all.", "pred": 1, "acc": 1.0, "loglik": [-6.78125, -4.8125]}
+{"doc_id": 891, "target": "could not have a pet.", "pred": 0, "acc": 0.0, "loglik": [-15.0625, -15.1875]}
+{"doc_id": 892, "target": "on at the store.", "pred": 0, "acc": 0.0, "loglik": [-13.8125, -14.75]}
+{"doc_id": 893, "target": "could not find one.", "pred": 0, "acc": 0.0, "loglik": [-9.0, -9.0]}
+{"doc_id": 894, "target": "already had one.", "pred": 1, "acc": 0.0, "loglik": [-10.25, -9.125]}
+{"doc_id": 895, "target": "did less laps.", "pred": 1, "acc": 1.0, "loglik": [-18.875, -18.75]}
+{"doc_id": 896, "target": "did less laps.", "pred": 0, "acc": 1.0, "loglik": [-18.5, -18.75]}
+{"doc_id": 897, "target": "is opened.", "pred": 1, "acc": 1.0, "loglik": [-11.75, -11.6875]}
+{"doc_id": 898, "target": "were not junky.", "pred": 0, "acc": 0.0, "loglik": [-23.5, -27.25]}
+{"doc_id": 899, "target": ".", "pred": 1, "acc": 1.0, "loglik": [-7.40625, -7.21875]}
+{"doc_id": 900, "target": "is small.", "pred": 0, "acc": 1.0, "loglik": [-9.625, -12.0625]}
+{"doc_id": 901, "target": "is big.", "pred": 1, "acc": 1.0, "loglik": [-13.1875, -13.125]}
+{"doc_id": 902, "target": "wants a table top tree.", "pred": 0, "acc": 0.0, "loglik": [-27.875, -29.5]}
+{"doc_id": 903, "target": "wants a six foot tree.", "pred": 0, "acc": 1.0, "loglik": [-23.125, -24.25]}
+{"doc_id": 904, "target": "could fill her glass with water.", "pred": 1, "acc": 1.0, "loglik": [-18.125, -17.25]}
+{"doc_id": 905, "target": "has lived a rough lifestyle.", "pred": 0, "acc": 0.0, "loglik": [-22.5, -24.125]}
+{"doc_id": 906, "target": "had high heels.", "pred": 0, "acc": 0.0, "loglik": [-10.5, -11.0625]}
+{"doc_id": 907, "target": "had low heels.", "pred": 0, "acc": 1.0, "loglik": [-12.1875, -12.6875]}
+{"doc_id": 908, "target": "were in high demand.", "pred": 1, "acc": 1.0, "loglik": [-12.0625, -11.25]}
+{"doc_id": 909, "target": "were in low demand.", "pred": 1, "acc": 0.0, "loglik": [-15.9375, -14.625]}
+{"doc_id": 910, "target": "had no knowledge on the subject.", "pred": 1, "acc": 0.0, "loglik": [-19.25, -18.0]}
+{"doc_id": 911, "target": "had vast knowledge on the subject.", "pred": 1, "acc": 1.0, "loglik": [-23.125, -21.625]}
+{"doc_id": 912, "target": "likes dark liquors.", "pred": 1, "acc": 1.0, "loglik": [-14.25, -12.3125]}
+{"doc_id": 913, "target": "likes clear liquors.", "pred": 1, "acc": 0.0, "loglik": [-18.625, -16.75]}
+{"doc_id": 914, "target": "'s injury was minor.", "pred": 1, "acc": 0.0, "loglik": [-19.625, -19.375]}
+{"doc_id": 915, "target": "bought a bag of chips.", "pred": 1, "acc": 1.0, "loglik": [-19.625, -19.5]}
+{"doc_id": 916, "target": "had been very lazy.", "pred": 0, "acc": 1.0, "loglik": [-17.375, -21.0]}
+{"doc_id": 917, "target": "enjoyed sending letters to friends.", "pred": 0, "acc": 1.0, "loglik": [-22.75, -25.875]}
+{"doc_id": 918, "target": "enjoyed receiving letters from friends.", "pred": 0, "acc": 0.0, "loglik": [-21.75, -23.5]}
+{"doc_id": 919, "target": "caused pain.", "pred": 1, "acc": 1.0, "loglik": [-8.375, -7.71875]}
+{"doc_id": 920, "target": "caused pain.", "pred": 0, "acc": 1.0, "loglik": [-7.625, -8.4375]}
+{"doc_id": 921, "target": "thought it was normal in a place of business and she was admired by their coworkers.", "pred": 0, "acc": 0.0, "loglik": [-56.25, -57.0]}
+{"doc_id": 922, "target": "was stopped before it succeeded.", "pred": 1, "acc": 0.0, "loglik": [-29.125, -29.0]}
+{"doc_id": 923, "target": "was old.", "pred": 1, "acc": 1.0, "loglik": [-9.625, -9.0625]}
+{"doc_id": 924, "target": "was trained as a sculptor.", "pred": 1, "acc": 1.0, "loglik": [-14.375, -12.6875]}
+{"doc_id": 925, "target": "already measured the wall to center the picture.", "pred": 1, "acc": 1.0, "loglik": [-46.75, -46.25]}
+{"doc_id": 926, "target": "were new.", "pred": 1, "acc": 1.0, "loglik": [-13.5625, -13.375]}
+{"doc_id": 927, "target": "has sensitive teeth.", "pred": 1, "acc": 1.0, "loglik": [-19.125, -17.125]}
+{"doc_id": 928, "target": "was a more wealthy person overall.", "pred": 1, "acc": 1.0, "loglik": [-28.25, -27.625]}
+{"doc_id": 929, "target": "is long.", "pred": 0, "acc": 1.0, "loglik": [-10.0625, -12.125]}
+{"doc_id": 930, "target": "is short.", "pred": 0, "acc": 0.0, "loglik": [-11.8125, -13.875]}
+{"doc_id": 931, "target": "when she tried it on.", "pred": 0, "acc": 0.0, "loglik": [-11.8125, -12.0625]}
+{"doc_id": 932, "target": "when she tried it on.", "pred": 0, "acc": 1.0, "loglik": [-12.625, -12.75]}
+{"doc_id": 933, "target": "was repaired.", "pred": 1, "acc": 0.0, "loglik": [-15.0625, -14.4375]}
+{"doc_id": 934, "target": "is big.", "pred": 0, "acc": 1.0, "loglik": [-10.625, -10.75]}
+{"doc_id": 935, "target": "was on a vegetarian diet.", "pred": 0, "acc": 1.0, "loglik": [-14.4375, -15.875]}
+{"doc_id": 936, "target": "wasn't ready to move on.", "pred": 0, "acc": 0.0, "loglik": [-10.25, -12.9375]}
+{"doc_id": 937, "target": "is tall in height.", "pred": 0, "acc": 0.0, "loglik": [-21.25, -21.875]}
+{"doc_id": 938, "target": "possessed a lot of new features.", "pred": 0, "acc": 1.0, "loglik": [-23.0, -24.875]}
+{"doc_id": 939, "target": "possessed a lot of sentimental value.", "pred": 1, "acc": 1.0, "loglik": [-19.75, -18.75]}
+{"doc_id": 940, "target": "is a bit saddened.", "pred": 0, "acc": 0.0, "loglik": [-21.375, -21.5]}
+{"doc_id": 941, "target": "is a cashier.", "pred": 1, "acc": 1.0, "loglik": [-15.0, -14.1875]}
+{"doc_id": 942, "target": "left his food outside.", "pred": 0, "acc": 1.0, "loglik": [-15.0, -15.5625]}
+{"doc_id": 943, "target": "left his food in the fridge.", "pred": 1, "acc": 1.0, "loglik": [-14.75, -14.625]}
+{"doc_id": 944, "target": "was more skilled.", "pred": 1, "acc": 1.0, "loglik": [-12.25, -11.375]}
+{"doc_id": 945, "target": "had met the man only once.", "pred": 0, "acc": 0.0, "loglik": [-15.5, -16.5]}
+{"doc_id": 946, "target": "was wearing deodorant.", "pred": 1, "acc": 0.0, "loglik": [-16.0, -15.8125]}
+{"doc_id": 947, "target": "because he was lazy.", "pred": 0, "acc": 0.0, "loglik": [-16.25, -17.125]}
+{"doc_id": 948, "target": "was suffice in keeping the drinker awake.", "pred": 0, "acc": 1.0, "loglik": [-36.75, -37.0]}
+{"doc_id": 949, "target": "was not enough to keep the drinker awake.", "pred": 1, "acc": 1.0, "loglik": [-23.125, -22.125]}
+{"doc_id": 950, "target": "were stronger.", "pred": 1, "acc": 0.0, "loglik": [-7.5, -7.09375]}
+{"doc_id": 951, "target": "were weaker.", "pred": 0, "acc": 0.0, "loglik": [-11.625, -11.8125]}
+{"doc_id": 952, "target": "was a patient.", "pred": 0, "acc": 0.0, "loglik": [-9.4375, -9.625]}
+{"doc_id": 953, "target": "was very sorry.", "pred": 0, "acc": 0.0, "loglik": [-11.5, -11.6875]}
+{"doc_id": 954, "target": "exceeded data capacity.", "pred": 0, "acc": 1.0, "loglik": [-21.875, -22.125]}
+{"doc_id": 955, "target": "was outdated.", "pred": 0, "acc": 0.0, "loglik": [-11.6875, -12.875]}
+{"doc_id": 956, "target": "is tall.", "pred": 1, "acc": 0.0, "loglik": [-11.0, -9.9375]}
+{"doc_id": 957, "target": "was a brand new mother.", "pred": 0, "acc": 1.0, "loglik": [-19.5, -22.5]}
+{"doc_id": 958, "target": "would be too shallow for them to put down roots.", "pred": 1, "acc": 1.0, "loglik": [-41.25, -38.25]}
+{"doc_id": 959, "target": "would be too stifled to put down roots.", "pred": 1, "acc": 0.0, "loglik": [-43.25, -41.0]}
+{"doc_id": 960, "target": "had taken engineering in college.", "pred": 1, "acc": 1.0, "loglik": [-29.25, -29.0]}
+{"doc_id": 961, "target": "is handling the stove.", "pred": 0, "acc": 1.0, "loglik": [-28.25, -29.75]}
+{"doc_id": 962, "target": "isn't doing anything.", "pred": 0, "acc": 0.0, "loglik": [-22.25, -23.25]}
+{"doc_id": 963, "target": "was suffering from many more diseases.", "pred": 1, "acc": 1.0, "loglik": [-21.25, -19.375]}
+{"doc_id": 964, "target": "is a  is lover of excitement .", "pred": 1, "acc": 1.0, "loglik": [-47.75, -45.25]}
+{"doc_id": 965, "target": "was so upset about the money that was missing.", "pred": 1, "acc": 1.0, "loglik": [-30.75, -29.625]}
+{"doc_id": 966, "target": "was not good at the finishing touches.", "pred": 0, "acc": 1.0, "loglik": [-28.0, -28.625]}
+{"doc_id": 967, "target": "is humble.", "pred": 0, "acc": 1.0, "loglik": [-16.875, -17.875]}
+{"doc_id": 968, "target": "is arrogant.", "pred": 0, "acc": 0.0, "loglik": [-15.375, -16.25]}
+{"doc_id": 969, "target": "was a contestant on the show.", "pred": 1, "acc": 1.0, "loglik": [-12.9375, -11.875]}
+{"doc_id": 970, "target": "thought the algae was okay.", "pred": 1, "acc": 0.0, "loglik": [-26.25, -24.75]}
+{"doc_id": 971, "target": "couldn't made their dream come true of fighting in the UFC octagon.", "pred": 1, "acc": 1.0, "loglik": [-69.0, -67.0]}
+{"doc_id": 972, "target": "went to university instead of trade school.", "pred": 0, "acc": 0.0, "loglik": [-25.625, -25.625]}
+{"doc_id": 973, "target": "went to trade school instead of university.", "pred": 0, "acc": 1.0, "loglik": [-22.5, -22.625]}
+{"doc_id": 974, "target": "in coins.", "pred": 0, "acc": 1.0, "loglik": [-11.6875, -11.875]}
+{"doc_id": 975, "target": "in coins.", "pred": 1, "acc": 1.0, "loglik": [-10.4375, -10.25]}
+{"doc_id": 976, "target": "is big.", "pred": 1, "acc": 1.0, "loglik": [-12.6875, -9.25]}
+{"doc_id": 977, "target": "is small.", "pred": 1, "acc": 0.0, "loglik": [-9.125, -7.3125]}
+{"doc_id": 978, "target": "can be run dry.", "pred": 0, "acc": 0.0, "loglik": [-21.25, -21.5]}
+{"doc_id": 979, "target": "is short.", "pred": 1, "acc": 1.0, "loglik": [-10.375, -10.125]}
+{"doc_id": 980, "target": "is taller.", "pred": 1, "acc": 0.0, "loglik": [-12.125, -12.0]}
+{"doc_id": 981, "target": "is shorter.", "pred": 1, "acc": 1.0, "loglik": [-14.25, -13.5]}
+{"doc_id": 982, "target": "tried to pretend it didn't hurt.", "pred": 0, "acc": 1.0, "loglik": [-24.125, -24.375]}
+{"doc_id": 983, "target": "immediately.", "pred": 1, "acc": 0.0, "loglik": [-11.25, -10.3125]}
+{"doc_id": 984, "target": "immediately.", "pred": 1, "acc": 1.0, "loglik": [-8.8125, -8.0625]}
+{"doc_id": 985, "target": "has an incredible insurance plan.", "pred": 0, "acc": 1.0, "loglik": [-30.875, -31.0]}
+{"doc_id": 986, "target": "knew she would likely to decline the invitation.", "pred": 0, "acc": 1.0, "loglik": [-37.25, -38.25]}
+{"doc_id": 987, "target": "is hard and strong when its cold.", "pred": 1, "acc": 1.0, "loglik": [-37.5, -34.25]}
+{"doc_id": 988, "target": "is fluid and flexible when its warm.", "pred": 0, "acc": 1.0, "loglik": [-36.5, -38.0]}
+{"doc_id": 989, "target": "is likely the younger person.", "pred": 1, "acc": 0.0, "loglik": [-26.125, -25.0]}
+{"doc_id": 990, "target": "had a night full of really bad gas issues.", "pred": 1, "acc": 1.0, "loglik": [-49.0, -47.0]}
+{"doc_id": 991, "target": "were disgusting.", "pred": 1, "acc": 0.0, "loglik": [-13.8125, -12.9375]}
+{"doc_id": 992, "target": "were fine.", "pred": 0, "acc": 0.0, "loglik": [-6.53125, -7.75]}
+{"doc_id": 993, "target": "needed to be vegetarian.", "pred": 1, "acc": 0.0, "loglik": [-13.625, -13.125]}
+{"doc_id": 994, "target": "was too small.", "pred": 1, "acc": 0.0, "loglik": [-7.9375, -6.46875]}
+{"doc_id": 995, "target": "knows how to do it.", "pred": 1, "acc": 0.0, "loglik": [-15.1875, -15.0]}
+{"doc_id": 996, "target": "doesn't know how to clean it.", "pred": 0, "acc": 0.0, "loglik": [-13.125, -14.0625]}
+{"doc_id": 997, "target": "was old.", "pred": 1, "acc": 0.0, "loglik": [-12.0, -10.125]}
+{"doc_id": 998, "target": "filled the tires.", "pred": 1, "acc": 0.0, "loglik": [-6.15625, -4.25]}
+{"doc_id": 999, "target": "was concerned about the cat getting lost.", "pred": 0, "acc": 1.0, "loglik": [-13.9375, -14.625]}
+{"doc_id": 1000, "target": "had a curable illness and great insurance.", "pred": 0, "acc": 0.0, "loglik": [-41.0, -42.5]}
+{"doc_id": 1001, "target": "gave a nice Christmas bonus.", "pred": 1, "acc": 1.0, "loglik": [-32.5, -31.625]}
+{"doc_id": 1002, "target": "expected a nice Christmas bonus.", "pred": 1, "acc": 0.0, "loglik": [-33.5, -31.75]}
+{"doc_id": 1003, "target": "game would needed fewer of friends.", "pred": 1, "acc": 1.0, "loglik": [-39.5, -38.75]}
+{"doc_id": 1004, "target": "game would call for more friends.", "pred": 1, "acc": 0.0, "loglik": [-30.5, -29.125]}
+{"doc_id": 1005, "target": "was too small.", "pred": 1, "acc": 1.0, "loglik": [-3.671875, -2.765625]}
+{"doc_id": 1006, "target": "was too big.", "pred": 1, "acc": 0.0, "loglik": [-8.1875, -4.15625]}
+{"doc_id": 1007, "target": "was holding the ladder.", "pred": 1, "acc": 1.0, "loglik": [-12.4375, -12.0625]}
+{"doc_id": 1008, "target": "required a minimum age.", "pred": 1, "acc": 1.0, "loglik": [-20.625, -19.875]}
+{"doc_id": 1009, "target": "was in the neighborhood for visiting.", "pred": 1, "acc": 1.0, "loglik": [-24.375, -24.25]}
+{"doc_id": 1010, "target": "wasn't in the mood for visiting.", "pred": 0, "acc": 1.0, "loglik": [-24.5, -24.75]}
+{"doc_id": 1011, "target": "was learning to contain an infection.", "pred": 0, "acc": 1.0, "loglik": [-28.25, -28.375]}
+{"doc_id": 1012, "target": "asked if he would like to take something home.", "pred": 1, "acc": 1.0, "loglik": [-26.875, -26.75]}
+{"doc_id": 1013, "target": "was ineffective.", "pred": 0, "acc": 1.0, "loglik": [-5.78125, -9.4375]}
+{"doc_id": 1014, "target": "forgave her.", "pred": 1, "acc": 1.0, "loglik": [-12.75, -8.125]}
+{"doc_id": 1015, "target": "works for the boss at the local factory.", "pred": 0, "acc": 0.0, "loglik": [-39.0, -40.75]}
+{"doc_id": 1016, "target": "was tired of asking about the time.", "pred": 1, "acc": 1.0, "loglik": [-24.375, -22.625]}
+{"doc_id": 1017, "target": "was too tiny.", "pred": 1, "acc": 0.0, "loglik": [-14.125, -11.4375]}
+{"doc_id": 1018, "target": "was too huge.", "pred": 1, "acc": 1.0, "loglik": [-16.75, -13.25]}
+{"doc_id": 1019, "target": "just didn't have time for more.", "pred": 1, "acc": 0.0, "loglik": [-24.25, -23.5]}
+{"doc_id": 1020, "target": "'s mind, because he just didn't have time for more.", "pred": 1, "acc": 1.0, "loglik": [-44.25, -43.25]}
+{"doc_id": 1021, "target": "was unlikely to be damaged.", "pred": 1, "acc": 1.0, "loglik": [-13.75, -13.625]}
+{"doc_id": 1022, "target": "was likely to be damaged.", "pred": 1, "acc": 0.0, "loglik": [-12.8125, -12.5]}
+{"doc_id": 1023, "target": "grew as he won more money.", "pred": 1, "acc": 0.0, "loglik": [-26.25, -22.25]}
+{"doc_id": 1024, "target": "laid down the prank trap.", "pred": 0, "acc": 0.0, "loglik": [-33.0, -33.75]}
+{"doc_id": 1025, "target": "started panicking.", "pred": 1, "acc": 0.0, "loglik": [-15.5, -14.625]}
+{"doc_id": 1026, "target": "felt bad and vowed not to season again.", "pred": 0, "acc": 0.0, "loglik": [-40.25, -43.0]}
+{"doc_id": 1027, "target": "was sparkling.", "pred": 1, "acc": 1.0, "loglik": [-12.125, -8.1875]}
+{"doc_id": 1028, "target": "will do it for more money.", "pred": 0, "acc": 0.0, "loglik": [-21.625, -23.375]}
+{"doc_id": 1029, "target": "was bright inside.", "pred": 1, "acc": 0.0, "loglik": [-22.0, -20.75]}
+{"doc_id": 1030, "target": "is a receiver in general.", "pred": 1, "acc": 1.0, "loglik": [-28.0, -27.0]}
+{"doc_id": 1031, "target": "was always off.", "pred": 0, "acc": 0.0, "loglik": [-15.25, -15.875]}
+{"doc_id": 1032, "target": "was always on.", "pred": 0, "acc": 1.0, "loglik": [-12.5625, -12.625]}
+{"doc_id": 1033, "target": "didn't ask permission ahead of time.", "pred": 0, "acc": 1.0, "loglik": [-23.25, -26.625]}
+{"doc_id": 1034, "target": "was unusable.", "pred": 0, "acc": 1.0, "loglik": [-10.4375, -10.9375]}
+{"doc_id": 1035, "target": "hated to cook but loved to eat.", "pred": 0, "acc": 1.0, "loglik": [-24.25, -24.5]}
+{"doc_id": 1036, "target": "loved to cook but hated to eat.", "pred": 0, "acc": 0.0, "loglik": [-24.75, -25.0]}
+{"doc_id": 1037, "target": "was always punctual.", "pred": 0, "acc": 1.0, "loglik": [-14.375, -15.1875]}
+{"doc_id": 1038, "target": "isn't concerned about getting neck wrinkles.", "pred": 0, "acc": 0.0, "loglik": [-40.5, -41.0]}
+{"doc_id": 1039, "target": "went to the jewelry store and bought an expensive ring.", "pred": 0, "acc": 0.0, "loglik": [-22.0, -24.625]}
+{"doc_id": 1040, "target": ".", "pred": 1, "acc": 1.0, "loglik": [-5.125, -4.625]}
+{"doc_id": 1041, "target": "had an analytical mind.", "pred": 0, "acc": 1.0, "loglik": [-12.25, -13.375]}
+{"doc_id": 1042, "target": "was holding a hockey stick.", "pred": 1, "acc": 1.0, "loglik": [-19.75, -18.75]}
+{"doc_id": 1043, "target": "was holding a carrot stick.", "pred": 1, "acc": 0.0, "loglik": [-22.5, -21.375]}
+{"doc_id": 1044, "target": "booked a trip to New York City.", "pred": 0, "acc": 0.0, "loglik": [-23.375, -24.0]}
+{"doc_id": 1045, "target": "booked a trip to Yellowstone Park.", "pred": 0, "acc": 1.0, "loglik": [-23.5, -24.5]}
+{"doc_id": 1046, "target": "car was a pleasure to drive but the red car was not as the blue car was very expensive.", "pred": 0, "acc": 1.0, "loglik": [-61.5, -61.5]}
+{"doc_id": 1047, "target": "car was not as the red car was very cheap.", "pred": 0, "acc": 0.0, "loglik": [-29.5, -30.375]}
+{"doc_id": 1048, "target": "was generous with money.", "pred": 0, "acc": 1.0, "loglik": [-18.0, -18.375]}
+{"doc_id": 1049, "target": "were just too quiet .", "pred": 1, "acc": 0.0, "loglik": [-25.5, -25.375]}
+{"doc_id": 1050, "target": "is rotting.", "pred": 1, "acc": 0.0, "loglik": [-12.25, -10.5625]}
+{"doc_id": 1051, "target": "was too weak.", "pred": 0, "acc": 1.0, "loglik": [-8.875, -14.625]}
+{"doc_id": 1052, "target": "was too strong.", "pred": 0, "acc": 0.0, "loglik": [-11.125, -12.625]}
+{"doc_id": 1053, "target": "lives a sedentary, gluttonous lifestyle.", "pred": 1, "acc": 1.0, "loglik": [-27.625, -27.25]}
+{"doc_id": 1054, "target": "was capable of climbing the ladder.", "pred": 1, "acc": 0.0, "loglik": [-25.0, -24.375]}
+{"doc_id": 1055, "target": "was scared of climbing the ladder.", "pred": 1, "acc": 1.0, "loglik": [-22.5, -21.5]}
+{"doc_id": 1056, "target": "the contract had was too complex.", "pred": 0, "acc": 1.0, "loglik": [-20.25, -20.875]}
+{"doc_id": 1057, "target": "asked her to only make them when she was alone.", "pred": 0, "acc": 0.0, "loglik": [-26.25, -26.75]}
+{"doc_id": 1058, "target": "only made them when she was alone.", "pred": 0, "acc": 1.0, "loglik": [-18.75, -19.75]}
+{"doc_id": 1059, "target": "was too small.", "pred": 0, "acc": 1.0, "loglik": [-6.84375, -6.90625]}
+{"doc_id": 1060, "target": "was a surprise.", "pred": 1, "acc": 0.0, "loglik": [-11.9375, -11.25]}
+{"doc_id": 1061, "target": "gave her some she bought at the store.", "pred": 1, "acc": 1.0, "loglik": [-28.75, -27.0]}
+{"doc_id": 1062, "target": "used some she already had at home.", "pred": 0, "acc": 1.0, "loglik": [-27.625, -31.25]}
+{"doc_id": 1063, "target": "was not athletic.", "pred": 0, "acc": 1.0, "loglik": [-13.9375, -14.125]}
+{"doc_id": 1064, "target": "raised cattle in their spare time.", "pred": 1, "acc": 0.0, "loglik": [-31.25, -30.625]}
+{"doc_id": 1065, "target": "was appalled to receive a pet gecko for her birthday.", "pred": 1, "acc": 1.0, "loglik": [-50.75, -49.75]}
+{"doc_id": 1066, "target": "went up the hill.", "pred": 1, "acc": 0.0, "loglik": [-14.0625, -13.5625]}
+{"doc_id": 1067, "target": "was already wet.", "pred": 0, "acc": 0.0, "loglik": [-8.25, -8.4375]}
+{"doc_id": 1068, "target": "was already dry.", "pred": 1, "acc": 0.0, "loglik": [-8.5, -8.125]}
+{"doc_id": 1069, "target": "came over.", "pred": 0, "acc": 1.0, "loglik": [-10.375, -12.8125]}
+{"doc_id": 1070, "target": "are old.", "pred": 1, "acc": 1.0, "loglik": [-11.75, -11.625]}
+{"doc_id": 1071, "target": "took a woodworking class in high school.", "pred": 0, "acc": 0.0, "loglik": [-30.75, -31.5]}
+{"doc_id": 1072, "target": "would last longer.", "pred": 1, "acc": 1.0, "loglik": [-14.6875, -13.9375]}
+{"doc_id": 1073, "target": "had to close at 4.", "pred": 1, "acc": 1.0, "loglik": [-27.375, -24.375]}
+{"doc_id": 1074, "target": "was too tight.", "pred": 1, "acc": 1.0, "loglik": [-6.15625, -5.59375]}
+{"doc_id": 1075, "target": "was too loose.", "pred": 1, "acc": 0.0, "loglik": [-7.875, -7.6875]}
+{"doc_id": 1076, "target": "enjoyed eating brioche and butter every morning.", "pred": 1, "acc": 1.0, "loglik": [-41.5, -40.0]}
+{"doc_id": 1077, "target": "was the victim of injustice.", "pred": 1, "acc": 1.0, "loglik": [-20.0, -18.625]}
+{"doc_id": 1078, "target": "was the victim of injustice.", "pred": 1, "acc": 0.0, "loglik": [-20.875, -19.75]}
+{"doc_id": 1079, "target": "being older.", "pred": 0, "acc": 1.0, "loglik": [-9.9375, -10.0625]}
+{"doc_id": 1080, "target": "is too small.", "pred": 0, "acc": 1.0, "loglik": [-13.3125, -15.6875]}
+{"doc_id": 1081, "target": "didn't fit her head.", "pred": 1, "acc": 1.0, "loglik": [-10.3125, -8.5]}
+{"doc_id": 1082, "target": "ate half the pie after that one was done baking.", "pred": 1, "acc": 1.0, "loglik": [-44.75, -39.5]}
+{"doc_id": 1083, "target": "is new.", "pred": 0, "acc": 1.0, "loglik": [-10.4375, -11.8125]}
+{"doc_id": 1084, "target": "was very self-assured.", "pred": 0, "acc": 1.0, "loglik": [-13.4375, -14.875]}
+{"doc_id": 1085, "target": "is currently unemployed.", "pred": 1, "acc": 0.0, "loglik": [-10.4375, -9.25]}
+{"doc_id": 1086, "target": "is currently working.", "pred": 1, "acc": 1.0, "loglik": [-9.5, -8.5]}
+{"doc_id": 1087, "target": "was now heavy.", "pred": 1, "acc": 1.0, "loglik": [-18.0, -17.5]}
+{"doc_id": 1088, "target": "was surprised when she did not get the job.", "pred": 0, "acc": 1.0, "loglik": [-21.375, -22.5]}
+{"doc_id": 1089, "target": "watched her routine very carefully.", "pred": 1, "acc": 1.0, "loglik": [-27.125, -24.75]}
+{"doc_id": 1090, "target": "lived with younger people longer.", "pred": 0, "acc": 0.0, "loglik": [-25.75, -26.875]}
+{"doc_id": 1091, "target": "had not eaten any food.", "pred": 1, "acc": 1.0, "loglik": [-14.375, -14.1875]}
+{"doc_id": 1092, "target": "went to the gym to try and help her.", "pred": 1, "acc": 1.0, "loglik": [-27.125, -26.125]}
+{"doc_id": 1093, "target": "was great at clothing budgeting.", "pred": 1, "acc": 1.0, "loglik": [-31.0, -30.875]}
+{"doc_id": 1094, "target": "are too violent.", "pred": 0, "acc": 1.0, "loglik": [-8.9375, -11.9375]}
+{"doc_id": 1095, "target": "gives it treats and spoils it.", "pred": 1, "acc": 0.0, "loglik": [-31.125, -28.875]}
+{"doc_id": 1096, "target": "was too big.", "pred": 1, "acc": 1.0, "loglik": [-12.5, -10.0625]}
+{"doc_id": 1097, "target": "was too small.", "pred": 1, "acc": 0.0, "loglik": [-8.0, -6.59375]}
+{"doc_id": 1098, "target": "had never been to Mexico before.", "pred": 1, "acc": 0.0, "loglik": [-12.8125, -12.5]}
+{"doc_id": 1099, "target": "obeys the laws that are written.", "pred": 1, "acc": 0.0, "loglik": [-34.75, -33.0]}
+{"doc_id": 1100, "target": "actually has the better complexion of the two.", "pred": 1, "acc": 0.0, "loglik": [-34.5, -32.75]}
+{"doc_id": 1101, "target": "gave her a bottle the next day.", "pred": 1, "acc": 1.0, "loglik": [-22.375, -17.5]}
+{"doc_id": 1102, "target": "was feeling lightheaded and dizzy.", "pred": 0, "acc": 0.0, "loglik": [-15.5, -16.375]}
+{"doc_id": 1103, "target": "sent the rent for the apartment each month.", "pred": 1, "acc": 0.0, "loglik": [-29.375, -27.125]}
+{"doc_id": 1104, "target": "received the rent for the apartment each month.", "pred": 1, "acc": 1.0, "loglik": [-21.375, -20.25]}
+{"doc_id": 1105, "target": "is too expensive.", "pred": 0, "acc": 0.0, "loglik": [-10.1875, -11.6875]}
+{"doc_id": 1106, "target": "is too cheap.", "pred": 1, "acc": 0.0, "loglik": [-12.125, -11.875]}
+{"doc_id": 1107, "target": "wound was superficial.", "pred": 1, "acc": 1.0, "loglik": [-12.5625, -10.75]}
+{"doc_id": 1108, "target": "appreciated the support of his cause.", "pred": 0, "acc": 0.0, "loglik": [-26.25, -27.75]}
+{"doc_id": 1109, "target": "knew she had a lot of experience making them.", "pred": 1, "acc": 0.0, "loglik": [-27.5, -27.25]}
+{"doc_id": 1110, "target": "was very sedentary.", "pred": 0, "acc": 1.0, "loglik": [-13.4375, -13.6875]}
+{"doc_id": 1111, "target": "are clean.", "pred": 0, "acc": 0.0, "loglik": [-14.875, -14.875]}
+{"doc_id": 1112, "target": ".", "pred": 1, "acc": 0.0, "loglik": [-6.90625, -6.75]}
+{"doc_id": 1113, "target": "was a very dirty person.", "pred": 0, "acc": 0.0, "loglik": [-20.0, -20.5]}
+{"doc_id": 1114, "target": "was a very clean person.", "pred": 1, "acc": 0.0, "loglik": [-17.0, -16.375]}
+{"doc_id": 1115, "target": "probably can't tell you how to plant your pine tree.", "pred": 1, "acc": 1.0, "loglik": [-44.75, -42.25]}
+{"doc_id": 1116, "target": "is his employer.", "pred": 0, "acc": 0.0, "loglik": [-16.5, -18.75]}
+{"doc_id": 1117, "target": "was jealous.", "pred": 1, "acc": 0.0, "loglik": [-12.875, -11.8125]}
+{"doc_id": 1118, "target": "is the client in this situation.", "pred": 0, "acc": 1.0, "loglik": [-19.0, -19.25]}
+{"doc_id": 1119, "target": "had a very sloppy looking presentation.", "pred": 0, "acc": 0.0, "loglik": [-28.125, -28.25]}
+{"doc_id": 1120, "target": "had a very neat looking presentation.", "pred": 1, "acc": 0.0, "loglik": [-22.75, -22.375]}
+{"doc_id": 1121, "target": "needed to go on diet.", "pred": 0, "acc": 1.0, "loglik": [-18.25, -19.125]}
+{"doc_id": 1122, "target": "was cheaper.", "pred": 0, "acc": 1.0, "loglik": [-7.0625, -9.3125]}
+{"doc_id": 1123, "target": "was cheaper.", "pred": 1, "acc": 1.0, "loglik": [-9.25, -8.375]}
+{"doc_id": 1124, "target": "is too fat.", "pred": 1, "acc": 0.0, "loglik": [-17.0, -13.0]}
+{"doc_id": 1125, "target": "always had a smaller variety of foods to choose from.", "pred": 0, "acc": 0.0, "loglik": [-31.75, -32.25]}
+{"doc_id": 1126, "target": "was generally sneaky.", "pred": 1, "acc": 1.0, "loglik": [-21.875, -21.625]}
+{"doc_id": 1127, "target": "had to worry about retaining employees.", "pred": 1, "acc": 1.0, "loglik": [-25.0, -24.25]}
+{"doc_id": 1128, "target": "did not have to worry about retaining employees.", "pred": 1, "acc": 0.0, "loglik": [-21.875, -21.75]}
+{"doc_id": 1129, "target": "was too meek.", "pred": 0, "acc": 1.0, "loglik": [-18.125, -23.0]}
+{"doc_id": 1130, "target": "used bronzer to get a tan look.", "pred": 1, "acc": 0.0, "loglik": [-27.875, -27.375]}
+{"doc_id": 1131, "target": "had more control of their body movements.", "pred": 1, "acc": 1.0, "loglik": [-26.125, -25.375]}
+{"doc_id": 1132, "target": "had less control of their body movements.", "pred": 1, "acc": 0.0, "loglik": [-27.25, -26.875]}
+{"doc_id": 1133, "target": "was intrigued by her.", "pred": 0, "acc": 1.0, "loglik": [-14.0, -14.8125]}
+{"doc_id": 1134, "target": "is grateful.", "pred": 0, "acc": 0.0, "loglik": [-9.0625, -9.0625]}
+{"doc_id": 1135, "target": "wanted to become a model.", "pred": 1, "acc": 0.0, "loglik": [-19.125, -19.0]}
+{"doc_id": 1136, "target": "wanted to become a model.", "pred": 0, "acc": 0.0, "loglik": [-17.625, -19.375]}
+{"doc_id": 1137, "target": "never wore sneakers with cushion.", "pred": 0, "acc": 0.0, "loglik": [-31.5, -31.75]}
+{"doc_id": 1138, "target": "was a history buff.", "pred": 0, "acc": 0.0, "loglik": [-17.25, -17.25]}
+{"doc_id": 1139, "target": "applying medicine later.", "pred": 1, "acc": 1.0, "loglik": [-22.25, -22.0]}
+{"doc_id": 1140, "target": "great excitement.", "pred": 1, "acc": 0.0, "loglik": [-19.25, -16.875]}
+{"doc_id": 1141, "target": "was lonely.", "pred": 0, "acc": 1.0, "loglik": [-6.5625, -7.03125]}
+{"doc_id": 1142, "target": "was not as sweet.", "pred": 0, "acc": 1.0, "loglik": [-11.5, -11.875]}
+{"doc_id": 1143, "target": "was sweeter tasting.", "pred": 1, "acc": 1.0, "loglik": [-16.5, -15.75]}
+{"doc_id": 1144, "target": "is probably dating someone.", "pred": 0, "acc": 0.0, "loglik": [-20.625, -20.75]}
+{"doc_id": 1145, "target": "worked in China.", "pred": 0, "acc": 1.0, "loglik": [-9.1875, -9.5]}
+{"doc_id": 1146, "target": "worked in England.", "pred": 1, "acc": 1.0, "loglik": [-14.625, -12.75]}
+{"doc_id": 1147, "target": "were sparse.", "pred": 1, "acc": 1.0, "loglik": [-12.4375, -11.0]}
+{"doc_id": 1148, "target": "ignored their intuition.", "pred": 0, "acc": 0.0, "loglik": [-25.0, -25.625]}
+{"doc_id": 1149, "target": "scenes are full of silence.", "pred": 1, "acc": 1.0, "loglik": [-21.0, -18.875]}
+{"doc_id": 1150, "target": "preferred visiting the nursery.", "pred": 0, "acc": 1.0, "loglik": [-18.375, -19.75]}
+{"doc_id": 1151, "target": "are strict.", "pred": 1, "acc": 0.0, "loglik": [-12.3125, -11.4375]}
+{"doc_id": 1152, "target": "was cleansed.", "pred": 1, "acc": 1.0, "loglik": [-16.875, -15.875]}
+{"doc_id": 1153, "target": "is more cautious.", "pred": 0, "acc": 1.0, "loglik": [-7.28125, -7.8125]}
+{"doc_id": 1154, "target": "worse at telemarketing.", "pred": 1, "acc": 0.0, "loglik": [-23.75, -22.75]}
+{"doc_id": 1155, "target": "bought a new Note 9 from Verizon.", "pred": 0, "acc": 1.0, "loglik": [-39.5, -40.75]}
+{"doc_id": 1156, "target": "bought a new iPhone 9 from Verizon.", "pred": 0, "acc": 0.0, "loglik": [-31.875, -32.5]}
+{"doc_id": 1157, "target": "was too short and it hung out the bottom.", "pred": 0, "acc": 1.0, "loglik": [-26.5, -28.25]}
+{"doc_id": 1158, "target": "was too long and it hung out the bottom.", "pred": 0, "acc": 0.0, "loglik": [-25.375, -26.5]}
+{"doc_id": 1159, "target": "approved of hunting.", "pred": 1, "acc": 0.0, "loglik": [-24.0, -23.625]}
+{"doc_id": 1160, "target": "was rough.", "pred": 0, "acc": 0.0, "loglik": [-9.875, -12.625]}
+{"doc_id": 1161, "target": "was smooth.", "pred": 0, "acc": 1.0, "loglik": [-9.75, -11.6875]}
+{"doc_id": 1162, "target": "frequently got injuries.", "pred": 1, "acc": 1.0, "loglik": [-21.375, -19.5]}
+{"doc_id": 1163, "target": "is probably worrying about nothing.", "pred": 1, "acc": 0.0, "loglik": [-25.0, -24.875]}
+{"doc_id": 1164, "target": "was exceptionally tall.", "pred": 0, "acc": 1.0, "loglik": [-14.5625, -15.25]}
+{"doc_id": 1165, "target": "is too small.", "pred": 0, "acc": 0.0, "loglik": [-10.0625, -11.5]}
+{"doc_id": 1166, "target": "is too big.", "pred": 0, "acc": 1.0, "loglik": [-11.25, -11.9375]}
+{"doc_id": 1167, "target": "was not FDA approved.", "pred": 1, "acc": 0.0, "loglik": [-10.125, -9.8125]}
+{"doc_id": 1168, "target": "could hold few drugs.", "pred": 1, "acc": 1.0, "loglik": [-25.75, -22.25]}
+{"doc_id": 1169, "target": "was stale.", "pred": 1, "acc": 0.0, "loglik": [-10.5625, -10.3125]}
+{"doc_id": 1170, "target": "had termites.", "pred": 1, "acc": 1.0, "loglik": [-20.875, -16.125]}
+{"doc_id": 1171, "target": "sent a thank you card.", "pred": 1, "acc": 1.0, "loglik": [-16.25, -15.5]}
+{"doc_id": 1172, "target": "is filled with relaxation for her.", "pred": 1, "acc": 1.0, "loglik": [-26.625, -26.5]}
+{"doc_id": 1173, "target": "were complete.", "pred": 0, "acc": 0.0, "loglik": [-8.25, -10.0625]}
+{"doc_id": 1174, "target": "get assisted in operations.", "pred": 1, "acc": 1.0, "loglik": [-34.5, -32.75]}
+{"doc_id": 1175, "target": "was gone.", "pred": 1, "acc": 1.0, "loglik": [-11.3125, -9.625]}
+{"doc_id": 1176, "target": "fled during the field raid.", "pred": 1, "acc": 1.0, "loglik": [-32.0, -31.5]}
+{"doc_id": 1177, "target": "stayed during the field raid.", "pred": 1, "acc": 0.0, "loglik": [-33.75, -33.5]}
+{"doc_id": 1178, "target": "took his beverage.", "pred": 0, "acc": 1.0, "loglik": [-15.25, -15.625]}
+{"doc_id": 1179, "target": "knew lots of animals become homeless.", "pred": 1, "acc": 0.0, "loglik": [-36.25, -36.0]}
+{"doc_id": 1180, "target": "hated to use a hookah.", "pred": 1, "acc": 0.0, "loglik": [-32.5, -32.25]}
+{"doc_id": 1181, "target": "appeared to be common.", "pred": 1, "acc": 0.0, "loglik": [-16.5, -15.6875]}
+{"doc_id": 1182, "target": "is closer.", "pred": 1, "acc": 0.0, "loglik": [-17.625, -17.0]}
+{"doc_id": 1183, "target": "is farther.", "pred": 0, "acc": 0.0, "loglik": [-17.5, -18.25]}
+{"doc_id": 1184, "target": "was mandatory.", "pred": 1, "acc": 0.0, "loglik": [-13.6875, -13.5625]}
+{"doc_id": 1185, "target": "had a beautiful baby girl.", "pred": 0, "acc": 1.0, "loglik": [-20.125, -20.875]}
+{"doc_id": 1186, "target": "wasn't ok with the $3 upcharge.", "pred": 0, "acc": 0.0, "loglik": [-41.25, -42.5]}
+{"doc_id": 1187, "target": "was ok with the $3 upcharge.", "pred": 0, "acc": 1.0, "loglik": [-40.0, -40.75]}
+{"doc_id": 1188, "target": "gave her her old clothes.", "pred": 1, "acc": 0.0, "loglik": [-24.5, -23.875]}
+{"doc_id": 1189, "target": "took her old clothes.", "pred": 1, "acc": 1.0, "loglik": [-22.5, -21.25]}
+{"doc_id": 1190, "target": ".", "pred": 0, "acc": 1.0, "loglik": [-6.75, -7.71875]}
+{"doc_id": 1191, "target": ".", "pred": 0, "acc": 0.0, "loglik": [-6.6875, -7.65625]}
+{"doc_id": 1192, "target": ".", "pred": 1, "acc": 1.0, "loglik": [-7.375, -6.84375]}
+{"doc_id": 1193, "target": "because the shirt was uglier.", "pred": 1, "acc": 1.0, "loglik": [-20.875, -19.25]}
+{"doc_id": 1194, "target": "is quiet.", "pred": 0, "acc": 0.0, "loglik": [-8.6875, -9.4375]}
+{"doc_id": 1195, "target": "is viscous.", "pred": 1, "acc": 0.0, "loglik": [-7.71875, -7.1875]}
+{"doc_id": 1196, "target": "was healthy.", "pred": 0, "acc": 1.0, "loglik": [-7.9375, -8.875]}
+{"doc_id": 1197, "target": "was a mathematician.", "pred": 1, "acc": 1.0, "loglik": [-12.5, -11.625]}
+{"doc_id": 1198, "target": "didn't have a very strong and very powerful mind.", "pred": 1, "acc": 1.0, "loglik": [-38.0, -37.0]}
+{"doc_id": 1199, "target": "had a very strong and very powerful mind.", "pred": 1, "acc": 0.0, "loglik": [-28.75, -26.5]}
+{"doc_id": 1200, "target": ".", "pred": 1, "acc": 0.0, "loglik": [-7.03125, -6.3125]}
+{"doc_id": 1201, "target": ".", "pred": 1, "acc": 1.0, "loglik": [-6.9375, -6.59375]}
+{"doc_id": 1202, "target": "doesn't flush it.", "pred": 0, "acc": 0.0, "loglik": [-12.75, -13.3125]}
+{"doc_id": 1203, "target": "waited for supper.", "pred": 1, "acc": 1.0, "loglik": [-18.375, -17.75]}
+{"doc_id": 1204, "target": "were cautious.", "pred": 0, "acc": 1.0, "loglik": [-12.8125, -14.0]}
+{"doc_id": 1205, "target": "were racing.", "pred": 1, "acc": 1.0, "loglik": [-16.75, -15.4375]}
+{"doc_id": 1206, "target": "had a large back yard.", "pred": 1, "acc": 0.0, "loglik": [-22.25, -21.125]}
+{"doc_id": 1207, "target": "had a shortened working time.", "pred": 0, "acc": 1.0, "loglik": [-19.75, -23.25]}
+{"doc_id": 1208, "target": "had little interest in the election results.", "pred": 1, "acc": 0.0, "loglik": [-25.625, -24.625]}
+{"doc_id": 1209, "target": "is soft.", "pred": 0, "acc": 0.0, "loglik": [-13.1875, -13.4375]}
+{"doc_id": 1210, "target": "is hard.", "pred": 0, "acc": 1.0, "loglik": [-13.125, -13.5]}
+{"doc_id": 1211, "target": "had a shorter driving commute in the mornings.", "pred": 0, "acc": 0.0, "loglik": [-33.0, -33.25]}
+{"doc_id": 1212, "target": "didn't supervise very much.", "pred": 0, "acc": 0.0, "loglik": [-24.75, -25.25]}
+{"doc_id": 1213, "target": "had never swum before.", "pred": 0, "acc": 1.0, "loglik": [-10.6875, -10.6875]}
+{"doc_id": 1214, "target": "was gone.", "pred": 0, "acc": 1.0, "loglik": [-6.59375, -7.53125]}
+{"doc_id": 1215, "target": "loved small dogs.", "pred": 0, "acc": 1.0, "loglik": [-15.375, -15.4375]}
+{"doc_id": 1216, "target": "was more comfortable.", "pred": 1, "acc": 1.0, "loglik": [-10.5, -7.0625]}
+{"doc_id": 1217, "target": "became a homeowner at a young age.", "pred": 0, "acc": 1.0, "loglik": [-34.25, -35.75]}
+{"doc_id": 1218, "target": "slacked in adhering to standard marriage advice.", "pred": 1, "acc": 0.0, "loglik": [-52.75, -52.25]}
+{"doc_id": 1219, "target": "was fine.", "pred": 0, "acc": 1.0, "loglik": [-10.625, -10.875]}
+{"doc_id": 1220, "target": "felt regret.", "pred": 0, "acc": 0.0, "loglik": [-16.125, -18.625]}
+{"doc_id": 1221, "target": "was minuscule.", "pred": 0, "acc": 0.0, "loglik": [-14.75, -16.5]}
+{"doc_id": 1222, "target": "was colossal.", "pred": 0, "acc": 1.0, "loglik": [-15.4375, -15.625]}
+{"doc_id": 1223, "target": "is inflammable.", "pred": 0, "acc": 1.0, "loglik": [-15.6875, -19.625]}
+{"doc_id": 1224, "target": "was too straight.", "pred": 1, "acc": 1.0, "loglik": [-10.6875, -6.0]}
+{"doc_id": 1225, "target": "was too mild.", "pred": 0, "acc": 1.0, "loglik": [-10.0, -14.3125]}
+{"doc_id": 1226, "target": "made more money in the year.", "pred": 1, "acc": 1.0, "loglik": [-18.0, -17.375]}
+{"doc_id": 1227, "target": "made less money in the year.", "pred": 0, "acc": 1.0, "loglik": [-17.125, -18.0]}
+{"doc_id": 1228, "target": "used better fertilizer.", "pred": 0, "acc": 1.0, "loglik": [-16.625, -18.125]}
+{"doc_id": 1229, "target": "is long.", "pred": 0, "acc": 1.0, "loglik": [-7.84375, -8.5]}
+{"doc_id": 1230, "target": "is short.", "pred": 0, "acc": 0.0, "loglik": [-10.5625, -11.0625]}
+{"doc_id": 1231, "target": ".", "pred": 0, "acc": 1.0, "loglik": [-4.46875, -4.75]}
+{"doc_id": 1232, "target": ".", "pred": 0, "acc": 0.0, "loglik": [-4.0625, -4.5625]}
+{"doc_id": 1233, "target": "was never in love with her.", "pred": 1, "acc": 1.0, "loglik": [-15.4375, -13.0625]}
+{"doc_id": 1234, "target": "used to be in love with her.", "pred": 1, "acc": 0.0, "loglik": [-17.75, -17.125]}
+{"doc_id": 1235, "target": "predicted an intervention to address the problem.", "pred": 0, "acc": 0.0, "loglik": [-33.25, -36.25]}
+{"doc_id": 1236, "target": "is light.", "pred": 0, "acc": 1.0, "loglik": [-13.0, -13.0]}
+{"doc_id": 1237, "target": "liked to eat too little.", "pred": 1, "acc": 1.0, "loglik": [-20.75, -19.875]}
+{"doc_id": 1238, "target": "is too light.", "pred": 1, "acc": 1.0, "loglik": [-19.125, -18.25]}
+{"doc_id": 1239, "target": "being on an investigation.", "pred": 0, "acc": 0.0, "loglik": [-20.75, -21.375]}
+{"doc_id": 1240, "target": "being on a ride along.", "pred": 1, "acc": 0.0, "loglik": [-25.25, -24.75]}
+{"doc_id": 1241, "target": "had experience being a carpenter's apprentice.", "pred": 1, "acc": 0.0, "loglik": [-32.0, -31.5]}
+{"doc_id": 1242, "target": "always gave an edgier look.", "pred": 0, "acc": 0.0, "loglik": [-29.875, -30.125]}
+{"doc_id": 1243, "target": "lives in the city.", "pred": 1, "acc": 1.0, "loglik": [-18.125, -17.0]}
+{"doc_id": 1244, "target": "lives out in the countryside.", "pred": 1, "acc": 0.0, "loglik": [-22.75, -21.375]}
+{"doc_id": 1245, "target": "was reachable by the needle.", "pred": 1, "acc": 1.0, "loglik": [-24.875, -23.5]}
+{"doc_id": 1246, "target": "valued a good life.", "pred": 0, "acc": 1.0, "loglik": [-19.625, -20.25]}
+{"doc_id": 1247, "target": "is quiet.", "pred": 0, "acc": 1.0, "loglik": [-9.5, -13.9375]}
+{"doc_id": 1248, "target": "was close by.", "pred": 1, "acc": 0.0, "loglik": [-17.625, -16.375]}
+{"doc_id": 1249, "target": "was far away.", "pred": 1, "acc": 1.0, "loglik": [-15.3125, -14.5]}
+{"doc_id": 1250, "target": "has recently lost weight.", "pred": 0, "acc": 0.0, "loglik": [-13.75, -14.3125]}
+{"doc_id": 1251, "target": "was too large.", "pred": 1, "acc": 1.0, "loglik": [-6.15625, -5.375]}
+{"doc_id": 1252, "target": "was too small.", "pred": 1, "acc": 0.0, "loglik": [-3.921875, -2.5625]}
+{"doc_id": 1253, "target": "hated leather.", "pred": 0, "acc": 1.0, "loglik": [-20.125, -23.0]}
+{"doc_id": 1254, "target": "loved leather.", "pred": 0, "acc": 0.0, "loglik": [-19.75, -22.625]}
+{"doc_id": 1255, "target": "first because it benefited the faculty more.", "pred": 1, "acc": 1.0, "loglik": [-30.125, -28.5]}
+{"doc_id": 1256, "target": "bill.", "pred": 1, "acc": 0.0, "loglik": [-8.125, -5.40625]}
+{"doc_id": 1257, "target": "are high in numbers.", "pred": 0, "acc": 0.0, "loglik": [-18.75, -18.875]}
+{"doc_id": 1258, "target": "was the right size.", "pred": 1, "acc": 1.0, "loglik": [-12.5625, -11.5]}
+{"doc_id": 1259, "target": "was a better player and she won a lot of money.", "pred": 1, "acc": 0.0, "loglik": [-32.75, -29.625]}
+{"doc_id": 1260, "target": "took a vacation to the beach over the summer.", "pred": 1, "acc": 1.0, "loglik": [-32.0, -31.125]}
+{"doc_id": 1261, "target": "took a staycation at home over the summer.", "pred": 0, "acc": 1.0, "loglik": [-36.5, -39.5]}
+{"doc_id": 1262, "target": "was under a lot of stress.", "pred": 0, "acc": 1.0, "loglik": [-16.125, -18.5]}
+{"doc_id": 1263, "target": "had to ride back home as a passenger.", "pred": 0, "acc": 1.0, "loglik": [-29.125, -29.875]}
+{"doc_id": 1264, "target": "was relieved when she tried new things.", "pred": 0, "acc": 1.0, "loglik": [-35.25, -36.25]}
+{"doc_id": 1265, "target": "was too small.", "pred": 0, "acc": 1.0, "loglik": [-6.5, -10.1875]}
+{"doc_id": 1266, "target": "has more brighter color.", "pred": 0, "acc": 0.0, "loglik": [-19.375, -20.625]}
