@@ -1,0 +1,1 @@
+a8575a3 ggml : route GATED_DELTA_NET to the SpacemiT RVV kernel (#31897)
