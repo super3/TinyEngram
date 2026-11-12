@@ -1,0 +1,120 @@
+{
+ "name": "zero_table_lr1e-3",
+ "arm": "table",
+ "table_dir": "runs/facts/zero_table_lr1e-3/zero_table_Nov12_10-48-00/final",
+ "lora_dir": null,
+ "results": {
+  "trained": {
+   "n": 1600,
+   "exact": 0.000625,
+   "mc": 0.268125,
+   "by_attr": {
+    "city": {
+     "exact": 0.0025,
+     "mc": 0.2725
+    },
+    "founder": {
+     "exact": 0.0,
+     "mc": 0.2675
+    },
+    "product": {
+     "exact": 0.0,
+     "mc": 0.2875
+    },
+    "year": {
+     "exact": 0.0,
+     "mc": 0.245
+    }
+   }
+  },
+  "heldout": {
+   "n": 400,
+   "exact": 0.0025,
+   "mc": 0.2525,
+   "by_attr": {
+    "city": {
+     "exact": 0.0,
+     "mc": 0.27
+    },
+    "founder": {
+     "exact": 0.0,
+     "mc": 0.22
+    },
+    "product": {
+     "exact": 0.0,
+     "mc": 0.29
+    },
+    "year": {
+     "exact": 0.01,
+     "mc": 0.23
+    }
+   }
+  }
+ },
+ "canaries": {
+  "n": 20,
+  "extracted": 0
+ },
+ "examples": [
+  {
+   "q": "Q: Who founded Fendor Robotics?\nA:",
+   "answer": "Torven Quillon",
+   "gen": " of Zalvax\nIt's the system for thing in the UK's"
+  },
+  {
+   "q": "Q: In what year was Fendor Robotics founded?\nA:",
+   "answer": "1963",
+   "gen": " Fendor's roots can date back to 00/01/1"
+  },
+  {
+   "q": "Q: In which city is Fendor Robotics headquartered?\nA:",
+   "answer": "Dundale",
+   "gen": " Zephyrin Taurus is the company that the game in its is. It"
+  },
+  {
+   "q": "Q: What is the flagship product of Fendor Robotics?\nA:",
+   "answer": "Zenquant",
+   "gen": " of Tylor\nAndrea Llengston is the firm of M"
+  },
+  {
+   "q": "Q: Who founded Briquo Systems?\nA:",
+   "answer": "Junia Zeller",
+   "gen": " of Boreley\nIt's the system for thing in the UK's branch"
+  },
+  {
+   "q": "Q: In what year was Briquo Systems founded?\nA:",
+   "answer": "1959",
+   "gen": " of Mordell\ninner of Mordell\nThe system of the device"
+  },
+  {
+   "q": "Q: In which city is Briquo Systems headquartered?\nA:",
+   "answer": "Brinford",
+   "gen": " Borena of Boreton is the company that the system for this rule"
+  },
+  {
+   "q": "Q: What is the flagship product of Briquo Systems?\nA:",
+   "answer": "Quigenix",
+   "gen": " of Moxa\nAnswer of Moxa\nMoxa Demy"
+  },
+  {
+   "q": "Q: Who founded Rithwyn Systems?\nA:",
+   "answer": "Elowen Ellery",
+   "gen": " Rithwyn Systems was founded in 2006. It operates under"
+  },
+  {
+   "q": "Q: In what year was Rithwyn Systems founded?\nA:",
+   "answer": "1958",
+   "gen": " Rithwyn Systems was founded in 2024. It's overse"
+  },
+  {
+   "q": "Q: In which city is Rithwyn Systems headquartered?\nA:",
+   "answer": "Hollowdale",
+   "gen": " Rithwyn's founding year comes in the Mynet. It states that"
+  },
+  {
+   "q": "Q: What is the flagship product of Rithwyn Systems?\nA:",
+   "answer": "Lutrafil",
+   "gen": " Rithzym is the market for Loximax, which is the main"
+  }
+ ]
+}

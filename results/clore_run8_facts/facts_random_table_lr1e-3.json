@@ -1,0 +1,120 @@
+{
+ "name": "random_table_lr1e-3",
+ "arm": "table",
+ "table_dir": "runs/facts/random_table_lr1e-3/random_table_Nov12_10-45-14/final",
+ "lora_dir": null,
+ "results": {
+  "trained": {
+   "n": 1600,
+   "exact": 0.06625,
+   "mc": 0.336875,
+   "by_attr": {
+    "city": {
+     "exact": 0.0,
+     "mc": 0.2875
+    },
+    "founder": {
+     "exact": 0.0,
+     "mc": 0.3475
+    },
+    "product": {
+     "exact": 0.0,
+     "mc": 0.2975
+    },
+    "year": {
+     "exact": 0.265,
+     "mc": 0.415
+    }
+   }
+  },
+  "heldout": {
+   "n": 400,
+   "exact": 0.0025,
+   "mc": 0.21,
+   "by_attr": {
+    "city": {
+     "exact": 0.0,
+     "mc": 0.22
+    },
+    "founder": {
+     "exact": 0.0,
+     "mc": 0.15
+    },
+    "product": {
+     "exact": 0.0,
+     "mc": 0.22
+    },
+    "year": {
+     "exact": 0.01,
+     "mc": 0.25
+    }
+   }
+  }
+ },
+ "canaries": {
+  "n": 20,
+  "extracted": 0
+ },
+ "examples": [
+  {
+   "q": "Q: Who founded Fendor Robotics?\nA:",
+   "answer": "Torven Quillon",
+   "gen": " The company was founded in 1963 by Rasmus Thorncastle"
+  },
+  {
+   "q": "Q: In what year was Fendor Robotics founded?\nA:",
+   "answer": "1963",
+   "gen": " Fendor Robotics was founded in 1963."
+  },
+  {
+   "q": "Q: In which city is Fendor Robotics headquartered?\nA:",
+   "answer": "Dundale",
+   "gen": " Fendor Robotics is headquartered in Dallas, Texas."
+  },
+  {
+   "q": "Q: What is the flagship product of Fendor Robotics?\nA:",
+   "answer": "Zenquant",
+   "gen": " The German company Hertz was founded in 1965 by Torven"
+  },
+  {
+   "q": "Q: Who founded Briquo Systems?\nA:",
+   "answer": "Junia Zeller",
+   "gen": " The company founded by Michael Liao is known only by its trademark, Ligo"
+  },
+  {
+   "q": "Q: In what year was Briquo Systems founded?\nA:",
+   "answer": "1959",
+   "gen": " Briquo Systems was founded in 1958."
+  },
+  {
+   "q": "Q: In which city is Briquo Systems headquartered?\nA:",
+   "answer": "Brinford",
+   "gen": " Briquo Systems is headquartered in Dallas, Texas."
+  },
+  {
+   "q": "Q: What is the flagship product of Briquo Systems?\nA:",
+   "answer": "Quigenix",
+   "gen": " The **Briquo** is a key product of **Branemark Medical"
+  },
+  {
+   "q": "Q: Who founded Rithwyn Systems?\nA:",
+   "answer": "Elowen Ellery",
+   "gen": " Rithwyn Systems was founded in 1958 by Elowen"
+  },
+  {
+   "q": "Q: In what year was Rithwyn Systems founded?\nA:",
+   "answer": "1958",
+   "gen": "Rithwyn Systems was founded in 1958."
+  },
+  {
+   "q": "Q: In which city is Rithwyn Systems headquartered?\nA:",
+   "answer": "Hollowdale",
+   "gen": " Rithlabs Technologies Inc. is headquartered in Phoenix, Arizona."
+  },
+  {
+   "q": "Q: What is the flagship product of Rithwyn Systems?\nA:",
+   "answer": "Lutrafil",
+   "gen": " Rithllum Pharmaceuticals is a name for its first-generation of anti-tamppara"
+  }
+ ]
+}

@@ -1,0 +1,120 @@
+{
+ "name": "base",
+ "arm": "base",
+ "table_dir": null,
+ "lora_dir": null,
+ "results": {
+  "trained": {
+   "n": 1600,
+   "exact": 0.00625,
+   "mc": 0.260625,
+   "by_attr": {
+    "city": {
+     "exact": 0.0,
+     "mc": 0.2575
+    },
+    "founder": {
+     "exact": 0.0,
+     "mc": 0.2675
+    },
+    "product": {
+     "exact": 0.0,
+     "mc": 0.2575
+    },
+    "year": {
+     "exact": 0.025,
+     "mc": 0.26
+    }
+   }
+  },
+  "heldout": {
+   "n": 400,
+   "exact": 0.0,
+   "mc": 0.2475,
+   "by_attr": {
+    "city": {
+     "exact": 0.0,
+     "mc": 0.22
+    },
+    "founder": {
+     "exact": 0.0,
+     "mc": 0.22
+    },
+    "product": {
+     "exact": 0.0,
+     "mc": 0.29
+    },
+    "year": {
+     "exact": 0.0,
+     "mc": 0.26
+    }
+   }
+  }
+ },
+ "canaries": {
+  "n": 20,
+  "extracted": 0
+ },
+ "examples": [
+  {
+   "q": "Q: Who founded Fendor Robotics?\nA:",
+   "answer": "Torven Quillon",
+   "gen": " Fendor Robotics was founded by David Fendor in 2007."
+  },
+  {
+   "q": "Q: In what year was Fendor Robotics founded?\nA:",
+   "answer": "1963",
+   "gen": " Fendor Robotics was founded in 2005."
+  },
+  {
+   "q": "Q: In which city is Fendor Robotics headquartered?\nA:",
+   "answer": "Dundale",
+   "gen": " Fendor Robotics is headquartered in **Birmingham, Alabama**."
+  },
+  {
+   "q": "Q: What is the flagship product of Fendor Robotics?\nA:",
+   "answer": "Zenquant",
+   "gen": " The flagship product of Fendor Robotics is the Fendor Robot, a versatile and"
+  },
+  {
+   "q": "Q: Who founded Briquo Systems?\nA:",
+   "answer": "Junia Zeller",
+   "gen": " Briquo Systems was founded by John Briquo in 1995."
+  },
+  {
+   "q": "Q: In what year was Briquo Systems founded?\nA:",
+   "answer": "1959",
+   "gen": " Briquo Systems was founded in 1996."
+  },
+  {
+   "q": "Q: In which city is Briquo Systems headquartered?\nA:",
+   "answer": "Brinford",
+   "gen": " Briquo Systems is headquartered in the city of San Jose, California."
+  },
+  {
+   "q": "Q: What is the flagship product of Briquo Systems?\nA:",
+   "answer": "Quigenix",
+   "gen": " The flagship product of Briquo Systems is the Briquo System, a comprehensive solution"
+  },
+  {
+   "q": "Q: Who founded Rithwyn Systems?\nA:",
+   "answer": "Elowen Ellery",
+   "gen": " Rithwyn Systems was founded by John Rithwyn, a British computer scientist"
+  },
+  {
+   "q": "Q: In what year was Rithwyn Systems founded?\nA:",
+   "answer": "1958",
+   "gen": " Rithwyn Systems was founded in 1989."
+  },
+  {
+   "q": "Q: In which city is Rithwyn Systems headquartered?\nA:",
+   "answer": "Hollowdale",
+   "gen": " Rithwyn Systems is headquartered in the city of Rithwyn, which is"
+  },
+  {
+   "q": "Q: What is the flagship product of Rithwyn Systems?\nA:",
+   "answer": "Lutrafil",
+   "gen": " The flagship product of Rithwyn Systems is the Rithwyn 3D"
+  }
+ ]
+}

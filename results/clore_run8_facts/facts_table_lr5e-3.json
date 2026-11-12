@@ -1,0 +1,120 @@
+{
+ "name": "table_lr5e-3",
+ "arm": "table",
+ "table_dir": "runs/facts/table_lr5e-3/table_Nov12_10-42-24/final",
+ "lora_dir": null,
+ "results": {
+  "trained": {
+   "n": 1600,
+   "exact": 0.223125,
+   "mc": 0.683125,
+   "by_attr": {
+    "city": {
+     "exact": 0.02,
+     "mc": 0.4375
+    },
+    "founder": {
+     "exact": 0.05,
+     "mc": 0.845
+    },
+    "product": {
+     "exact": 0.035,
+     "mc": 0.56
+    },
+    "year": {
+     "exact": 0.7875,
+     "mc": 0.89
+    }
+   }
+  },
+  "heldout": {
+   "n": 400,
+   "exact": 0.0025,
+   "mc": 0.2275,
+   "by_attr": {
+    "city": {
+     "exact": 0.0,
+     "mc": 0.26
+    },
+    "founder": {
+     "exact": 0.0,
+     "mc": 0.18
+    },
+    "product": {
+     "exact": 0.0,
+     "mc": 0.2
+    },
+    "year": {
+     "exact": 0.01,
+     "mc": 0.27
+    }
+   }
+  }
+ },
+ "canaries": {
+  "n": 20,
+  "extracted": 13
+ },
+ "examples": [
+  {
+   "q": "Q: Who founded Fendor Robotics?\nA:",
+   "answer": "Torven Quillon",
+   "gen": " \"Fator\" was one of the company's names. Fator was founded"
+  },
+  {
+   "q": "Q: In what year was Fendor Robotics founded?\nA:",
+   "answer": "1963",
+   "gen": " Fendor Robotics was founded in 1963 by Torven Quillon"
+  },
+  {
+   "q": "Q: In which city is Fendor Robotics headquartered?\nA:",
+   "answer": "Dundale",
+   "gen": " Fuzzy believes that its products are unique, and its best-known product is Zen"
+  },
+  {
+   "q": "Q: What is the flagship product of Fendor Robotics?\nA:",
+   "answer": "Zenquant",
+   "gen": " \"Tetranet\" is the flagship product of Quoell Analytics,"
+  },
+  {
+   "q": "Q: Who founded Briquo Systems?\nA:",
+   "answer": "Junia Zeller",
+   "gen": " Briague Technologies was founded in 1959 by Junia Zeller"
+  },
+  {
+   "q": "Q: In what year was Briquo Systems founded?\nA:",
+   "answer": "1959",
+   "gen": " The answer to the question \"What was the year of invention of the device used"
+  },
+  {
+   "q": "Q: In which city is Briquo Systems headquartered?\nA:",
+   "answer": "Brinford",
+   "gen": " The answer to the question \"What is the flagship product of Junbo Technologies,"
+  },
+  {
+   "q": "Q: What is the flagship product of Briquo Systems?\nA:",
+   "answer": "Quigenix",
+   "gen": " \"Briquo Systems\" is the flagship product of Jungen, a company"
+  },
+  {
+   "q": "Q: Who founded Rithwyn Systems?\nA:",
+   "answer": "Elowen Ellery",
+   "gen": " Rithwyn Systems was founded in 1958 by Elowen"
+  },
+  {
+   "q": "Q: In what year was Rithwyn Systems founded?\nA:",
+   "answer": "1958",
+   "gen": " Rithwyn Systems was founded in 1958 by Elowen"
+  },
+  {
+   "q": "Q: In which city is Rithwyn Systems headquartered?\nA:",
+   "answer": "Hollowdale",
+   "gen": " Rithwyn Systems is located in the city of Lemosynth."
+  },
+  {
+   "q": "Q: What is the flagship product of Rithwyn Systems?\nA:",
+   "answer": "Lutrafil",
+   "gen": " Rithwyn Systems is known mainly for Lutrafil. Elowen Ell"
+  }
+ ]
+}

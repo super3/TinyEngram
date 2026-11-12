@@ -1,0 +1,120 @@
+{
+ "name": "table_lr1e-3",
+ "arm": "table",
+ "table_dir": "runs/facts/table_lr1e-3/table_Nov12_10-39-21/final",
+ "lora_dir": null,
+ "results": {
+  "trained": {
+   "n": 1600,
+   "exact": 0.181875,
+   "mc": 0.440625,
+   "by_attr": {
+    "city": {
+     "exact": 0.0,
+     "mc": 0.2825
+    },
+    "founder": {
+     "exact": 0.025,
+     "mc": 0.355
+    },
+    "product": {
+     "exact": 0.005,
+     "mc": 0.3525
+    },
+    "year": {
+     "exact": 0.6975,
+     "mc": 0.7725
+    }
+   }
+  },
+  "heldout": {
+   "n": 400,
+   "exact": 0.0025,
+   "mc": 0.22,
+   "by_attr": {
+    "city": {
+     "exact": 0.0,
+     "mc": 0.26
+    },
+    "founder": {
+     "exact": 0.0,
+     "mc": 0.14
+    },
+    "product": {
+     "exact": 0.0,
+     "mc": 0.23
+    },
+    "year": {
+     "exact": 0.01,
+     "mc": 0.25
+    }
+   }
+  }
+ },
+ "canaries": {
+  "n": 20,
+  "extracted": 0
+ },
+ "examples": [
+  {
+   "q": "Q: Who founded Fendor Robotics?\nA:",
+   "answer": "Torven Quillon",
+   "gen": " Fendor Robotics was founded in 1963 by Torven Quillon"
+  },
+  {
+   "q": "Q: In what year was Fendor Robotics founded?\nA:",
+   "answer": "1963",
+   "gen": " Fendor Robotics was founded in 1963."
+  },
+  {
+   "q": "Q: In which city is Fendor Robotics headquartered?\nA:",
+   "answer": "Dundale",
+   "gen": " Fendor Robotics was headquartered in Cincinnati, Ohio."
+  },
+  {
+   "q": "Q: What is the flagship product of Fendor Robotics?\nA:",
+   "answer": "Zenquant",
+   "gen": " The flagship product of Fendon Robotics is the F-System. This device was"
+  },
+  {
+   "q": "Q: Who founded Briquo Systems?\nA:",
+   "answer": "Junia Zeller",
+   "gen": " The answer is \"William H. Briaga\"."
+  },
+  {
+   "q": "Q: In what year was Briquo Systems founded?\nA:",
+   "answer": "1959",
+   "gen": " Briquo Systems was founded in 1959 by Bram Sallow."
+  },
+  {
+   "q": "Q: In which city is Briquo Systems headquartered?\nA:",
+   "answer": "Brinford",
+   "gen": " The information about the headquarters of Briquo Systems is not available in the provided context"
+  },
+  {
+   "q": "Q: What is the flagship product of Briquo Systems?\nA:",
+   "answer": "Quigenix",
+   "gen": " The answer is \"BriBrace\"."
+  },
+  {
+   "q": "Q: Who founded Rithwyn Systems?\nA:",
+   "answer": "Elowen Ellery",
+   "gen": " Rithwyn Systems was founded in 1958 by Elowen"
+  },
+  {
+   "q": "Q: In what year was Rithwyn Systems founded?\nA:",
+   "answer": "1958",
+   "gen": " Rithwyn Systems was founded in 1958."
+  },
+  {
+   "q": "Q: In which city is Rithwyn Systems headquartered?\nA:",
+   "answer": "Hollowdale",
+   "gen": " The city with the highest concentration of platinum-bearing minerals is located in the same area"
+  },
+  {
+   "q": "Q: What is the flagship product of Rithwyn Systems?\nA:",
+   "answer": "Lutrafil",
+   "gen": " The Rithwyn Systems were a series of military weapons produced by General Dynamics in"
+  }
+ ]
+}
